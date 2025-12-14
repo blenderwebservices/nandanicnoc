@@ -15,6 +15,8 @@ class NandaSeeder extends Seeder
         $json = file_get_contents(__DIR__ . '/nanda_data.json');
         $data = json_decode($json, true);
 
+        $translations = require __DIR__ . '/NandaTranslations.php';
+
         // Spanish mappings for Domains
         $domainsEs = [
             1 => 'Promoción de la salud',
@@ -114,8 +116,8 @@ class NandaSeeder extends Seeder
                     // Generate a synthetic code: DomainCode-ClassCode-Index
                     $code = sprintf('%s-%s-%03d', $domain->code, $class->code, $index + 1);
 
-                    // Simple prefix for Spanish label demonstration since we don't have full translations
-                    $labelEs = '[ES] ' . $diagnosticLabel;
+                    // Look up Spanish translation or fall back to prefix
+                    $labelEs = $translations[$diagnosticLabel] ?? ('[ES] ' . $diagnosticLabel);
 
                     \App\Models\Nanda::updateOrCreate(
                         ['code' => $code],
