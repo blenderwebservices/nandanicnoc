@@ -74,4 +74,24 @@ class NandaFlowTest extends TestCase
         $response = $this->get('/admin/login');
         $response->assertStatus(200);
     }
+    public function test_language_switching()
+    {
+        // Default is Spanish (config set to 'es')
+        $response = $this->get('/');
+        $response->assertSee('Diagnósticos de Enfermería NANDA');
+
+        // Switch to English
+        $response = $this->get(route('lang.switch', 'en'));
+        $response->assertRedirect();
+
+        $response = $this->withSession(['locale' => 'en'])->get('/');
+        $response->assertSee('NANDA Nursing Diagnoses');
+
+        // Switch back to Spanish
+        $response = $this->get(route('lang.switch', 'es'));
+        $response->assertRedirect();
+
+        $response = $this->withSession(['locale' => 'es'])->get('/');
+        $response->assertSee('Diagnósticos de Enfermería NANDA');
+    }
 }

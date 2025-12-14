@@ -1,0 +1,697 @@
+{
+    "domains": [
+        {
+            "number": 1,
+            "name": "Health promotion",
+            "description": "The awareness of well-being or normality of function and the strategies used to maintain control of and enhance that well-being or normality of function",
+            "classes": [
+                {
+                    "number": 1,
+                    "name": "Health awareness",
+                    "description": "Recognition of normal function and well-being",
+                    "diagnostics": [
+                        "Decreased diversional activity engagement",
+                        "Risk for decreased diversional activity engagement",
+                        "Excessive sedentary behaviors",
+                        "Risk for excessive sedentary behaviors",
+                        "Imbalanced energy field"
+                    ]
+                },
+                {
+                    "number": 2,
+                    "name": "Health management",
+                    "description": "Identifying, controlling, performing, and integrating activities to maintain overall health and well-being",
+                    "diagnostics": [
+                        "Ineffective health self-management",
+                        "Risk for ineffective health self-management",
+                        "Readiness for enhanced health self-management",
+                        "Ineffective family health management",
+                        "Risk for ineffective family health management",
+                        "Ineffective community health management",
+                        "Risk for ineffective community health management",
+                        "Risk for ineffective blood glucose pattern self-management",
+                        "Ineffective dry eye self-management",
+                        "Ineffective dry mouth self-management",
+                        "Risk for ineffective dry mouth self-management",
+                        "Ineffective fatigue self-management",
+                        "Ineffective lymphedema self-management",
+                        "Risk for ineffective lymphedema self-management",
+                        "Ineffective nausea self-management",
+                        "Ineffective pain self-management",
+                        "Readiness for enhanced weight self-management",
+                        "Ineffective overweight self-management",
+                        "Risk for ineffective overweight self-management",
+                        "Ineffective underweight self-management",
+                        "Risk for ineffective underweight self-management",
+                        "Ineffective health maintenance behaviors",
+                        "Risk for ineffective health maintenance behaviors",
+                        "Ineffective home maintenance behaviors",
+                        "Risk for ineffective home maintenance behaviors",
+                        "Readiness for enhanced home maintenance behaviors",
+                        "Readiness for enhanced exercise engagement",
+                        "Inadequate health literacy",
+                        "Risk for inadequate health literacy",
+                        "Readiness for enhanced health literacy",
+                        "Readiness for enhanced healthy aging",
+                        "Elder frailty syndrome",
+                        "Risk for elder frailty syndrome"
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 2,
+            "name": "Nutrition",
+            "description": "The activities of taking in, assimilating, and using nutrients for the purposes of tissue maintenance, tissue repair, and the production of energy",
+            "classes": [
+                {
+                    "number": 1,
+                    "name": "Ingestion",
+                    "description": "Taking food or nutrients into the body",
+                    "diagnostics": [
+                        "Inadequate nutritional intake",
+                        "Risk for inadequate nutritional intake",
+                        "Readiness for enhanced nutritional intake",
+                        "Inadequate protein energy nutritional intake",
+                        "Risk for inadequate protein energy nutritional intake",
+                        "Ineffective chestfeeding",
+                        "Risk for ineffective chestfeeding",
+                        "Disrupted exclusive chestfeeding",
+                        "Risk for disrupted exclusive chestfeeding",
+                        "Readiness for enhanced chestfeeding",
+                        "Inadequate human milk production",
+                        "Risk for inadequate human milk production",
+                        "Ineffective infant feeding dynamics",
+                        "Ineffective child eating dynamics",
+                        "Ineffective adolescent eating dynamics",
+                        "Impaired swallowing"
+                    ]
+                },
+                {
+                    "number": 2,
+                    "name": "Digestion",
+                    "description": "",
+                    "diagnostics": []
+                },
+                {
+                    "number": 3,
+                    "name": "Absorption",
+                    "description": "",
+                    "diagnostics": []
+                },
+                {
+                    "number": 4,
+                    "name": "Metabolism",
+                    "description": "",
+                    "diagnostics": [
+                        "Neonatal hyperbilirubinemia",
+                        "Risk for neonatal hyperbilirubinemia"
+                    ]
+                },
+                {
+                    "number": 5,
+                    "name": "Hydration",
+                    "description": "",
+                    "diagnostics": [
+                        "Risk for impaired water-electrolyte balance",
+                        "Risk for impaired fluid volume balance",
+                        "Excessive fluid volume",
+                        "Risk for excessive fluid volume",
+                        "Inadequate fluid volume",
+                        "Risk for inadequate fluid volume"
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 3,
+            "name": "Elimination and exchange",
+            "description": "Secretion and excretion of waste products from the body",
+            "classes": [
+                {
+                    "number": 1,
+                    "name": "Urinary function",
+                    "description": "The process of secretion, reabsorption, and excretion of urine",
+                    "diagnostics": [
+                        "Impaired urinary elimination",
+                        "Risk for urinary retention",
+                        "Disability-associated urinary incontinence",
+                        "Mixed urinary incontinence",
+                        "Stress urinary incontinence",
+                        "Urge urinary incontinence",
+                        "Risk for urge urinary incontinence"
+                    ]
+                },
+                {
+                    "number": 2,
+                    "name": "Gastrointestinal function",
+                    "description": "The process of absorption and excretion of the end products of digestion",
+                    "diagnostics": [
+                        "Impaired gastrointestinal motility",
+                        "Risk for impaired gastrointestinal motility",
+                        "Impaired intestinal elimination",
+                        "Risk for impaired intestinal elimination",
+                        "Chronic functional constipation",
+                        "Risk for chronic functional constipation",
+                        "Impaired fecal continence",
+                        "Risk for impaired fecal continence"
+                    ]
+                },
+                {
+                    "number": 3,
+                    "name": "Integumentary function",
+                    "description": "",
+                    "diagnostics": []
+                },
+                {
+                    "number": 4,
+                    "name": "Respiratory function",
+                    "description": "",
+                    "diagnostics": [
+                        "Impaired gas exchange"
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 4,
+            "name": "Activity / rest",
+            "description": "The production, conservation, expenditure, or balance of energy resources",
+            "classes": [
+                {
+                    "number": 1,
+                    "name": "Sleep / rest",
+                    "description": "Slumber, repose, ease, relaxation, or inactivity",
+                    "diagnostics": [
+                        "Ineffective sleep pattern",
+                        "Risk for ineffective sleep pattern",
+                        "Readiness for enhanced sleep pattern",
+                        "Ineffective sleep hygiene behaviors",
+                        "Risk for ineffective sleep hygiene behaviors"
+                    ]
+                },
+                {
+                    "number": 2,
+                    "name": "Activity / exercise",
+                    "description": "Moving parts of the body (mobility), doing work, or performing actions often (but not always) against resistance",
+                    "diagnostics": [
+                        "Impaired physical mobility",
+                        "Risk for impaired physical mobility",
+                        "Impaired bed mobility",
+                        "Impaired wheelchair mobility",
+                        "Impaired sitting ability",
+                        "Impaired standing ability",
+                        "Impaired transferring ability",
+                        "Impaired walking ability"
+                    ]
+                },
+                {
+                    "number": 3,
+                    "name": "Energy balance",
+                    "description": "",
+                    "diagnostics": [
+                        "Decreased activity tolerance",
+                        "Risk for decreased activity tolerance",
+                        "Excessive fatigue burden",
+                        "Impaired surgical recovery",
+                        "Risk for impaired surgical recovery"
+                    ]
+                },
+                {
+                    "number": 4,
+                    "name": "Cardiovascular / pulmonary responses",
+                    "description": "",
+                    "diagnostics": [
+                        "Risk for impaired cardiovascular function",
+                        "Risk for imbalanced blood pressure",
+                        "Risk for decreased cardiac output",
+                        "Risk for ineffective cerebral tissue perfusion",
+                        "Ineffective peripheral tissue perfusion",
+                        "Risk for ineffective peripheral tissue perfusion",
+                        "Ineffective breathing pattern",
+                        "Impaired spontaneous ventilation",
+                        "Impaired child ventilatory weaning response",
+                        "Impaired adult ventilatory weaning response"
+                    ]
+                },
+                {
+                    "number": 5,
+                    "name": "Self-care",
+                    "description": "",
+                    "diagnostics": [
+                        "Decreased self-care ability syndrome",
+                        "Risk for decreased self-care ability syndrome",
+                        "Readiness for enhanced self-care abilities",
+                        "Decreased bathing abilities",
+                        "Decreased dressing abilities",
+                        "Decreased feeding abilities",
+                        "Decreased grooming abilities",
+                        "Decreased toileting abilities",
+                        "Ineffective oral hygiene behaviors",
+                        "Risk for ineffective oral hygiene behaviors"
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 5,
+            "name": "Perception / cognition",
+            "description": "The human information processing system including attention, orientation, sensation, perception, cognition, and communication",
+            "classes": [
+                {
+                    "number": 1,
+                    "name": "Attention",
+                    "description": "Mental readiness to notice or observe",
+                    "diagnostics": []
+                },
+                {
+                    "number": 2,
+                    "name": "Orientation",
+                    "description": "Awareness of time, place, and person",
+                    "diagnostics": []
+                },
+                {
+                    "number": 3,
+                    "name": "Sensation / perception",
+                    "description": "Receiving information through the senses of touch, taste, smell, vision, hearing, and kinesthesia, and the comprehension of sensory data resulting in naming, associating, and/or pattern recognition",
+                    "diagnostics": []
+                },
+                {
+                    "number": 4,
+                    "name": "Cognition",
+                    "description": "",
+                    "diagnostics": [
+                        "Acute confusion",
+                        "Risk for acute confusion",
+                        "Chronic confusion",
+                        "Ineffective impulse control",
+                        "Disrupted thought processes",
+                        "Inadequate health knowledge",
+                        "Readiness for enhanced health knowledge",
+                        "Impaired memory",
+                        "Impaired decision-making",
+                        "Readiness for enhanced decision-making",
+                        "Impaired emancipated decision-making",
+                        "Risk for impaired emancipated decision-making",
+                        "Readiness for enhanced emancipated decision-making"
+                    ]
+                },
+                {
+                    "number": 5,
+                    "name": "Communication",
+                    "description": "",
+                    "diagnostics": [
+                        "Impaired verbal communication",
+                        "Risk for impaired verbal communication",
+                        "Readiness for enhanced verbal communication"
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 6,
+            "name": "Self-perception",
+            "description": "Awareness about the self/family/group",
+            "classes": [
+                {
+                    "number": 1,
+                    "name": "Self-concept",
+                    "description": "The perception(s) about the total self of an individual or family",
+                    "diagnostics": [
+                        "Readiness for enhanced self-concept",
+                        "Disrupted personal identity",
+                        "Disrupted family identity syndrome",
+                        "Risk for disrupted family identity syndrome",
+                        "Risk for impaired human dignity",
+                        "Readiness for enhanced transgender social identity"
+                    ]
+                },
+                {
+                    "number": 2,
+                    "name": "Self-esteem",
+                    "description": "Assessment of one's own/family's worth, capability, significance, and success",
+                    "diagnostics": [
+                        "Chronic inadequate self-esteem",
+                        "Risk for chronic inadequate self-esteem",
+                        "Situational inadequate self-esteem",
+                        "Risk for situational inadequate self-esteem",
+                        "Inadequate health self-efficacy"
+                    ]
+                },
+                {
+                    "number": 3,
+                    "name": "Body image",
+                    "description": "",
+                    "diagnostics": [
+                        "Disrupted body image"
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 7,
+            "name": "Role relationship",
+            "description": "The positive and negative connections or associations between people or groups of people and the means by which those connections are demonstrated",
+            "classes": [
+                {
+                    "number": 1,
+                    "name": "Caregiving roles",
+                    "description": "Socially expected behavior patterns by people providing care who are not health care professionals",
+                    "diagnostics": [
+                        "Impaired parenting behaviors",
+                        "Risk for impaired parenting behaviors",
+                        "Readiness for enhanced parenting behaviors",
+                        "Excessive parental role conflict"
+                    ]
+                },
+                {
+                    "number": 2,
+                    "name": "Family relationships",
+                    "description": "Associations of people who are biologically related or related by choice",
+                    "diagnostics": [
+                        "Disrupted family interaction patterns",
+                        "Risk for disrupted family interaction patterns",
+                        "Impaired family processes",
+                        "Readiness for enhanced family processes",
+                        "Risk for disrupted attachment behaviors"
+                    ]
+                },
+                {
+                    "number": 3,
+                    "name": "Role performance",
+                    "description": "",
+                    "diagnostics": [
+                        "Ineffective role performance",
+                        "Ineffective intimate partner relationship",
+                        "Risk for ineffective intimate partner relationship",
+                        "Readiness for enhanced intimate partner relationship",
+                        "Impaired social interaction",
+                        "Ineffective childbearing process",
+                        "Risk for ineffective childbearing process",
+                        "Readiness for enhanced childbearing process"
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 8,
+            "name": "Sexuality",
+            "description": "Sexual identity, sexual function, and reproduction",
+            "classes": [
+                {
+                    "number": 1,
+                    "name": "Sexual identity",
+                    "description": "The state of being a specific person in regard to sexuality and/or gender",
+                    "diagnostics": []
+                },
+                {
+                    "number": 2,
+                    "name": "Sexual function",
+                    "description": "The capacity or ability to participate in sexual activities",
+                    "diagnostics": [
+                        "Impaired sexual function"
+                    ]
+                },
+                {
+                    "number": 3,
+                    "name": "Reproduction",
+                    "description": "Any process by which human beings are produced",
+                    "diagnostics": [
+                        "Risk for impaired maternal-fetal dyad"
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 9,
+            "name": "Coping / stress tolerance",
+            "description": "Contending with life events/life processes",
+            "classes": [
+                {
+                    "number": 1,
+                    "name": "Post-trauma responses",
+                    "description": "Reactions occurring after physical or psychological trauma",
+                    "diagnostics": [
+                        "Post-trauma syndrome",
+                        "Risk for post-trauma syndrome",
+                        "Risk for disrupted immigration transition"
+                    ]
+                },
+                {
+                    "number": 2,
+                    "name": "Coping responses",
+                    "description": "The process of managing environmental stress",
+                    "diagnostics": [
+                        "Maladaptive coping",
+                        "Readiness for enhanced coping",
+                        "Maladaptive family coping",
+                        "Readiness for enhanced family coping",
+                        "Maladaptive community coping",
+                        "Readiness for enhanced community coping",
+                        "Excessive caregiving burden",
+                        "Risk for excessive caregiving burden",
+                        "Maladaptive grieving",
+                        "Risk for maladaptive grieving",
+                        "Readiness for enhanced grieving",
+                        "Impaired resilience",
+                        "Risk for impaired resilience",
+                        "Readiness for enhanced resilience",
+                        "Readiness for enhanced hope",
+                        "Inadequate self-compassion",
+                        "Excessive anxiety",
+                        "Excessive death anxiety",
+                        "Excessive fear"
+                    ]
+                },
+                {
+                    "number": 3,
+                    "name": "Neurobehavioral responses",
+                    "description": "",
+                    "diagnostics": [
+                        "Risk for autonomic dysreflexia",
+                        "Ineffective emotion regulation",
+                        "Impaired mood regulation",
+                        "Acute substance withdrawal syndrome",
+                        "Risk for acute substance withdrawal syndrome"
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 10,
+            "name": "Life principles",
+            "description": "Principles underlying conduct, thought, and behavior about acts, customs, or institutions viewed as being true or having intrinsic worth",
+            "classes": [
+                {
+                    "number": 1,
+                    "name": "Values",
+                    "description": "The identification and ranking of preferred modes of conduct or end states",
+                    "diagnostics": []
+                },
+                {
+                    "number": 2,
+                    "name": "Beliefs",
+                    "description": "Opinions, expectations, or judgments about acts, customs, or institutions viewed as being true or having intrinsic worth",
+                    "diagnostics": []
+                },
+                {
+                    "number": 3,
+                    "name": "Value / belief / action congruence",
+                    "description": "The correspondence or balance achieved among values, beliefs, and actions",
+                    "diagnostics": [
+                        "Moral distress",
+                        "Impaired spiritual well-being",
+                        "Risk for impaired spiritual well-being",
+                        "Readiness for enhanced spiritual well-being",
+                        "Impaired religiosity",
+                        "Risk for impaired religiosity",
+                        "Readiness for enhanced religiosity"
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 11,
+            "name": "Safety / protection",
+            "description": "Freedom from danger, physical injury, or immune system damage; preservation from loss; and protection of safety and security",
+            "classes": [
+                {
+                    "number": 1,
+                    "name": "Infection",
+                    "description": "Host responses following pathogenic invasion",
+                    "diagnostics": [
+                        "Impaired immune response",
+                        "Risk for infection",
+                        "Risk for surgical wound infection"
+                    ]
+                },
+                {
+                    "number": 2,
+                    "name": "Physical injury",
+                    "description": "",
+                    "diagnostics": [
+                        "Risk for physical injury",
+                        "Risk for burn injury",
+                        "Risk for cold injury",
+                        "Risk for corneal injury",
+                        "Risk for dry eye",
+                        "Risk for perioperative positioning injury",
+                        "Neonatal pressure injury",
+                        "Risk for neonatal pressure injury",
+                        "Child pressure injury",
+                        "Risk for child pressure injury",
+                        "Adult pressure injury",
+                        "Risk for adult pressure injury",
+                        "Risk for urinary tract injury",
+                        "Impaired tissue integrity",
+                        "Risk for impaired tissue integrity",
+                        "Impaired skin integrity",
+                        "Risk for impaired skin integrity",
+                        "Impaired nipple-areolar complex integrity",
+                        "Risk for impaired nipple-areolar complex integrity",
+                        "Impaired oral mucous membrane integrity",
+                        "Risk for impaired oral mucous membrane integrity",
+                        "Risk for child falls",
+                        "Risk for adult falls",
+                        "Risk for aspiration",
+                        "Ineffective airway clearance",
+                        "Risk for accidental suffocation",
+                        "Risk for excessive bleeding",
+                        "Risk for shock",
+                        "Risk for thrombosis",
+                        "Risk for impaired peripheral neurovascular function",
+                        "Risk for sudden infant death",
+                        "Risk for elopement attempt"
+                    ]
+                },
+                {
+                    "number": 3,
+                    "name": "Violence",
+                    "description": "",
+                    "diagnostics": [
+                        "Risk for other-directed violence",
+                        "Risk for female genital mutilation",
+                        "Risk for suicidal self-injurious behavior",
+                        "Non-suicidal self-injurious behavior",
+                        "Risk for non-suicidal self-injurious behavior"
+                    ]
+                },
+                {
+                    "number": 4,
+                    "name": "Environmental hazards",
+                    "description": "",
+                    "diagnostics": [
+                        "Contamination",
+                        "Risk for contamination",
+                        "Risk for accidental poisoning",
+                        "Risk for occupational illness",
+                        "Risk for occupational physical injury"
+                    ]
+                },
+                {
+                    "number": 5,
+                    "name": "Defensive processes",
+                    "description": "",
+                    "diagnostics": [
+                        "Risk for allergic reaction",
+                        "Risk for latex allergy reaction"
+                    ]
+                },
+                {
+                    "number": 6,
+                    "name": "Thermoregulation",
+                    "description": "",
+                    "diagnostics": [
+                        "Ineffective thermoregulation",
+                        "Risk for ineffective thermoregulation",
+                        "Decreased neonatal body temperature",
+                        "Risk for decreased neonatal body temperature",
+                        "Decreased body temperature",
+                        "Risk for decreased body temperature",
+                        "Risk for decreased perioperative body temperature",
+                        "Hyperthermia",
+                        "Risk for hyperthermia"
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 12,
+            "name": "Comfort",
+            "description": "Sense of mental, physical, or social well-being or ease",
+            "classes": [
+                {
+                    "number": 1,
+                    "name": "Physical comfort",
+                    "description": "Sense of well-being or ease and/or freedom from pain",
+                    "diagnostics": [
+                        "Impaired physical comfort",
+                        "Readiness for enhanced physical comfort",
+                        "Impaired end-of-life comfort syndrome",
+                        "Acute pain",
+                        "Chronic pain syndrome",
+                        "Chronic pain",
+                        "Labor pain"
+                    ]
+                },
+                {
+                    "number": 2,
+                    "name": "Environmental comfort",
+                    "description": "Sense of well-being or ease in/with one's environment",
+                    "diagnostics": []
+                },
+                {
+                    "number": 3,
+                    "name": "Social comfort",
+                    "description": "",
+                    "diagnostics": [
+                        "Readiness for enhanced social comfort",
+                        "Inadequate social connectedness",
+                        "Inadequate social support network",
+                        "Excessive loneliness",
+                        "Risk for excessive loneliness"
+                    ]
+                },
+                {
+                    "number": 4,
+                    "name": "Psychological comfort",
+                    "description": "",
+                    "diagnostics": [
+                        "Impaired psychological comfort",
+                        "Readiness for enhanced psychological comfort"
+                    ]
+                }
+            ]
+        },
+        {
+            "number": 13,
+            "name": "Growth / development",
+            "description": "Age-appropriate increase in physical dimensions, maturity of organ systems, and/or progression through the developmental milestones",
+            "classes": [
+                {
+                    "number": 1,
+                    "name": "Growth",
+                    "description": "Increase in physical dimensions or maturity of organ systems",
+                    "diagnostics": [
+                        "Delayed child growth",
+                        "Risk for delayed child growth"
+                    ]
+                },
+                {
+                    "number": 2,
+                    "name": "Development",
+                    "description": "Progress or regression through a sequence of recognized milestones in life",
+                    "diagnostics": [
+                        "Delayed child development",
+                        "Risk for delayed child development",
+                        "Delayed infant motor development",
+                        "Risk for delayed infant motor development",
+                        "Impaired infant neurodevelopmental organization",
+                        "Risk for impaired infant neurodevelopmental organization",
+                        "Readiness for enhanced infant neurodevelopmental organization"
+                    ]
+                }
+            ]
+        }
+    ]
+}

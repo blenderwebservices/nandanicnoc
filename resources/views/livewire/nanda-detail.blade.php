@@ -21,28 +21,35 @@
                 </div>
                 @if($nanda->nandaClass)
                     <div class="text-indigo-100 text-sm flex gap-4">
-                        <span><strong>Domain:</strong> {{ $nanda->nandaClass->domain->name ?? 'N/A' }}</span>
+                        <span><strong>{{ __('Domain') }}:</strong> {{ $nanda->nandaClass->domain->name ?? 'N/A' }}</span>
                         <span>&bull;</span>
-                        <span><strong>Class:</strong> {{ $nanda->nandaClass->name }}</span>
+                        <span><strong>{{ __('Class') }}:</strong> {{ $nanda->nandaClass->name }}</span>
                     </div>
                 @endif
             </div>
         </div>
 
         <div class="p-8">
-            <div class="prose prose-indigo max-w-none">
-                <h3 class="text-gray-900 text-lg font-semibold mb-3">Definition & Description</h3>
-                <p class="text-gray-600 leading-relaxed whitespace-pre-line">
-                    {{ $nanda->description ?: 'No description available for this diagnosis.' }}
-                </p>
+            <div class="prose max-w-none text-gray-700">
+                {{ $nanda->description }}
             </div>
 
-            <div class="mt-8 pt-8 border-t border-gray-100 flex justify-between items-center">
-                <div class="text-sm text-gray-400">
-                    Last updated: {{ $nanda->updated_at->format('M d, Y') }}
-                </div>
-                <!-- Placeholder for future actions like Edit -->
+            <div class="mt-8 pt-6 border-t border-gray-100">
+                <a href="{{ route('home') }}"
+                    class="inline-flex items-center text-indigo-600 font-medium hover:text-indigo-800 transition">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                        stroke="currentColor" class="w-4 h-4 mr-2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
+                    </svg>
+                    {{ __('Back to Search') }}
+                </a>
             </div>
+        </div>
+        <div class="mt-8 pt-8 border-t border-gray-100 flex justify-between items-center">
+            <div class="text-sm text-gray-400">
+                Last updated: {{ $nanda->updated_at->format('M d, Y') }}
+            </div>
+            <!-- Placeholder for future actions like Edit -->
         </div>
     </div>
 </div>
