@@ -88,7 +88,7 @@ class NandaSeeder extends Seeder
                         'label' => $generatedLabel ?: "Diagnosis $code", 
                         'label_es' => null, // We'll try to find it below or leave null
                         'description' => $diagData['Definicion'] ?? '',
-                        'description_es' => null,
+                        'description_es' => $diagData['Definicion'] ?? '', // Placeholder
                         
                         // New Fields
                         'approval_year' => $diagData['ano_de_aprobacion'] ?? null,
@@ -107,6 +107,14 @@ class NandaSeeder extends Seeder
                         'risk_factors' => $diagData['Factores_de_Riesgo'] ?? [],
                         'at_risk_population' => $diagData['Poblacion_de_Riesgo'] ?? [],
                         'associated_conditions' => $diagData['Condiciones_asociadas'] ?? [],
+                        
+                        // Spanish Placeholders (Duplicating English data as per lack of source)
+                        'focus_es' => $diagData['foco_conceptual'] ?? null,
+                        'judgment_es' => $diagData['juicio'] ?? null,
+                        'diagnosis_status_es' => $diagData['estado_del_diagnostico'] ?? null,
+                        'risk_factors_es' => $diagData['Factores_de_Riesgo'] ?? [],
+                        'at_risk_population_es' => $diagData['Poblacion_de_Riesgo'] ?? [],
+                        'associated_conditions_es' => $diagData['Condiciones_asociadas'] ?? [],
                     ];
 
                     // Try to match with translations if possible by guessing the english key... 

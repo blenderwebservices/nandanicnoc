@@ -42,13 +42,13 @@
                      <h4 class="font-medium text-gray-900 mb-2">{{ __('Diagnostic Details') }}</h4>
                      <ul class="space-y-2 text-sm text-gray-600">
                         @if($nanda->approval_year)
-                            <li class="flex justify-between"><span class="font-medium">{{ __('Approved') }}:</span> <span>{{ $nanda->approval_year }}</span></li>
+                            <li class="flex items-start gap-2"><span class="font-medium whitespace-nowrap">{{ __('Approved') }}:</span> <span>{{ $nanda->approval_year }}</span></li>
                         @endif
                          @if($nanda->evidence_level)
-                            <li class="flex justify-between"><span class="font-medium">{{ __('Evidence Level') }}:</span> <span>{{ $nanda->evidence_level }}</span></li>
+                            <li class="flex items-start gap-2"><span class="font-medium whitespace-nowrap">{{ __('Evidence Level') }}:</span> <span>{{ $nanda->evidence_level }}</span></li>
                         @endif
                          @if($nanda->diagnosis_status)
-                            <li class="flex justify-between"><span class="font-medium">{{ __('Status') }}:</span> <span>{{ $nanda->diagnosis_status }}</span></li>
+                            <li class="flex items-start gap-2"><span class="font-medium whitespace-nowrap">{{ __('Status') }}:</span> <span>{{ $nanda->diagnosis_status }}</span></li>
                         @endif
                      </ul>
                 </div>
@@ -56,10 +56,10 @@
                      <h4 class="font-medium text-gray-900 mb-2">{{ __('Focus & Judgment') }}</h4>
                      <ul class="space-y-2 text-sm text-gray-600">
                         @if($nanda->focus)
-                            <li class="flex justify-between"><span class="font-medium">{{ __('Focus') }}:</span> <span>{{ $nanda->focus }}</span></li>
+                            <li class="flex items-start gap-2"><span class="font-medium whitespace-nowrap">{{ __('Focus') }}:</span> <span>{{ $nanda->focus }}</span></li>
                         @endif
                          @if($nanda->judgment)
-                            <li class="flex justify-between"><span class="font-medium">{{ __('Judgment') }}:</span> <span>{{ $nanda->judgment }}</span></li>
+                            <li class="flex items-start gap-2"><span class="font-medium whitespace-nowrap">{{ __('Judgment') }}:</span> <span>{{ $nanda->judgment }}</span></li>
                         @endif
                      </ul>
                 </div>
