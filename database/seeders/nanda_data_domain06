@@ -1,0 +1,350 @@
+{
+  "domain": {
+    "number": "6",
+    "name": "Self-Perception",
+    "description": "Awareness about the self including body image, self-esteem, self-worth, identity, role performance, and self-concept",
+    "classes": [
+      {
+        "number": "1",
+        "name": "Self-concept",
+        "description": "The perception(s) about the total self",
+        "diagnosticos": [
+          {
+            "codigo_de_diagnostico": "00167",
+            "ano_de_aprobacion": "1988",
+            "nivel_de_evidencia": "3.1",
+            "MeSH": "Self Concept (M0019272)",
+            "foco_conceptual": "Self-concept",
+            "foco_en_contexto_sintomas": "",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Enhanced",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Potential to improve",
+            "limitacion_situacional": "",
+            "Definicion": "A pattern of perceptions or ideas about the self, which can be strengthened.",
+            "Factores_de_Riesgo": [],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": []
+          },
+          {
+            "codigo_de_diagnostico": "00124",
+            "ano_de_aprobacion": "1978",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Hopelessness (M0010485)",
+            "foco_conceptual": "Hopelessness",
+            "foco_en_contexto_sintomas": "",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Excessive",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Problem-focused",
+            "limitacion_situacional": "",
+            "Definicion": "Subjective state in which an individual sees limited or no alternatives or personal choices available and is unable to mobilize energy on own behalf.",
+            "Factores_de_Riesgo": [
+              "Chronic illness",
+              "Excessive stress",
+              "History of abuse",
+              "Loss of belief in transcendent values",
+              "Prolonged activity restriction",
+              "Social isolation"
+            ],
+            "Poblacion_de_Riesgo": [
+              "Economically disadvantaged",
+              "Individuals with history of abandonment",
+              "Individuals with history of loss"
+            ],
+            "Condiciones_asociadas": [
+              "Deteriorating physiological condition",
+              "Treatment regimen"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00174",
+            "ano_de_aprobacion": "2006",
+            "nivel_de_evidencia": "3.1",
+            "MeSH": "Powerlessness (M0016952)",
+            "foco_conceptual": "Powerlessness",
+            "foco_en_contexto_sintomas": "",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Excessive",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Problem-focused",
+            "limitacion_situacional": "",
+            "Definicion": "Perception that one's own action will not significantly affect an outcome; a perceived lack of control over a current situation or immediate happening.",
+            "Factores_de_Riesgo": [
+              "Chronic illness",
+              "Excessive stress",
+              "Health care environment",
+              "Institutional environment",
+              "Pain",
+              "Social isolation"
+            ],
+            "Poblacion_de_Riesgo": [
+              "Individuals with history of abuse",
+              "Individuals with history of loss of control"
+            ],
+            "Condiciones_asociadas": [
+              "Critical illness",
+              "Treatment regimen"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00185",
+            "ano_de_aprobacion": "2008",
+            "nivel_de_evidencia": "3.1",
+            "MeSH": "Powerlessness (M0016952)",
+            "foco_conceptual": "Powerlessness",
+            "foco_en_contexto_sintomas": "",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Excessive",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Potential to deteriorate",
+            "limitacion_situacional": "",
+            "Definicion": "Susceptible to perceived lack of personal control over events or situations, which may compromise health.",
+            "Factores_de_Riesgo": [
+              "Chronic illness",
+              "Excessive stress",
+              "Health care environment",
+              "Institutional environment",
+              "Pain",
+              "Social isolation"
+            ],
+            "Poblacion_de_Riesgo": [
+              "Individuals with history of abuse",
+              "Individuals with history of loss of control"
+            ],
+            "Condiciones_asociadas": [
+              "Critical illness",
+              "Treatment regimen"
+            ]
+          }
+        ]
+      },
+      {
+        "number": "2",
+        "name": "Self-esteem",
+        "description": "The perception(s) about one's personal worth and value",
+        "diagnosticos": [
+          {
+            "codigo_de_diagnostico": "00120",
+            "ano_de_aprobacion": "1978",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Self Esteem (M0019273)",
+            "foco_conceptual": "Self-esteem",
+            "foco_en_contexto_sintomas": "",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Impaired",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Problem-focused",
+            "limitacion_situacional": "",
+            "Definicion": "Negative self-evaluating/feelings about self or self-capabilities.",
+            "Factores_de_Riesgo": [
+              "Chronic illness",
+              "Excessive stress",
+              "History of abuse",
+              "History of neglect",
+              "Social isolation"
+            ],
+            "Poblacion_de_Riesgo": [
+              "Individuals with history of abandonment",
+              "Individuals with history of loss",
+              "Individuals with history of rejection"
+            ],
+            "Condiciones_asociadas": [
+              "Developmental transition",
+              "Psychiatric disorders"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00294",
+            "ano_de_aprobacion": "2017",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Self Esteem (M0019273)",
+            "foco_conceptual": "Self-esteem",
+            "foco_en_contexto_sintomas": "",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Impaired",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "Chronic",
+            "estado_del_diagnostico": "Problem-focused",
+            "limitacion_situacional": "",
+            "Definicion": "Long-standing negative self-evaluating/feelings about self or self-capabilities.",
+            "Factores_de_Riesgo": [
+              "Chronic illness",
+              "Excessive stress",
+              "History of abuse",
+              "History of neglect",
+              "Social isolation"
+            ],
+            "Poblacion_de_Riesgo": [
+              "Individuals with history of abandonment",
+              "Individuals with history of loss",
+              "Individuals with history of rejection"
+            ],
+            "Condiciones_asociadas": [
+              "Developmental transition",
+              "Psychiatric disorders"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00295",
+            "ano_de_aprobacion": "2017",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Self Esteem (M0019273)",
+            "foco_conceptual": "Self-esteem",
+            "foco_en_contexto_sintomas": "",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Impaired",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "Chronic",
+            "estado_del_diagnostico": "Potential to deteriorate",
+            "limitacion_situacional": "",
+            "Definicion": "Susceptible to long-standing negative self-evaluating/feelings about self or self-capabilities, which may compromise health.",
+            "Factores_de_Riesgo": [
+              "Chronic illness",
+              "Excessive stress",
+              "History of abuse",
+              "History of neglect",
+              "Social isolation"
+            ],
+            "Poblacion_de_Riesgo": [
+              "Individuals with history of abandonment",
+              "Individuals with history of loss",
+              "Individuals with history of rejection"
+            ],
+            "Condiciones_asociadas": [
+              "Developmental transition",
+              "Psychiatric disorders"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00119",
+            "ano_de_aprobacion": "1988",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Self Esteem (M0019273)",
+            "foco_conceptual": "Self-esteem",
+            "foco_en_contexto_sintomas": "Situational",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Impaired",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Problem-focused",
+            "limitacion_situacional": "Situational",
+            "Definicion": "Development of negative perception of self-worth in response to a current situation.",
+            "Factores_de_Riesgo": [
+              "Chronic illness",
+              "Excessive stress",
+              "History of abuse",
+              "History of neglect",
+              "Social isolation"
+            ],
+            "Poblacion_de_Riesgo": [
+              "Individuals with history of abandonment",
+              "Individuals with history of loss",
+              "Individuals with history of rejection"
+            ],
+            "Condiciones_asociadas": [
+              "Developmental transition",
+              "Functional impairment",
+              "Loss of body part",
+              "Psychiatric disorders"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00153",
+            "ano_de_aprobacion": "2000",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Self Esteem (M0019273)",
+            "foco_conceptual": "Self-esteem",
+            "foco_en_contexto_sintomas": "Situational",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Impaired",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Potential to deteriorate",
+            "limitacion_situacional": "Situational",
+            "Definicion": "Susceptible to developing a negative perception of self-worth in response to a current situation, which may compromise health.",
+            "Factores_de_Riesgo": [
+              "Chronic illness",
+              "Excessive stress",
+              "History of abuse",
+              "History of neglect",
+              "Social isolation"
+            ],
+            "Poblacion_de_Riesgo": [
+              "Individuals with history of abandonment",
+              "Individuals with history of loss",
+              "Individuals with history of rejection"
+            ],
+            "Condiciones_asociadas": [
+              "Developmental transition",
+              "Functional impairment",
+              "Loss of body part",
+              "Psychiatric disorders"
+            ]
+          }
+        ]
+      },
+      {
+        "number": "3",
+        "name": "Body image",
+        "description": "The perception(s) about one's own body",
+        "diagnosticos": [
+          {
+            "codigo_de_diagnostico": "00118",
+            "ano_de_aprobacion": "1973",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Body Image (M0002608)",
+            "foco_conceptual": "Body image",
+            "foco_en_contexto_sintomas": "",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Impaired",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Problem-focused",
+            "limitacion_situacional": "",
+            "Definicion": "Confusion in mental picture of one's physical self.",
+            "Factores_de_Riesgo": [
+              "Chronic illness",
+              "Excessive stress",
+              "Social isolation"
+            ],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": [
+              "Cultural incongruence",
+              "Illness",
+              "Injury",
+              "Psychiatric disorders",
+              "Surgery",
+              "Treatment regimen"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

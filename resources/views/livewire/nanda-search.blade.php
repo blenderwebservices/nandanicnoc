@@ -40,6 +40,17 @@
                             </span>
                         @endif
                     @endif
+
+                    @if($nanda->approval_year)
+                        <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-800">
+                            {{ __('Year') }}: {{ $nanda->approval_year }}
+                        </span>
+                    @endif
+                    @if($nanda->evidence_level)
+                        <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-yellow-100 text-yellow-800">
+                            {{ __('LOE') }}: {{ $nanda->evidence_level }}
+                        </span>
+                    @endif
                 </div>
                 <h3 class="text-lg font-semibold text-gray-900 mb-2 group-hover:text-indigo-600 transition">
                     {{ $nanda->label }}

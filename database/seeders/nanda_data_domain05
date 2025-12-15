@@ -1,0 +1,375 @@
+{
+  "domain": {
+    "number": "5",
+    "name": "Perception/Cognition",
+    "description": "The human information processing system including attention, orientation, sensation, perception, cognition and communication",
+    "classes": [
+      {
+        "number": "1",
+        "name": "Attention",
+        "description": "The ability to focus on a specific stimulus or activity",
+        "diagnosticos": [
+          {
+            "codigo_de_diagnostico": "00123",
+            "ano_de_aprobacion": "1992",
+            "nivel_de_evidencia": "3.1",
+            "MeSH": "Attention (M0001883)",
+            "foco_conceptual": "Attention",
+            "foco_en_contexto_sintomas": "",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Impaired",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Problem-focused",
+            "limitacion_situacional": "",
+            "Definicion": "Inability to selectively attend to or focus on relevant stimuli in the environment.",
+            "Factores_de_Riesgo": [
+              "Anxiety",
+              "Excessive stress",
+              "Fatigue",
+              "Pain"
+            ],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": [
+              "Neurological diseases",
+              "Pharmaceutical preparations",
+              "Psychiatric disorders"
+            ]
+          }
+        ]
+      },
+      {
+        "number": "2",
+        "name": "Orientation",
+        "description": "Awareness of time, place, person, and situation",
+        "diagnosticos": []
+      },
+      {
+        "number": "3",
+        "name": "Sensation/Perception",
+        "description": "Reception and interpretation of sensory stimuli",
+        "diagnosticos": []
+      },
+      {
+        "number": "4",
+        "name": "Cognition",
+        "description": "Use of memory, learning, thinking, problem-solving, abstraction, judgment, insight, intellectual capacity, calculation, and language",
+        "diagnosticos": [
+          {
+            "codigo_de_diagnostico": "00128",
+            "ano_de_aprobacion": "1994",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Cognition (M0004947)",
+            "foco_conceptual": "Cognition",
+            "foco_en_contexto_sintomas": "Acute confusion",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Impaired",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "Acute",
+            "estado_del_diagnostico": "Problem-focused",
+            "limitacion_situacional": "",
+            "Definicion": "Abrupt onset of a cluster of reversible global, fluctuating disturbances in attention, cognition, psychomotor activity, level of consciousness, and/or sleep-wake cycle.",
+            "Factores_de_Riesgo": [
+              "Alcohol consumption",
+              "Dehydration",
+              "Excessive stress",
+              "Malnutrition",
+              "Pain",
+              "Sleep deprivation",
+              "Substance misuse"
+            ],
+            "Poblacion_de_Riesgo": [
+              "Individuals at extremes of age",
+              "Individuals with history of stroke",
+              "Older adults"
+            ],
+            "Condiciones_asociadas": [
+              "Critical illness",
+              "Hip fracture",
+              "Infections",
+              "Medication side effects",
+              "Metabolic imbalance",
+              "Neurological diseases"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00400",
+            "ano_de_aprobacion": "2023",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Cognition (M0004947)",
+            "foco_conceptual": "Cognition",
+            "foco_en_contexto_sintomas": "Acute confusion",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Impaired",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "Acute",
+            "estado_del_diagnostico": "Potential to deteriorate",
+            "limitacion_situacional": "",
+            "Definicion": "Susceptible to abrupt onset of a cluster of reversible global, fluctuating disturbances in attention, cognition, psychomotor activity, level of consciousness, and/or sleep-wake cycle.",
+            "Factores_de_Riesgo": [
+              "Alcohol consumption",
+              "Dehydration",
+              "Excessive stress",
+              "Malnutrition",
+              "Pain",
+              "Sleep deprivation",
+              "Substance misuse"
+            ],
+            "Poblacion_de_Riesgo": [
+              "Individuals at extremes of age",
+              "Individuals with history of stroke",
+              "Older adults"
+            ],
+            "Condiciones_asociadas": [
+              "Critical illness",
+              "Hip fracture",
+              "Infections",
+              "Medication side effects",
+              "Metabolic imbalance",
+              "Neurological diseases"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00129",
+            "ano_de_aprobacion": "1994",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Cognition (M0004947)",
+            "foco_conceptual": "Cognition",
+            "foco_en_contexto_sintomas": "Chronic confusion",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Impaired",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "Chronic",
+            "estado_del_diagnostico": "Problem-focused",
+            "limitacion_situacional": "",
+            "Definicion": "Irreversible, long-standing, and/or progressive deterioration of intellect and personality characterized by decreased ability to interpret environmental stimuli and decreased capacity for intellectual thought processes, manifested by disturbances of memory, orientation, abstract thinking, judgment, and/or personality.",
+            "Factores_de_Riesgo": [],
+            "Poblacion_de_Riesgo": [
+              "Older adults"
+            ],
+            "Condiciones_asociadas": [
+              "Alzheimer's disease",
+              "Brain tumors",
+              "HIV infection",
+              "Korsakoff's psychosis",
+              "Parkinson's disease"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00131",
+            "ano_de_aprobacion": "1994",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Memory (M0013775)",
+            "foco_conceptual": "Memory",
+            "foco_en_contexto_sintomas": "",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Impaired",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Problem-focused",
+            "limitacion_situacional": "",
+            "Definicion": "Inability to remember or recall bits of information or behavioral skills.",
+            "Factores_de_Riesgo": [
+              "Anxiety",
+              "Depressive symptoms",
+              "Excessive stress",
+              "Fatigue"
+            ],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": [
+              "Anemia",
+              "Cerebrovascular accident",
+              "Neurological diseases"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00401",
+            "ano_de_aprobacion": "2023",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Memory (M0013775)",
+            "foco_conceptual": "Memory",
+            "foco_en_contexto_sintomas": "",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Impaired",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Potential to deteriorate",
+            "limitacion_situacional": "",
+            "Definicion": "Susceptible to inability to remember or recall bits of information or behavioral skills.",
+            "Factores_de_Riesgo": [
+              "Anxiety",
+              "Depressive symptoms",
+              "Excessive stress",
+              "Fatigue"
+            ],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": [
+              "Anemia",
+              "Cerebrovascular accident",
+              "Neurological diseases"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00130",
+            "ano_de_aprobacion": "1994",
+            "nivel_de_evidencia": "2.1",
+            "MeSH": "Decision Making (M0005725)",
+            "foco_conceptual": "Decision-making",
+            "foco_en_contexto_sintomas": "",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Impaired",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Problem-focused",
+            "limitacion_situacional": "",
+            "Definicion": "Inability to make judgments or choose between alternatives in situations where there is a choice.",
+            "Factores_de_Riesgo": [
+              "Depressive symptoms",
+              "Fear",
+              "Insufficient knowledge"
+            ],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": [
+              "Neurocognitive disorders"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00402",
+            "ano_de_aprobacion": "2023",
+            "nivel_de_evidencia": "2.1",
+            "MeSH": "Decision Making (M0005725)",
+            "foco_conceptual": "Decision-making",
+            "foco_en_contexto_sintomas": "",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Impaired",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Potential to deteriorate",
+            "limitacion_situacional": "",
+            "Definicion": "Susceptible to inability to make judgments or choose between alternatives in situations where there is a choice.",
+            "Factores_de_Riesgo": [
+              "Depressive symptoms",
+              "Fear",
+              "Insufficient knowledge"
+            ],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": [
+              "Neurocognitive disorders"
+            ]
+          }
+        ]
+      },
+      {
+        "number": "5",
+        "name": "Communication",
+        "description": "Sending and receiving verbal and nonverbal information",
+        "diagnosticos": [
+          {
+            "codigo_de_diagnostico": "00157",
+            "ano_de_aprobacion": "2002",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Communication (M0004825)",
+            "foco_conceptual": "Communication",
+            "foco_en_contexto_sintomas": "",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Impaired",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Problem-focused",
+            "limitacion_situacional": "",
+            "Definicion": "Decreased, delayed, or absent ability to receive, process, transmit, and/or use a system of symbols.",
+            "Factores_de_Riesgo": [
+              "Absence of significant others",
+              "Alteration in self-concept",
+              "Cultural differences",
+              "Insufficient knowledge of communication strategies",
+              "Psychosocial issues"
+            ],
+            "Poblacion_de_Riesgo": [
+              "Individuals with language barriers"
+            ],
+            "Condiciones_asociadas": [
+              "Alteration in cognitive function",
+              "Anatomical deficit",
+              "Neurological impairment",
+              "Pharmaceutical preparations",
+              "Treatment regimen"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00403",
+            "ano_de_aprobacion": "2023",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Communication (M0004825)",
+            "foco_conceptual": "Communication",
+            "foco_en_contexto_sintomas": "",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Impaired",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Potential to deteriorate",
+            "limitacion_situacional": "",
+            "Definicion": "Susceptible to decreased, delayed, or absent ability to receive, process, transmit, and/or use a system of symbols.",
+            "Factores_de_Riesgo": [
+              "Absence of significant others",
+              "Alteration in self-concept",
+              "Cultural differences",
+              "Insufficient knowledge of communication strategies",
+              "Psychosocial issues"
+            ],
+            "Poblacion_de_Riesgo": [
+              "Individuals with language barriers"
+            ],
+            "Condiciones_asociadas": [
+              "Alteration in cognitive function",
+              "Anatomical deficit",
+              "Neurological impairment",
+              "Pharmaceutical preparations",
+              "Treatment regimen"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00155",
+            "ano_de_aprobacion": "2002",
+            "nivel_de_evidencia": "2.1",
+            "MeSH": "Communication (M0004825)",
+            "foco_conceptual": "Communication",
+            "foco_en_contexto_sintomas": "",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Enhanced",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Potential to improve",
+            "limitacion_situacional": "",
+            "Definicion": "A pattern of exchanging information and ideas with others, which can be strengthened.",
+            "Factores_de_Riesgo": [],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": []
+          }
+        ]
+      }
+    ]
+  }
+}

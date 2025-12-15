@@ -10,9 +10,31 @@ class Nanda extends Model
         'code',
         'label',
         'label_es',
-        'description',
+        'description', // This will store the Definition
         'description_es',
         'class_id',
+        'approval_year',
+        'evidence_level',
+        'mesh_term',
+        'focus',
+        'symptoms_context',
+        'care_subject',
+        'judgment',
+        'anatomical_location',
+        'age_limit_lower',
+        'age_limit_upper',
+        'clinical_course',
+        'diagnosis_status',
+        'situational_limitation',
+        'risk_factors',
+        'at_risk_population',
+        'associated_conditions',
+    ];
+
+    protected $casts = [
+        'risk_factors' => 'array',
+        'at_risk_population' => 'array',
+        'associated_conditions' => 'array',
     ];
 
     public function getLabelAttribute($value)

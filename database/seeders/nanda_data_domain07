@@ -1,0 +1,408 @@
+{
+  "domain": {
+    "number": "7",
+    "name": "Role Relationship",
+    "description": "The positive and negative connections or associations between people or groups of people and the means by which those connections are demonstrated",
+    "classes": [
+      {
+        "number": "1",
+        "name": "Caregiving Roles",
+        "description": "Providing support, comfort, and assistance to others in caregiving situations",
+        "diagnosticos": [
+          {
+            "codigo_de_diagnostico": "00061",
+            "ano_de_aprobacion": "1978",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Caregiver Role Strain (M0003450)",
+            "foco_conceptual": "Role",
+            "foco_en_contexto_sintomas": "Caregiving",
+            "sujeto_del_cuidado": "Family",
+            "juicio": "Impaired",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Problem-focused",
+            "limitacion_situacional": "",
+            "Definicion": "Difficulty in performing family/significant other caregiver role.",
+            "Factores_de_Riesgo": [
+              "Care receiver health changes",
+              "Caregiver health changes",
+              "Complexity of care needs",
+              "Duration of caregiving required",
+              "Family isolation",
+              "Inadequate caregiver knowledge",
+              "Inadequate community resources",
+              "Inadequate physical environment for providing care",
+              "Inadequate psychological resources",
+              "Inadequate social support",
+              "Ineffective coping",
+              "Insufficient fulfillment of others' expectations",
+              "Insufficient privacy",
+              "Insufficient respite for caregiver",
+              "Substance misuse",
+              "Unpredictable illness trajectory"
+            ],
+            "Poblacion_de_Riesgo": [
+              "Economically disadvantaged",
+              "Individuals with history of poor relationship",
+              "Individuals with unrealistic expectations of self"
+            ],
+            "Condiciones_asociadas": [
+              "Alteration in cognitive functioning of care receiver",
+              "Chronic illness of care receiver",
+              "Developmental delay of care receiver",
+              "Psychiatric disorders of care receiver"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00062",
+            "ano_de_aprobacion": "1992",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Caregiver Role Strain (M0003450)",
+            "foco_conceptual": "Role",
+            "foco_en_contexto_sintomas": "Caregiving",
+            "sujeto_del_cuidado": "Family",
+            "juicio": "Impaired",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Potential to deteriorate",
+            "limitacion_situacional": "",
+            "Definicion": "Susceptible to difficulty in performing family/significant other caregiver role.",
+            "Factores_de_Riesgo": [
+              "Care receiver health changes",
+              "Caregiver health changes",
+              "Complexity of care needs",
+              "Duration of caregiving required",
+              "Family isolation",
+              "Inadequate caregiver knowledge",
+              "Inadequate community resources",
+              "Inadequate physical environment for providing care",
+              "Inadequate psychological resources",
+              "Inadequate social support",
+              "Ineffective coping",
+              "Insufficient fulfillment of others' expectations",
+              "Insufficient privacy",
+              "Insufficient respite for caregiver",
+              "Substance misuse",
+              "Unpredictable illness trajectory"
+            ],
+            "Poblacion_de_Riesgo": [
+              "Economically disadvantaged",
+              "Individuals with history of poor relationship",
+              "Individuals with unrealistic expectations of self"
+            ],
+            "Condiciones_asociadas": [
+              "Alteration in cognitive functioning of care receiver",
+              "Chronic illness of care receiver",
+              "Developmental delay of care receiver",
+              "Psychiatric disorders of care receiver"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00404",
+            "ano_de_aprobacion": "2023",
+            "nivel_de_evidencia": "2.1",
+            "MeSH": "Caregiver Role (M0003449)",
+            "foco_conceptual": "Role",
+            "foco_en_contexto_sintomas": "Caregiving",
+            "sujeto_del_cuidado": "Family",
+            "juicio": "Prepared",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Potential to improve",
+            "limitacion_situacional": "",
+            "Definicion": "Pattern of providing care and support to a family member, friend, or significant other with a health condition or care needs, which can be strengthened.",
+            "Factores_de_Riesgo": [],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": []
+          }
+        ]
+      },
+      {
+        "number": "2",
+        "name": "Family Relationships",
+        "description": "Associations of blood relatives or significant others who perform family roles",
+        "diagnosticos": [
+          {
+            "codigo_de_diagnostico": "00060",
+            "ano_de_aprobacion": "1980",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Family Relations (M0008198)",
+            "foco_conceptual": "Family function",
+            "foco_en_contexto_sintomas": "Disrupted",
+            "sujeto_del_cuidado": "Family",
+            "juicio": "Impaired",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Problem-focused",
+            "limitacion_situacional": "",
+            "Definicion": "Change in family relationships and/or functioning.",
+            "Factores_de_Riesgo": [
+              "Change in family roles",
+              "Chronic illness",
+              "Developmental crisis",
+              "Family conflict",
+              "History of abuse",
+              "Inadequate family support",
+              "Inadequate role model",
+              "Ineffective communication",
+              "Power shift among family members",
+              "Shift in health status of family member",
+              "Situational crisis",
+              "Situational transition",
+              "Substance misuse"
+            ],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": [
+              "Critical illness",
+              "Treatment regimen"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00405",
+            "ano_de_aprobacion": "2023",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Family Relations (M0008198)",
+            "foco_conceptual": "Family function",
+            "foco_en_contexto_sintomas": "Disrupted",
+            "sujeto_del_cuidado": "Family",
+            "juicio": "Impaired",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Potential to deteriorate",
+            "limitacion_situacional": "",
+            "Definicion": "Susceptible to change in family relationships and/or functioning.",
+            "Factores_de_Riesgo": [
+              "Change in family roles",
+              "Chronic illness",
+              "Developmental crisis",
+              "Family conflict",
+              "History of abuse",
+              "Inadequate family support",
+              "Inadequate role model",
+              "Ineffective communication",
+              "Power shift among family members",
+              "Shift in health status of family member",
+              "Situational crisis",
+              "Situational transition",
+              "Substance misuse"
+            ],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": [
+              "Critical illness",
+              "Treatment regimen"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00296",
+            "ano_de_aprobacion": "2017",
+            "nivel_de_evidencia": "2.1",
+            "MeSH": "Family Functioning (M0008199)",
+            "foco_conceptual": "Family function",
+            "foco_en_contexto_sintomas": "",
+            "sujeto_del_cuidado": "Family",
+            "juicio": "Prepared",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Potential to improve",
+            "limitacion_situacional": "",
+            "Definicion": "A pattern of family functioning to support the well-being of family members, which can be strengthened.",
+            "Factores_de_Riesgo": [],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": []
+          },
+          {
+            "codigo_de_diagnostico": "00058",
+            "ano_de_aprobacion": "1986",
+            "nivel_de_evidencia": "3.1",
+            "MeSH": "Parenting (M0016090)",
+            "foco_conceptual": "Parenting",
+            "foco_en_contexto_sintomas": "",
+            "sujeto_del_cuidado": "Family",
+            "juicio": "Impaired",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Problem-focused",
+            "limitacion_situacional": "",
+            "Definicion": "Inability of the primary caretaker to create, maintain, or regain an environment that promotes the optimum growth and development of the child.",
+            "Factores_de_Riesgo": [
+              "Inadequate child care arrangements",
+              "Inadequate role modeling",
+              "Inadequate social support",
+              "Ineffective coping",
+              "Lack of parental education",
+              "Lack of role identity",
+              "Lack of value for parenting",
+              "Preference for male or female child",
+              "Unmet social developmental needs"
+            ],
+            "Poblacion_de_Riesgo": [
+              "Adolescents",
+              "Economically disadvantaged",
+              "Individuals with history of poor parenting",
+              "Individuals with low educational level",
+              "Single parents"
+            ],
+            "Condiciones_asociadas": [
+              "Alteration in cognitive functioning",
+              "Chronic illness",
+              "Physical illness",
+              "Psychiatric disorders"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00056",
+            "ano_de_aprobacion": "1986",
+            "nivel_de_evidencia": "3.1",
+            "MeSH": "Parenting (M0016090)",
+            "foco_conceptual": "Parenting",
+            "foco_en_contexto_sintomas": "",
+            "sujeto_del_cuidado": "Family",
+            "juicio": "Impaired",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Potential to deteriorate",
+            "limitacion_situacional": "",
+            "Definicion": "Susceptible to inability of the primary caretaker to create, maintain, or regain an environment that promotes the optimum growth and development of the child.",
+            "Factores_de_Riesgo": [
+              "Inadequate child care arrangements",
+              "Inadequate role modeling",
+              "Inadequate social support",
+              "Ineffective coping",
+              "Lack of parental education",
+              "Lack of role identity",
+              "Lack of value for parenting",
+              "Preference for male or female child",
+              "Unmet social developmental needs"
+            ],
+            "Poblacion_de_Riesgo": [
+              "Adolescents",
+              "Economically disadvantaged",
+              "Individuals with history of poor parenting",
+              "Individuals with low educational level",
+              "Single parents"
+            ],
+            "Condiciones_asociadas": [
+              "Alteration in cognitive functioning",
+              "Chronic illness",
+              "Physical illness",
+              "Psychiatric disorders"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00297",
+            "ano_de_aprobacion": "2020",
+            "nivel_de_evidencia": "2.1",
+            "MeSH": "Parenting (M0016090)",
+            "foco_conceptual": "Parenting",
+            "foco_en_contexto_sintomas": "",
+            "sujeto_del_cuidado": "Family",
+            "juicio": "Prepared",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Potential to improve",
+            "limitacion_situacional": "",
+            "Definicion": "A pattern of providing an environment that promotes optimum growth and development of a child, which can be strengthened.",
+            "Factores_de_Riesgo": [],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": []
+          }
+        ]
+      },
+      {
+        "number": "3",
+        "name": "Role Performance",
+        "description": "The quality of functioning in socially expected behavior patterns",
+        "diagnosticos": [
+          {
+            "codigo_de_diagnostico": "00055",
+            "ano_de_aprobacion": "1980",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Role Performance (M0019276)",
+            "foco_conceptual": "Role performance",
+            "foco_en_contexto_sintomas": "",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Ineffective",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Problem-focused",
+            "limitacion_situacional": "",
+            "Definicion": "Pattern of behavior and self-expression that does not match the environmental context, norms, and expectations.",
+            "Factores_de_Riesgo": [
+              "Inadequate role modeling",
+              "Inadequate social support",
+              "Ineffective coping",
+              "Lack of knowledge of role",
+              "Lack of role opportunity",
+              "Low self-esteem",
+              "Role conflict",
+              "Unrealistic role expectations"
+            ],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": [
+              "Alteration in cognitive functioning",
+              "Chronic illness",
+              "Depressive disorder",
+              "Developmental transition",
+              "Psychiatric disorders"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00406",
+            "ano_de_aprobacion": "2023",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Role Performance (M0019276)",
+            "foco_conceptual": "Role performance",
+            "foco_en_contexto_sintomas": "",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Ineffective",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Potential to deteriorate",
+            "limitacion_situacional": "",
+            "Definicion": "Susceptible to a pattern of behavior and self-expression that does not match the environmental context, norms, and expectations.",
+            "Factores_de_Riesgo": [
+              "Inadequate role modeling",
+              "Inadequate social support",
+              "Ineffective coping",
+              "Lack of knowledge of role",
+              "Lack of role opportunity",
+              "Low self-esteem",
+              "Role conflict",
+              "Unrealistic role expectations"
+            ],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": [
+              "Alteration in cognitive functioning",
+              "Chronic illness",
+              "Depressive disorder",
+              "Developmental transition",
+              "Psychiatric disorders"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

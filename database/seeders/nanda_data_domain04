@@ -1,0 +1,878 @@
+{
+  "domain": {
+    "number": "4",
+    "name": "Activity/Rest",
+    "description": "The production, conservation, expenditure, or balance of energy resources",
+    "classes": [
+      {
+        "number": "1",
+        "name": "Sleep/Rest",
+        "description": "Slumber, repose, relaxation, or inactivity",
+        "diagnosticos": [
+          {
+            "codigo_de_diagnostico": "00095",
+            "ano_de_aprobacion": "1998",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Sleep (M0020478)",
+            "foco_conceptual": "Sleep",
+            "foco_en_contexto_sintomas": "",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Impaired",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Problem-focused",
+            "limitacion_situacional": "",
+            "Definicion": "Disruption of slumber amount or quality that results in compromised function or development.",
+            "Factores_de_Riesgo": [
+              "Anxiety",
+              "Depressive symptoms",
+              "Excessive stress",
+              "Fear",
+              "Inadequate sleep hygiene",
+              "Pain",
+              "Sleep apnea",
+              "Substance misuse"
+            ],
+            "Poblacion_de_Riesgo": [
+              "Individuals with history of poor sleep",
+              "Parents of infants or children with disrupted sleep",
+              "Shift workers"
+            ],
+            "Condiciones_asociadas": [
+              "Environmental changes",
+              "Neurological diseases",
+              "Pharmaceutical preparations",
+              "Psychiatric disorders",
+              "Sleep-related breathing disorders"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00348",
+            "ano_de_aprobacion": "2023",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Sleep (M0020478)",
+            "foco_conceptual": "Sleep",
+            "foco_en_contexto_sintomas": "",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Impaired",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Potential to deteriorate",
+            "limitacion_situacional": "",
+            "Definicion": "Susceptible to disruption of slumber amount or quality that results in compromised function or development.",
+            "Factores_de_Riesgo": [
+              "Anxiety",
+              "Depressive symptoms",
+              "Excessive stress",
+              "Fear",
+              "Inadequate sleep hygiene",
+              "Pain",
+              "Sleep apnea",
+              "Substance misuse"
+            ],
+            "Poblacion_de_Riesgo": [
+              "Individuals with history of poor sleep",
+              "Parents of infants or children with disrupted sleep",
+              "Shift workers"
+            ],
+            "Condiciones_asociadas": [
+              "Environmental changes",
+              "Neurological diseases",
+              "Pharmaceutical preparations",
+              "Psychiatric disorders",
+              "Sleep-related breathing disorders"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00165",
+            "ano_de_aprobacion": "2002",
+            "nivel_de_evidencia": "2.1",
+            "MeSH": "Sleep (M0020478)",
+            "foco_conceptual": "Sleep",
+            "foco_en_contexto_sintomas": "",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Enhanced",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Potential to improve",
+            "limitacion_situacional": "",
+            "Definicion": "A pattern of natural periodic suspension of consciousness from which the individual can be aroused, which can be strengthened.",
+            "Factores_de_Riesgo": [],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": []
+          }
+        ]
+      },
+      {
+        "number": "2",
+        "name": "Activity/Exercise",
+        "description": "Moving the body or body parts, or performing physical or mental tasks",
+        "diagnosticos": [
+          {
+            "codigo_de_diagnostico": "00040",
+            "ano_de_aprobacion": "1980",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Self Care (M0019271)",
+            "foco_conceptual": "Self-care",
+            "foco_en_contexto_sintomas": "Activities of daily living",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Impaired",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Problem-focused",
+            "limitacion_situacional": "",
+            "Definicion": "Impaired ability to independently perform basic activities of daily living.",
+            "Factores_de_Riesgo": [
+              "Cognitive impairment",
+              "Depressive symptoms",
+              "Impaired mobility",
+              "Insufficient knowledge of adaptive devices",
+              "Musculoskeletal impairment",
+              "Neuromuscular impairment",
+              "Pain",
+              "Perceptual impairment"
+            ],
+            "Poblacion_de_Riesgo": [
+              "Older adults"
+            ],
+            "Condiciones_asociadas": [
+              "Environmental barriers",
+              "Pharmaceutical preparations",
+              "Treatment regimen"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00385",
+            "ano_de_aprobacion": "2023",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Self Care (M0019271)",
+            "foco_conceptual": "Self-care",
+            "foco_en_contexto_sintomas": "Activities of daily living",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Impaired",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Potential to deteriorate",
+            "limitacion_situacional": "",
+            "Definicion": "Susceptible to impaired ability to independently perform basic activities of daily living.",
+            "Factores_de_Riesgo": [
+              "Cognitive impairment",
+              "Depressive symptoms",
+              "Impaired mobility",
+              "Insufficient knowledge of adaptive devices",
+              "Musculoskeletal impairment",
+              "Neuromuscular impairment",
+              "Pain",
+              "Perceptual impairment"
+            ],
+            "Poblacion_de_Riesgo": [
+              "Older adults"
+            ],
+            "Condiciones_asociadas": [
+              "Environmental barriers",
+              "Pharmaceutical preparations",
+              "Treatment regimen"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00088",
+            "ano_de_aprobacion": "1988",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Bathing (M0026422)",
+            "foco_conceptual": "Self-care",
+            "foco_en_contexto_sintomas": "Bathing",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Impaired",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Problem-focused",
+            "limitacion_situacional": "",
+            "Definicion": "Impaired ability to independently perform or complete bathing activities.",
+            "Factores_de_Riesgo": [
+              "Cognitive impairment",
+              "Environmental barriers",
+              "Impaired mobility",
+              "Musculoskeletal impairment",
+              "Neuromuscular impairment",
+              "Pain",
+              "Perceptual impairment"
+            ],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": [
+              "Treatment regimen"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00386",
+            "ano_de_aprobacion": "2023",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Bathing (M0026422)",
+            "foco_conceptual": "Self-care",
+            "foco_en_contexto_sintomas": "Bathing",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Impaired",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Potential to deteriorate",
+            "limitacion_situacional": "",
+            "Definicion": "Susceptible to impaired ability to independently perform or complete bathing activities.",
+            "Factores_de_Riesgo": [
+              "Cognitive impairment",
+              "Environmental barriers",
+              "Impaired mobility",
+              "Musculoskeletal impairment",
+              "Neuromuscular impairment",
+              "Pain",
+              "Perceptual impairment"
+            ],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": [
+              "Treatment regimen"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00387",
+            "ano_de_aprobacion": "2023",
+            "nivel_de_evidencia": "2.1",
+            "MeSH": "Bathing (M0026422)",
+            "foco_conceptual": "Self-care",
+            "foco_en_contexto_sintomas": "Bathing",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Prepared",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Potential to improve",
+            "limitacion_situacional": "",
+            "Definicion": "Pattern of independently performing or completing bathing activities, which can be strengthened.",
+            "Factores_de_Riesgo": [],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": []
+          },
+          {
+            "codigo_de_diagnostico": "00098",
+            "ano_de_aprobacion": "1988",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Self Care (M0019271)",
+            "foco_conceptual": "Self-care",
+            "foco_en_contexto_sintomas": "Dressing",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Impaired",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Problem-focused",
+            "limitacion_situacional": "",
+            "Definicion": "Impaired ability to independently perform or complete dressing activities.",
+            "Factores_de_Riesgo": [
+              "Cognitive impairment",
+              "Environmental barriers",
+              "Impaired mobility",
+              "Musculoskeletal impairment",
+              "Neuromuscular impairment",
+              "Pain",
+              "Perceptual impairment"
+            ],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": [
+              "Treatment regimen"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00388",
+            "ano_de_aprobacion": "2023",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Self Care (M0019271)",
+            "foco_conceptual": "Self-care",
+            "foco_en_contexto_sintomas": "Dressing",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Impaired",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Potential to deteriorate",
+            "limitacion_situacional": "",
+            "Definicion": "Susceptible to impaired ability to independently perform or complete dressing activities.",
+            "Factores_de_Riesgo": [
+              "Cognitive impairment",
+              "Environmental barriers",
+              "Impaired mobility",
+              "Musculoskeletal impairment",
+              "Neuromuscular impairment",
+              "Pain",
+              "Perceptual impairment"
+            ],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": [
+              "Treatment regimen"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00389",
+            "ano_de_aprobacion": "2023",
+            "nivel_de_evidencia": "2.1",
+            "MeSH": "Self Care (M0019271)",
+            "foco_conceptual": "Self-care",
+            "foco_en_contexto_sintomas": "Dressing",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Prepared",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Potential to improve",
+            "limitacion_situacional": "",
+            "Definicion": "Pattern of independently performing or completing dressing activities, which can be strengthened.",
+            "Factores_de_Riesgo": [],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": []
+          },
+          {
+            "codigo_de_diagnostico": "00390",
+            "ano_de_aprobacion": "2023",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Feeding (M0008287)",
+            "foco_conceptual": "Self-care",
+            "foco_en_contexto_sintomas": "Feeding",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Impaired",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Problem-focused",
+            "limitacion_situacional": "",
+            "Definicion": "Impaired ability to independently prepare or ingest food or fluids.",
+            "Factores_de_Riesgo": [
+              "Cognitive impairment",
+              "Environmental barriers",
+              "Impaired mobility",
+              "Musculoskeletal impairment",
+              "Neuromuscular impairment",
+              "Pain",
+              "Perceptual impairment"
+            ],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": [
+              "Treatment regimen"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00391",
+            "ano_de_aprobacion": "2023",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Feeding (M0008287)",
+            "foco_conceptual": "Self-care",
+            "foco_en_contexto_sintomas": "Feeding",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Impaired",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Potential to deteriorate",
+            "limitacion_situacional": "",
+            "Definicion": "Susceptible to impaired ability to independently prepare or ingest food or fluids.",
+            "Factores_de_Riesgo": [
+              "Cognitive impairment",
+              "Environmental barriers",
+              "Impaired mobility",
+              "Musculoskeletal impairment",
+              "Neuromuscular impairment",
+              "Pain",
+              "Perceptual impairment"
+            ],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": [
+              "Treatment regimen"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00392",
+            "ano_de_aprobacion": "2023",
+            "nivel_de_evidencia": "2.1",
+            "MeSH": "Feeding (M0008287)",
+            "foco_conceptual": "Self-care",
+            "foco_en_contexto_sintomas": "Feeding",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Prepared",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Potential to improve",
+            "limitacion_situacional": "",
+            "Definicion": "Pattern of independently preparing or ingesting food or fluids, which can be strengthened.",
+            "Factores_de_Riesgo": [],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": []
+          },
+          {
+            "codigo_de_diagnostico": "00089",
+            "ano_de_aprobacion": "1988",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Mobility (M0014082)",
+            "foco_conceptual": "Mobility",
+            "foco_en_contexto_sintomas": "Physical",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Impaired",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Problem-focused",
+            "limitacion_situacional": "",
+            "Definicion": "Limitation of independent physical movement of the body or of one or more extremities.",
+            "Factores_de_Riesgo": [
+              "Depressive symptoms",
+              "Impaired coordination",
+              "Insufficient knowledge of mobility strategies",
+              "Pain",
+              "Prescribed movement restriction"
+            ],
+            "Poblacion_de_Riesgo": [
+              "Older adults"
+            ],
+            "Condiciones_asociadas": [
+              "Musculoskeletal impairment",
+              "Neuromuscular impairment",
+              "Treatment regimen"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00393",
+            "ano_de_aprobacion": "2023",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Mobility (M0014082)",
+            "foco_conceptual": "Mobility",
+            "foco_en_contexto_sintomas": "Physical",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Impaired",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Potential to deteriorate",
+            "limitacion_situacional": "",
+            "Definicion": "Susceptible to limitation of independent physical movement of the body or of one or more extremities.",
+            "Factores_de_Riesgo": [
+              "Depressive symptoms",
+              "Impaired coordination",
+              "Insufficient knowledge of mobility strategies",
+              "Pain",
+              "Prescribed movement restriction"
+            ],
+            "Poblacion_de_Riesgo": [
+              "Older adults"
+            ],
+            "Condiciones_asociadas": [
+              "Musculoskeletal impairment",
+              "Neuromuscular impairment",
+              "Treatment regimen"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00085",
+            "ano_de_aprobacion": "1980",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Mobility (M0014082)",
+            "foco_conceptual": "Mobility",
+            "foco_en_contexto_sintomas": "Wheelchair",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Impaired",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Problem-focused",
+            "limitacion_situacional": "",
+            "Definicion": "Limitation of independent operation of wheelchair within environment.",
+            "Factores_de_Riesgo": [
+              "Cognitive impairment",
+              "Environmental barriers",
+              "Impaired coordination",
+              "Insufficient muscle strength",
+              "Pain"
+            ],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": [
+              "Musculoskeletal impairment",
+              "Neuromuscular impairment"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00394",
+            "ano_de_aprobacion": "2023",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Mobility (M0014082)",
+            "foco_conceptual": "Mobility",
+            "foco_en_contexto_sintomas": "Wheelchair",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Impaired",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Potential to deteriorate",
+            "limitacion_situacional": "",
+            "Definicion": "Susceptible to limitation of independent operation of wheelchair within environment.",
+            "Factores_de_Riesgo": [
+              "Cognitive impairment",
+              "Environmental barriers",
+              "Impaired coordination",
+              "Insufficient muscle strength",
+              "Pain"
+            ],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": [
+              "Musculoskeletal impairment",
+              "Neuromuscular impairment"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00091",
+            "ano_de_aprobacion": "1986",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Mobility (M0014082)",
+            "foco_conceptual": "Mobility",
+            "foco_en_contexto_sintomas": "Bed",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Impaired",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Problem-focused",
+            "limitacion_situacional": "",
+            "Definicion": "Limitation of independent movement from one bed position to another.",
+            "Factores_de_Riesgo": [
+              "Cognitive impairment",
+              "Environmental barriers",
+              "Impaired coordination",
+              "Insufficient muscle strength",
+              "Pain"
+            ],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": [
+              "Musculoskeletal impairment",
+              "Neuromuscular impairment"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00395",
+            "ano_de_aprobacion": "2023",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Mobility (M0014082)",
+            "foco_conceptual": "Mobility",
+            "foco_en_contexto_sintomas": "Bed",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Impaired",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Potential to deteriorate",
+            "limitacion_situacional": "",
+            "Definicion": "Susceptible to limitation of independent movement from one bed position to another.",
+            "Factores_de_Riesgo": [
+              "Cognitive impairment",
+              "Environmental barriers",
+              "Impaired coordination",
+              "Insufficient muscle strength",
+              "Pain"
+            ],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": [
+              "Musculoskeletal impairment",
+              "Neuromuscular impairment"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00090",
+            "ano_de_aprobacion": "1986",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Transfer Ability (M0021670)",
+            "foco_conceptual": "Mobility",
+            "foco_en_contexto_sintomas": "Transfer",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Impaired",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Problem-focused",
+            "limitacion_situacional": "",
+            "Definicion": "Impaired ability to independently change body or device location.",
+            "Factores_de_Riesgo": [
+              "Cognitive impairment",
+              "Environmental barriers",
+              "Impaired coordination",
+              "Insufficient muscle strength",
+              "Pain"
+            ],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": [
+              "Musculoskeletal impairment",
+              "Neuromuscular impairment"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00396",
+            "ano_de_aprobacion": "2023",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Transfer Ability (M0021670)",
+            "foco_conceptual": "Mobility",
+            "foco_en_contexto_sintomas": "Transfer",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Impaired",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Potential to deteriorate",
+            "limitacion_situacional": "",
+            "Definicion": "Susceptible to impaired ability to independently change body or device location.",
+            "Factores_de_Riesgo": [
+              "Cognitive impairment",
+              "Environmental barriers",
+              "Impaired coordination",
+              "Insufficient muscle strength",
+              "Pain"
+            ],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": [
+              "Musculoskeletal impairment",
+              "Neuromuscular impairment"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00092",
+            "ano_de_aprobacion": "1988",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Activity Intolerance (M0000350)",
+            "foco_conceptual": "Tolerance",
+            "foco_en_contexto_sintomas": "Activity",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Insufficient",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Problem-focused",
+            "limitacion_situacional": "",
+            "Definicion": "Insufficient physiological or psychological energy to endure or complete required or desired daily activities.",
+            "Factores_de_Riesgo": [
+              "Depressive symptoms",
+              "Impaired bed mobility",
+              "Impaired physical mobility",
+              "Pain",
+              "Sedentary lifestyle"
+            ],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": [
+              "Circulatory problems",
+              "Respiratory problems",
+              "Treatment regimen"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00397",
+            "ano_de_aprobacion": "2023",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Activity Intolerance (M0000350)",
+            "foco_conceptual": "Tolerance",
+            "foco_en_contexto_sintomas": "Activity",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Insufficient",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Potential to deteriorate",
+            "limitacion_situacional": "",
+            "Definicion": "Susceptible to insufficient physiological or psychological energy to endure or complete required or desired daily activities.",
+            "Factores_de_Riesgo": [
+              "Depressive symptoms",
+              "Impaired bed mobility",
+              "Impaired physical mobility",
+              "Pain",
+              "Sedentary lifestyle"
+            ],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": [
+              "Circulatory problems",
+              "Respiratory problems",
+              "Treatment regimen"
+            ]
+          }
+        ]
+      },
+      {
+        "number": "3",
+        "name": "Energy balance",
+        "description": "A dynamic state of harmony between intake and expenditure of resources",
+        "diagnosticos": [
+          {
+            "codigo_de_diagnostico": "00093",
+            "ano_de_aprobacion": "1992",
+            "nivel_de_evidencia": "3.1",
+            "MeSH": "Fatigue (M0008285)",
+            "foco_conceptual": "Fatigue",
+            "foco_en_contexto_sintomas": "",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Excessive",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Problem-focused",
+            "limitacion_situacional": "",
+            "Definicion": "Overwhelming sustained sense of exhaustion and decreased capacity for physical and mental work at the usual level.",
+            "Factores_de_Riesgo": [
+              "Anxiety",
+              "Depressive symptoms",
+              "Excessive stress",
+              "Inadequate sleep",
+              "Malnutrition",
+              "Pain"
+            ],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": [
+              "Anemia",
+              "Chronic illness",
+              "Treatment regimen"
+            ]
+          }
+        ]
+      },
+      {
+        "number": "4",
+        "name": "Cardiovascular/Pulmonary responses",
+        "description": "Cardiopulmonary mechanisms that support activity/rest",
+        "diagnosticos": [
+          {
+            "codigo_de_diagnostico": "00032",
+            "ano_de_aprobacion": "1982",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Cardiac Output (M0003472)",
+            "foco_conceptual": "Cardiac function",
+            "foco_en_contexto_sintomas": "Cardiac output",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Ineffective",
+            "localizacion_anatomica": "Cardiovascular system",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Problem-focused",
+            "limitacion_situacional": "",
+            "Definicion": "Inadequate blood pumped by the heart to meet metabolic demands of the body.",
+            "Factores_de_Riesgo": [],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": [
+              "Alteration in heart rate",
+              "Alteration in heart rhythm",
+              "Cardiac diseases"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00398",
+            "ano_de_aprobacion": "2023",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Cardiac Output (M0003472)",
+            "foco_conceptual": "Cardiac function",
+            "foco_en_contexto_sintomas": "Cardiac output",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Ineffective",
+            "localizacion_anatomica": "Cardiovascular system",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Potential to deteriorate",
+            "limitacion_situacional": "",
+            "Definicion": "Susceptible to inadequate blood pumped by the heart to meet metabolic demands of the body.",
+            "Factores_de_Riesgo": [],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": [
+              "Alteration in heart rate",
+              "Alteration in heart rhythm",
+              "Cardiac diseases"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00029",
+            "ano_de_aprobacion": "1980",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Tissue Perfusion (M0021673)",
+            "foco_conceptual": "Tissue perfusion",
+            "foco_en_contexto_sintomas": "Peripheral",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Ineffective",
+            "localizacion_anatomica": "Peripheral",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Problem-focused",
+            "limitacion_situacional": "",
+            "Definicion": "Decrease in blood circulation to the periphery that may compromise health.",
+            "Factores_de_Riesgo": [
+              "Diabetes mellitus",
+              "Hypertension",
+              "Sedentary lifestyle",
+              "Tobacco use"
+            ],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": [
+              "Hypovolemia",
+              "Treatment regimen"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00399",
+            "ano_de_aprobacion": "2023",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Tissue Perfusion (M0021673)",
+            "foco_conceptual": "Tissue perfusion",
+            "foco_en_contexto_sintomas": "Peripheral",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Ineffective",
+            "localizacion_anatomica": "Peripheral",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Potential to deteriorate",
+            "limitacion_situacional": "",
+            "Definicion": "Susceptible to decrease in blood circulation to the periphery that may compromise health.",
+            "Factores_de_Riesgo": [
+              "Diabetes mellitus",
+              "Hypertension",
+              "Sedentary lifestyle",
+              "Tobacco use"
+            ],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": [
+              "Hypovolemia",
+              "Treatment regimen"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

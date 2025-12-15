@@ -1,0 +1,625 @@
+{
+  "domain": {
+    "number": "1",
+    "name": "Health Promotion",
+    "description": "The awareness of well-being or normality of function and the strategies used to maintain control of and enhance that well-being or normality of function",
+    "classes": [
+      {
+        "number": "1",
+        "name": "Health awareness",
+        "description": "Recognition of normal function and well-being",
+        "diagnosticos": [
+          {
+            "codigo_de_diagnostico": "00097",
+            "ano_de_aprobacion": "1980",
+            "nivel_de_evidencia": "2.1",
+            "MeSH": "",
+            "foco_conceptual": "diversional activity",
+            "foco_en_contexto_sintomas": "engagement",
+            "sujeto_del_cuidado": "individual",
+            "juicio": "decreased",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "problem-focused",
+            "limitacion_situacional": "",
+            "Definicion": "Insufficient participation in recreational activities.",
+            "Factores_de_Riesgo": [
+              "Environmental barrier",
+              "Impaired interpersonal functioning",
+              "Impaired mobility",
+              "Impaired physical functioning",
+              "Insufficient social support"
+            ],
+            "Poblacion_de_Riesgo": [
+              "Homebound individual",
+              "Institutionalized individual"
+            ],
+            "Condiciones_asociadas": [
+              "Prescribed mobility restriction",
+              "Therapeutic isolation"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00280",
+            "ano_de_aprobacion": "2019",
+            "nivel_de_evidencia": "2.1",
+            "MeSH": "",
+            "foco_conceptual": "literacy",
+            "foco_en_contexto_sintomas": "health",
+            "sujeto_del_cuidado": "individual",
+            "juicio": "enhanced",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "potential to improve",
+            "limitacion_situacional": "",
+            "Definicion": "A pattern of using, understanding, and applying health-related information and services to inform health-related decisions and actions for oneself and others, which can be strengthened.",
+            "Factores_de_Riesgo": [],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": []
+          },
+          {
+            "codigo_de_diagnostico": "00340",
+            "ano_de_aprobacion": "2023",
+            "nivel_de_evidencia": "2.1",
+            "MeSH": "",
+            "foco_conceptual": "literacy",
+            "foco_en_contexto_sintomas": "health",
+            "sujeto_del_cuidado": "individual",
+            "juicio": "ineffective",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "problem-focused",
+            "limitacion_situacional": "",
+            "Definicion": "Impaired ability to use, understand, and apply health-related information and services to inform health-related decisions and actions for oneself and others.",
+            "Factores_de_Riesgo": [
+              "Cognitive impairment",
+              "Decreased motivation",
+              "Impaired decision-making",
+              "Impaired interpersonal functioning",
+              "Insufficient access to health information",
+              "Insufficient health information",
+              "Insufficient social support",
+              "Low educational level",
+              "Low health literacy environment",
+              "Socioeconomic disadvantage"
+            ],
+            "Poblacion_de_Riesgo": [
+              "Immigrant",
+              "Individual with language barrier",
+              "Minority status",
+              "Older adult",
+              "Rural resident"
+            ],
+            "Condiciones_asociadas": [
+              "Alteration in visual perception",
+              "Hearing impairment",
+              "Neurological impairment"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00341",
+            "ano_de_aprobacion": "2023",
+            "nivel_de_evidencia": "2.1",
+            "MeSH": "",
+            "foco_conceptual": "literacy",
+            "foco_en_contexto_sintomas": "health",
+            "sujeto_del_cuidado": "individual",
+            "juicio": "impaired",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "problem-focused",
+            "limitacion_situacional": "",
+            "Definicion": "Impaired ability to access, understand, evaluate, or use health-related information and services to inform health-related decisions and actions for oneself and others.",
+            "Factores_de_Riesgo": [
+              "Cognitive impairment",
+              "Impaired decision-making",
+              "Insufficient access to health information",
+              "Insufficient health information",
+              "Insufficient social support",
+              "Low educational level",
+              "Low health literacy environment",
+              "Socioeconomic disadvantage"
+            ],
+            "Poblacion_de_Riesgo": [
+              "Immigrant",
+              "Individual with language barrier",
+              "Minority status",
+              "Older adult",
+              "Rural resident"
+            ],
+            "Condiciones_asociadas": [
+              "Alteration in visual perception",
+              "Hearing impairment",
+              "Neurological impairment"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00342",
+            "ano_de_aprobacion": "2023",
+            "nivel_de_evidencia": "2.1",
+            "MeSH": "",
+            "foco_conceptual": "literacy",
+            "foco_en_contexto_sintomas": "health",
+            "sujeto_del_cuidado": "individual",
+            "juicio": "impaired",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "potential to deteriorate",
+            "limitacion_situacional": "",
+            "Definicion": "Susceptible to an impaired ability to access, understand, evaluate, or use health-related information and services to inform health-related decisions and actions for oneself and others, which may compromise health.",
+            "Factores_de_Riesgo": [
+              "Cognitive impairment",
+              "Impaired decision-making",
+              "Insufficient access to health information",
+              "Insufficient health information",
+              "Insufficient social support",
+              "Low educational level",
+              "Low health literacy environment",
+              "Socioeconomic disadvantage"
+            ],
+            "Poblacion_de_Riesgo": [
+              "Immigrant",
+              "Individual with language barrier",
+              "Minority status",
+              "Older adult",
+              "Rural resident"
+            ],
+            "Condiciones_asociadas": [
+              "Alteration in visual perception",
+              "Hearing impairment",
+              "Neurological impairment"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00126",
+            "ano_de_aprobacion": "1980",
+            "nivel_de_evidencia": "2.1",
+            "MeSH": "",
+            "foco_conceptual": "knowledge",
+            "foco_en_contexto_sintomas": "",
+            "sujeto_del_cuidado": "individual",
+            "juicio": "deficient",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "problem-focused",
+            "limitacion_situacional": "",
+            "Definicion": "Insufficient information, understanding, or application of skills that can promote health or prevent harm.",
+            "Factores_de_Riesgo": [
+              "Acute illness",
+              "Chronic illness",
+              "Cognitive impairment",
+              "Cultural incongruence",
+              "Impaired ability to understand",
+              "Impaired decision-making",
+              "Impaired health literacy",
+              "Insufficient access to information",
+              "Insufficient information",
+              "Misinformation",
+              "Nonadherence behavior"
+            ],
+            "Poblacion_de_Riesgo": [
+              "Economically disadvantaged",
+              "Individual with language barrier",
+              "Low educational level"
+            ],
+            "Condiciones_asociadas": [
+              "Alteration in visual perception",
+              "Hearing impairment",
+              "Neurological impairment"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00161",
+            "ano_de_aprobacion": "1991",
+            "nivel_de_evidencia": "2.1",
+            "MeSH": "",
+            "foco_conceptual": "knowledge",
+            "foco_en_contexto_sintomas": "",
+            "sujeto_del_cuidado": "individual",
+            "juicio": "enhanced",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "potential to improve",
+            "limitacion_situacional": "",
+            "Definicion": "A pattern of information, understanding, or application of skills that can promote health or prevent harm, which can be strengthened.",
+            "Factores_de_Riesgo": [],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": []
+          },
+          {
+            "codigo_de_diagnostico": "00355",
+            "ano_de_aprobacion": "2023",
+            "nivel_de_evidencia": "2.1",
+            "MeSH": "",
+            "foco_conceptual": "behavior",
+            "foco_en_contexto_sintomas": "sedentary",
+            "sujeto_del_cuidado": "individual",
+            "juicio": "excessive",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "problem-focused",
+            "limitacion_situacional": "",
+            "Definicion": "Excessive amount of time engaged in behaviors that involve low levels of physical activity.",
+            "Factores_de_Riesgo": [
+              "Impaired ability to exercise",
+              "Impaired health literacy",
+              "Insufficient motivation",
+              "Insufficient social support",
+              "Pain",
+              "Preference for sedentary activities"
+            ],
+            "Poblacion_de_Riesgo": [
+              "Child",
+              "Economically disadvantaged",
+              "Individual with language barrier",
+              "Low educational level",
+              "Minority status",
+              "Older adult",
+              "Urban resident"
+            ],
+            "Condiciones_asociadas": [
+              "Alteration in cognitive functioning",
+              "Musculoskeletal impairment",
+              "Neurological impairment"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00356",
+            "ano_de_aprobacion": "2023",
+            "nivel_de_evidencia": "2.1",
+            "MeSH": "",
+            "foco_conceptual": "behavior",
+            "foco_en_contexto_sintomas": "sedentary",
+            "sujeto_del_cuidado": "individual",
+            "juicio": "excessive",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "potential to deteriorate",
+            "limitacion_situacional": "",
+            "Definicion": "Susceptible to an excessive amount of time engaged in behaviors that involve low levels of physical activity, which may compromise health.",
+            "Factores_de_Riesgo": [
+              "Impaired ability to exercise",
+              "Impaired health literacy",
+              "Insufficient motivation",
+              "Insufficient social support",
+              "Pain",
+              "Preference for sedentary activities"
+            ],
+            "Poblacion_de_Riesgo": [
+              "Child",
+              "Economically disadvantaged",
+              "Individual with language barrier",
+              "Low educational level",
+              "Minority status",
+              "Older adult",
+              "Urban resident"
+            ],
+            "Condiciones_asociadas": [
+              "Alteration in cognitive functioning",
+              "Musculoskeletal impairment",
+              "Neurological impairment"
+            ]
+          }
+        ]
+      },
+      {
+        "number": "2",
+        "name": "Health management",
+        "description": "Identifying, controlling, performing, and integrating activities to maintain health and well-being",
+        "diagnosticos": [
+          {
+            "codigo_de_diagnostico": "00276",
+            "ano_de_aprobacion": "2017",
+            "nivel_de_evidencia": "2.1",
+            "MeSH": "",
+            "foco_conceptual": "self-management",
+            "foco_en_contexto_sintomas": "health",
+            "sujeto_del_cuidado": "individual",
+            "juicio": "ineffective",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "problem-focused",
+            "limitacion_situacional": "",
+            "Definicion": "Impaired ability to organize and implement a pattern of activities aimed at managing one's health and well-being.",
+            "Factores_de_Riesgo": [
+              "Complex treatment regimen",
+              "Deficient knowledge",
+              "Excessive demands",
+              "Family conflict",
+              "Impaired decision-making",
+              "Impaired health literacy",
+              "Ineffective coping",
+              "Ineffective family health management",
+              "Insufficient social support",
+              "Low self-efficacy",
+              "Perceived barrier",
+              "Powerlessness"
+            ],
+            "Poblacion_de_Riesgo": [
+              "Economically disadvantaged",
+              "Low educational level"
+            ],
+            "Condiciones_asociadas": [
+              "Alteration in cognitive functioning"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00293",
+            "ano_de_aprobacion": "2017",
+            "nivel_de_evidencia": "2.1",
+            "MeSH": "",
+            "foco_conceptual": "self-management",
+            "foco_en_contexto_sintomas": "health",
+            "sujeto_del_cuidado": "individual",
+            "juicio": "enhanced",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "potential to improve",
+            "limitacion_situacional": "",
+            "Definicion": "A pattern of organizing and implementing activities aimed at managing one's health and well-being, which can be strengthened.",
+            "Factores_de_Riesgo": [],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": []
+          },
+          {
+            "codigo_de_diagnostico": "00080",
+            "ano_de_aprobacion": "1992",
+            "nivel_de_evidencia": "2.1",
+            "MeSH": "",
+            "foco_conceptual": "health management",
+            "foco_en_contexto_sintomas": "",
+            "sujeto_del_cuidado": "family",
+            "juicio": "ineffective",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "problem-focused",
+            "limitacion_situacional": "",
+            "Definicion": "Impaired ability of family members to organize and implement activities aimed at managing the health and well-being of the family unit.",
+            "Factores_de_Riesgo": [
+              "Complex treatment regimen",
+              "Deficient knowledge",
+              "Family conflict",
+              "Impaired decision-making",
+              "Impaired health literacy",
+              "Ineffective coping",
+              "Insufficient social support",
+              "Perceived barrier",
+              "Powerlessness"
+            ],
+            "Poblacion_de_Riesgo": [
+              "Economically disadvantaged"
+            ],
+            "Condiciones_asociadas": [
+              "Alteration in cognitive functioning",
+              "Chronic illness"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00292",
+            "ano_de_aprobacion": "2017",
+            "nivel_de_evidencia": "2.1",
+            "MeSH": "",
+            "foco_conceptual": "behavior",
+            "foco_en_contexto_sintomas": "health maintenance",
+            "sujeto_del_cuidado": "individual",
+            "juicio": "ineffective",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "problem-focused",
+            "limitacion_situacional": "",
+            "Definicion": "Impaired ability to sustain health-promoting behaviors that enable one to achieve or maintain health.",
+            "Factores_de_Riesgo": [
+              "Deficient knowledge",
+              "Impaired decision-making",
+              "Impaired health literacy",
+              "Ineffective coping",
+              "Insufficient social support",
+              "Perceived barrier",
+              "Powerlessness"
+            ],
+            "Poblacion_de_Riesgo": [
+              "Economically disadvantaged"
+            ],
+            "Condiciones_asociadas": [
+              "Alteration in cognitive functioning"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00343",
+            "ano_de_aprobacion": "2023",
+            "nivel_de_evidencia": "2.1",
+            "MeSH": "",
+            "foco_conceptual": "behavior",
+            "foco_en_contexto_sintomas": "health maintenance",
+            "sujeto_del_cuidado": "individual",
+            "juicio": "ineffective",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "potential to deteriorate",
+            "limitacion_situacional": "",
+            "Definicion": "Susceptible to impaired ability to sustain health-promoting behaviors that enable one to achieve or maintain health, which may compromise health.",
+            "Factores_de_Riesgo": [
+              "Deficient knowledge",
+              "Impaired decision-making",
+              "Impaired health literacy",
+              "Ineffective coping",
+              "Insufficient social support",
+              "Perceived barrier",
+              "Powerlessness"
+            ],
+            "Poblacion_de_Riesgo": [
+              "Economically disadvantaged"
+            ],
+            "Condiciones_asociadas": [
+              "Alteration in cognitive functioning"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00043",
+            "ano_de_aprobacion": "1982",
+            "nivel_de_evidencia": "2.1",
+            "MeSH": "",
+            "foco_conceptual": "protection",
+            "foco_en_contexto_sintomas": "",
+            "sujeto_del_cuidado": "individual",
+            "juicio": "ineffective",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "problem-focused",
+            "limitacion_situacional": "",
+            "Definicion": "Impaired ability to guard self from internal or external threats such as illness or injury.",
+            "Factores_de_Riesgo": [
+              "Abnormal blood profile",
+              "Extremes of age",
+              "Impaired tissue integrity",
+              "Inadequate nutrition",
+              "Substance misuse"
+            ],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": [
+              "Alteration in cognitive functioning",
+              "Immunosuppression",
+              "Pharmaceutical agent"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00230",
+            "ano_de_aprobacion": "2013",
+            "nivel_de_evidencia": "2.1",
+            "MeSH": "",
+            "foco_conceptual": "syndrome",
+            "foco_en_contexto_sintomas": "frail elderly",
+            "sujeto_del_cuidado": "individual",
+            "juicio": "",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "61y",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "problem-focused",
+            "limitacion_situacional": "",
+            "Definicion": "Dynamic state of unstable equilibrium that affects the older individual experiencing deterioration in one or more domain of health (physical, functional, psychological, and social) and leads to increased susceptibility to adverse health effects, in particular disability.",
+            "Factores_de_Riesgo": [
+              "Activity intolerance",
+              "Anxiety",
+              "Average daily physical activity is less than recommended for gender and age",
+              "Decreased muscle strength",
+              "Depression",
+              "Endocrine regulatory dysfunction",
+              "Fear of falling",
+              "Impaired balance",
+              "Impaired mobility",
+              "Impaired vision",
+              "Ineffective health maintenance behaviors",
+              "Malnutrition",
+              "Muscle weakness",
+              "Obesity",
+              "Sadness",
+              "Sarcopenia",
+              "Sedentary behavior",
+              "Walking limitation"
+            ],
+            "Poblacion_de_Riesgo": [
+              "Economically disadvantaged",
+              "Ethnic minority status",
+              "History of abuse",
+              "Living alone",
+              "Low educational level",
+              "Sarcopenia",
+              "Social vulnerability"
+            ],
+            "Condiciones_asociadas": [
+              "Alteration in cognitive functioning",
+              "Chronic illness",
+              "Decreased cardiac output",
+              "Sarcopenia",
+              "Unresolved loss"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00257",
+            "ano_de_aprobacion": "2013",
+            "nivel_de_evidencia": "2.1",
+            "MeSH": "",
+            "foco_conceptual": "syndrome",
+            "foco_en_contexto_sintomas": "frail elderly",
+            "sujeto_del_cuidado": "individual",
+            "juicio": "",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "61y",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "potential to deteriorate",
+            "limitacion_situacional": "",
+            "Definicion": "Susceptible to a dynamic state of unstable equilibrium that affects the older individual experiencing deterioration in one or more domain of health (physical, functional, psychological, and social) which leads to increased susceptibility to adverse health effects, in particular disability, which may compromise health.",
+            "Factores_de_Riesgo": [
+              "Activity intolerance",
+              "Anxiety",
+              "Average daily physical activity is less than recommended for gender and age",
+              "Decreased muscle strength",
+              "Depression",
+              "Endocrine regulatory dysfunction",
+              "Fear of falling",
+              "Impaired balance",
+              "Impaired mobility",
+              "Impaired vision",
+              "Ineffective health maintenance behaviors",
+              "Malnutrition",
+              "Muscle weakness",
+              "Obesity",
+              "Sadness",
+              "Sarcopenia",
+              "Sedentary behavior",
+              "Walking limitation"
+            ],
+            "Poblacion_de_Riesgo": [
+              "Economically disadvantaged",
+              "Ethnic minority status",
+              "History of abuse",
+              "Living alone",
+              "Low educational level",
+              "Sarcopenia",
+              "Social vulnerability"
+            ],
+            "Condiciones_asociadas": [
+              "Alteration in cognitive functioning",
+              "Chronic illness",
+              "Decreased cardiac output",
+              "Sarcopenia",
+              "Unresolved loss"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

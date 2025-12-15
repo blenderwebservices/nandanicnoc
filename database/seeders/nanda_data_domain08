@@ -1,0 +1,163 @@
+{
+  "domain": {
+    "number": "8",
+    "name": "Sexuality",
+    "description": "Sexual identity, sexual function, and reproduction",
+    "classes": [
+      {
+        "number": "1",
+        "name": "Sexual identity",
+        "description": "The recognition and acknowledgment of one's sex and gender",
+        "diagnosticos": []
+      },
+      {
+        "number": "2",
+        "name": "Sexual function",
+        "description": "The capacity to participate in sexual behaviors and the integration of sexuality into one's life",
+        "diagnosticos": [
+          {
+            "codigo_de_diagnostico": "00059",
+            "ano_de_aprobacion": "1980",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Sexual Dysfunction, Physiological (M0019280)",
+            "foco_conceptual": "Sexual function",
+            "foco_en_contexto_sintomas": "",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Ineffective",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Problem-focused",
+            "limitacion_situacional": "",
+            "Definicion": "Change in or dissatisfaction with sexual response or sexual behavior that is viewed as unsatisfying, unrewarding, or inadequate.",
+            "Factores_de_Riesgo": [
+              "Alteration in body image",
+              "Alteration in self-concept",
+              "Anxiety",
+              "Conflict in values",
+              "Excessive stress",
+              "Fear",
+              "History of abuse",
+              "Inadequate knowledge of sexual health",
+              "Inadequate role modeling",
+              "Insufficient privacy",
+              "Misinformation about sexuality",
+              "Powerlessness",
+              "Substance misuse"
+            ],
+            "Poblacion_de_Riesgo": [
+              "Individuals experiencing developmental transition",
+              "Individuals experiencing life transition",
+              "Individuals with chronic illness",
+              "Individuals with history of sexual abuse"
+            ],
+            "Condiciones_asociadas": [
+              "Alteration in cognitive functioning",
+              "Neurological impairment",
+              "Pharmaceutical preparations",
+              "Psychiatric disorders",
+              "Radiation therapy",
+              "Surgical procedure",
+              "Treatment regimen"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00407",
+            "ano_de_aprobacion": "2023",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Sexual Dysfunction, Physiological (M0019280)",
+            "foco_conceptual": "Sexual function",
+            "foco_en_contexto_sintomas": "",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Ineffective",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Potential to deteriorate",
+            "limitacion_situacional": "",
+            "Definicion": "Susceptible to change in or dissatisfaction with sexual response or sexual behavior that is viewed as unsatisfying, unrewarding, or inadequate.",
+            "Factores_de_Riesgo": [
+              "Alteration in body image",
+              "Alteration in self-concept",
+              "Anxiety",
+              "Conflict in values",
+              "Excessive stress",
+              "Fear",
+              "History of abuse",
+              "Inadequate knowledge of sexual health",
+              "Inadequate role modeling",
+              "Insufficient privacy",
+              "Misinformation about sexuality",
+              "Powerlessness",
+              "Substance misuse"
+            ],
+            "Poblacion_de_Riesgo": [
+              "Individuals experiencing developmental transition",
+              "Individuals experiencing life transition",
+              "Individuals with chronic illness",
+              "Individuals with history of sexual abuse"
+            ],
+            "Condiciones_asociadas": [
+              "Alteration in cognitive functioning",
+              "Neurological impairment",
+              "Pharmaceutical preparations",
+              "Psychiatric disorders",
+              "Radiation therapy",
+              "Surgical procedure",
+              "Treatment regimen"
+            ]
+          }
+        ]
+      },
+      {
+        "number": "3",
+        "name": "Reproduction",
+        "description": "Any process related to human procreation",
+        "diagnosticos": [
+          {
+            "codigo_de_diagnostico": "00221",
+            "ano_de_aprobacion": "2010",
+            "nivel_de_evidencia": "2.1",
+            "MeSH": "Parenting (M0016090)",
+            "foco_conceptual": "Parenting",
+            "foco_en_contexto_sintomas": "",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Enhanced",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Potential to improve",
+            "limitacion_situacional": "",
+            "Definicion": "A pattern of providing an environment that promotes optimum growth and development of a child, which can be strengthened.",
+            "Factores_de_Riesgo": [],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": []
+          },
+          {
+            "codigo_de_diagnostico": "00208",
+            "ano_de_aprobacion": "2010",
+            "nivel_de_evidencia": "3.1",
+            "MeSH": "Pregnancy (M0017687)",
+            "foco_conceptual": "Pregnancy",
+            "foco_en_contexto_sintomas": "",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Enhanced",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Potential to improve",
+            "limitacion_situacional": "",
+            "Definicion": "A pattern of physical, emotional, and social changes associated with gestation, which can be strengthened.",
+            "Factores_de_Riesgo": [],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": []
+          }
+        ]
+      }
+    ]
+  }
+}
