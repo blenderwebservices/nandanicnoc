@@ -117,6 +117,18 @@ class NandaSeeder extends Seeder
                         'associated_conditions_es' => $diagData['Condiciones_asociadas'] ?? [],
                     ];
 
+                    // 3. Translation Lookup
+                    // Priority 1: Lookup by Code
+                    if (isset($translations[$code])) {
+                         $updateData['label_es'] = $translations[$code];
+                    } 
+                    // Priority 2: Lookup by English Label (Generated)
+                    elseif (isset($translations[$generatedLabel])) {
+                         $updateData['label_es'] = $translations[$generatedLabel];
+                    }
+                    // Priority 3: Lookup by JSON explicit 'Definicion' key if it was actually a name (rare in this dataset)
+
+
                     // Try to match with translations if possible by guessing the english key... 
                     // It's hard because the keys in NandaTranslations.php are like "Decreased diversional activity engagement"
                     // checking if that key exists in our generated label is risky.
