@@ -1,0 +1,579 @@
+{
+  "domain": {
+    "number": "11",
+    "name": "Safety/Protection",
+    "description": "Freedom from danger, physical injury, or immune system damage; preservation from loss; and protection of safety and security",
+    "classes": [
+      {
+        "number": "1",
+        "name": "Infection",
+        "description": "Host responses following pathogenic invasion",
+        "diagnosticos": [
+          {
+            "codigo_de_diagnostico": "00004",
+            "ano_de_aprobacion": "1973",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Infection (M0011270)",
+            "foco_conceptual": "Infection",
+            "foco_en_contexto_sintomas": "",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Impaired",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Problem-focused",
+            "limitacion_situacional": "",
+            "Definicion": "Entry and multiplication of pathogenic microorganisms in body tissues resulting in cellular injury and alteration in physiological function.",
+            "Factores_de_Riesgo": [
+              "Chronic illness",
+              "Invasive procedures",
+              "Malnutrition",
+              "Pharmaceutical preparations",
+              "Tobacco use",
+              "Trauma"
+            ],
+            "Poblacion_de_Riesgo": [
+              "Individuals at extremes of age",
+              "Individuals with compromised immune response"
+            ],
+            "Condiciones_asociadas": [
+              "Insufficient knowledge of infection prevention",
+              "Medical devices",
+              "Surgical procedures"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00265",
+            "ano_de_aprobacion": "2013",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Infection (M0011270)",
+            "foco_conceptual": "Infection",
+            "foco_en_contexto_sintomas": "",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Impaired",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Potential to deteriorate",
+            "limitacion_situacional": "",
+            "Definicion": "Susceptible to entry and multiplication of pathogenic microorganisms in body tissues resulting in cellular injury and alteration in physiological function.",
+            "Factores_de_Riesgo": [
+              "Chronic illness",
+              "Invasive procedures",
+              "Malnutrition",
+              "Pharmaceutical preparations",
+              "Tobacco use",
+              "Trauma"
+            ],
+            "Poblacion_de_Riesgo": [
+              "Individuals at extremes of age",
+              "Individuals with compromised immune response"
+            ],
+            "Condiciones_asociadas": [
+              "Insufficient knowledge of infection prevention",
+              "Medical devices",
+              "Surgical procedures"
+            ]
+          }
+        ]
+      },
+      {
+        "number": "2",
+        "name": "Physical Injury",
+        "description": "Bodily harm or hurt",
+        "diagnosticos": [
+          {
+            "codigo_de_diagnostico": "00035",
+            "ano_de_aprobacion": "1980",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Wounds and Injuries (M0024583)",
+            "foco_conceptual": "Injury",
+            "foco_en_contexto_sintomas": "Physical",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Impaired",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Problem-focused",
+            "limitacion_situacional": "",
+            "Definicion": "Physical harm or damage to the body.",
+            "Factores_de_Riesgo": [
+              "Environmental hazards",
+              "Impaired mobility",
+              "Substance misuse"
+            ],
+            "Poblacion_de_Riesgo": [
+              "Individuals at extremes of age"
+            ],
+            "Condiciones_asociadas": [
+              "Alteration in cognitive functioning",
+              "Neurological impairment"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00039",
+            "ano_de_aprobacion": "1980",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Accidental Falls (M0000075)",
+            "foco_conceptual": "Injury",
+            "foco_en_contexto_sintomas": "Fall",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Impaired",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Potential to deteriorate",
+            "limitacion_situacional": "",
+            "Definicion": "Susceptible to increased susceptibility to falling, which may cause physical harm.",
+            "Factores_de_Riesgo": [
+              "Acute illness",
+              "Anemia",
+              "Cognitive impairment",
+              "Impaired balance",
+              "Impaired mobility",
+              "Impaired vision",
+              "Inadequate footwear",
+              "Orthostatic hypotension",
+              "Pharmaceutical preparations",
+              "Urgency to void"
+            ],
+            "Poblacion_de_Riesgo": [
+              "Individuals at extremes of age",
+              "Individuals with history of falls"
+            ],
+            "Condiciones_asociadas": [
+              "Arthritis",
+              "Lower extremity amputation",
+              "Neurological diseases",
+              "Orthopedic conditions",
+              "Post-surgical procedure"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00303",
+            "ano_de_aprobacion": "2020",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Burns (M0003158)",
+            "foco_conceptual": "Injury",
+            "foco_en_contexto_sintomas": "Thermal",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Impaired",
+            "localizacion_anatomica": "Integumentary system",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Problem-focused",
+            "limitacion_situacional": "",
+            "Definicion": "Damage to skin and underlying tissues caused by contact with extreme heat, chemicals, electricity, or radiation.",
+            "Factores_de_Riesgo": [
+              "Exposure to chemical substances",
+              "Exposure to electrical current",
+              "Exposure to extreme heat",
+              "Exposure to radiation",
+              "Impaired sensation",
+              "Inadequate supervision",
+              "Substance misuse"
+            ],
+            "Poblacion_de_Riesgo": [
+              "Children",
+              "Individuals with impaired sensation"
+            ],
+            "Condiciones_asociadas": []
+          },
+          {
+            "codigo_de_diagnostico": "00044",
+            "ano_de_aprobacion": "1988",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Tissue Integrity (M0021674)",
+            "foco_conceptual": "Tissue integrity",
+            "foco_en_contexto_sintomas": "Skin",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Impaired",
+            "localizacion_anatomica": "Integumentary system",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Problem-focused",
+            "limitacion_situacional": "",
+            "Definicion": "Damage to the epidermis, dermis, mucous membrane, corneal, or subcutaneous tissues.",
+            "Factores_de_Riesgo": [
+              "Chemical irritants",
+              "Impaired circulation",
+              "Impaired physical mobility",
+              "Mechanical factors",
+              "Radiation",
+              "Thermal factors"
+            ],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": [
+              "Chronic illness",
+              "Malnutrition"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00249",
+            "ano_de_aprobacion": "2013",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Tissue Integrity (M0021674)",
+            "foco_conceptual": "Tissue integrity",
+            "foco_en_contexto_sintomas": "Skin",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Impaired",
+            "localizacion_anatomica": "Integumentary system",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Potential to deteriorate",
+            "limitacion_situacional": "",
+            "Definicion": "Susceptible to damage to the epidermis, dermis, mucous membrane, corneal, or subcutaneous tissues.",
+            "Factores_de_Riesgo": [
+              "Chemical irritants",
+              "Impaired circulation",
+              "Impaired physical mobility",
+              "Mechanical factors",
+              "Radiation",
+              "Thermal factors"
+            ],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": [
+              "Chronic illness",
+              "Malnutrition"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00046",
+            "ano_de_aprobacion": "1988",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Tissue Integrity (M0021674)",
+            "foco_conceptual": "Tissue integrity",
+            "foco_en_contexto_sintomas": "Mucous membrane",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Impaired",
+            "localizacion_anatomica": "Oral mucous membrane",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Problem-focused",
+            "limitacion_situacional": "",
+            "Definicion": "Damage to the oral mucous membrane.",
+            "Factores_de_Riesgo": [
+              "Chemical irritants",
+              "Dehydration",
+              "Impaired physical mobility",
+              "Mechanical factors",
+              "Radiation"
+            ],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": [
+              "Malnutrition"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00247",
+            "ano_de_aprobacion": "2013",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Tissue Integrity (M0021674)",
+            "foco_conceptual": "Tissue integrity",
+            "foco_en_contexto_sintomas": "Mucous membrane",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Impaired",
+            "localizacion_anatomica": "Oral mucous membrane",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Potential to deteriorate",
+            "limitacion_situacional": "",
+            "Definicion": "Susceptible to damage to the oral mucous membrane.",
+            "Factores_de_Riesgo": [
+              "Chemical irritants",
+              "Dehydration",
+              "Impaired physical mobility",
+              "Mechanical factors",
+              "Radiation"
+            ],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": [
+              "Malnutrition"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00048",
+            "ano_de_aprobacion": "1988",
+            "nivel_de_evidencia": "2.1",
+            "MeSH": "Tissue Integrity (M0021674)",
+            "foco_conceptual": "Tissue integrity",
+            "foco_en_contexto_sintomas": "Mucous membrane",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Enhanced",
+            "localizacion_anatomica": "Oral mucous membrane",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Potential to improve",
+            "limitacion_situacional": "",
+            "Definicion": "A pattern of maintaining intact oral mucous membrane, which can be strengthened.",
+            "Factores_de_Riesgo": [],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": []
+          },
+          {
+            "codigo_de_diagnostico": "00038",
+            "ano_de_aprobacion": "1980",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Hypothermia (M0010909)",
+            "foco_conceptual": "Thermoregulation",
+            "foco_en_contexto_sintomas": "",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Impaired",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Problem-focused",
+            "limitacion_situacional": "",
+            "Definicion": "Body temperature below normal range.",
+            "Factores_de_Riesgo": [
+              "Exposure to cold environment",
+              "Inadequate clothing",
+              "Inactivity"
+            ],
+            "Poblacion_de_Riesgo": [
+              "Individuals at extremes of age"
+            ],
+            "Condiciones_asociadas": [
+              "Trauma"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00007",
+            "ano_de_aprobacion": "1986",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Hyperthermia (M0010908)",
+            "foco_conceptual": "Thermoregulation",
+            "foco_en_contexto_sintomas": "",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Impaired",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Problem-focused",
+            "limitacion_situacional": "",
+            "Definicion": "Body temperature above normal range.",
+            "Factores_de_Riesgo": [
+              "Dehydration",
+              "Exposure to hot environment",
+              "Vigorous activity"
+            ],
+            "Poblacion_de_Riesgo": [
+              "Individuals at extremes of age"
+            ],
+            "Condiciones_asociadas": [
+              "Pharmaceutical preparations"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00006",
+            "ano_de_aprobacion": "1986",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Thermoregulation (M0021285)",
+            "foco_conceptual": "Thermoregulation",
+            "foco_en_contexto_sintomas": "",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Ineffective",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Problem-focused",
+            "limitacion_situacional": "",
+            "Definicion": "Fluctuation of body temperature above and/or below the normal range.",
+            "Factores_de_Riesgo": [
+              "Dehydration",
+              "Exposure to extreme environmental temperature",
+              "Vigorous activity"
+            ],
+            "Poblacion_de_Riesgo": [
+              "Individuals at extremes of age"
+            ],
+            "Condiciones_asociadas": [
+              "Trauma"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00253",
+            "ano_de_aprobacion": "2013",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Thermoregulation (M0021285)",
+            "foco_conceptual": "Thermoregulation",
+            "foco_en_contexto_sintomas": "",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Ineffective",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Potential to deteriorate",
+            "limitacion_situacional": "",
+            "Definicion": "Susceptible to fluctuation of body temperature above and/or below the normal range.",
+            "Factores_de_Riesgo": [
+              "Dehydration",
+              "Exposure to extreme environmental temperature",
+              "Vigorous activity"
+            ],
+            "Poblacion_de_Riesgo": [
+              "Individuals at extremes of age"
+            ],
+            "Condiciones_asociadas": [
+              "Trauma"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00274",
+            "ano_de_aprobacion": "2016",
+            "nivel_de_evidencia": "2.1",
+            "MeSH": "Thermoregulation (M0021285)",
+            "foco_conceptual": "Thermoregulation",
+            "foco_en_contexto_sintomas": "",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Enhanced",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Potential to improve",
+            "limitacion_situacional": "",
+            "Definicion": "A pattern of maintaining body temperature within normal range, which can be strengthened.",
+            "Factores_de_Riesgo": [],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": []
+          }
+        ]
+      },
+      {
+        "number": "3",
+        "name": "Violence",
+        "description": "Infliction of physical or psychological harm",
+        "diagnosticos": [
+          {
+            "codigo_de_diagnostico": "00138",
+            "ano_de_aprobacion": "1994",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Violence (M0022758)",
+            "foco_conceptual": "Violence",
+            "foco_en_contexto_sintomas": "Self-directed",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Impaired",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Potential to deteriorate",
+            "limitacion_situacional": "",
+            "Definicion": "Susceptible to behaviors in which an individual demonstrates that they can be physically, emotionally, and/or sexually harmful to self.",
+            "Factores_de_Riesgo": [
+              "History of self-harm",
+              "Substance misuse"
+            ],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": [
+              "Psychiatric disorders"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00140",
+            "ano_de_aprobacion": "1994",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Violence (M0022758)",
+            "foco_conceptual": "Violence",
+            "foco_en_contexto_sintomas": "Other-directed",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Impaired",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Potential to deteriorate",
+            "limitacion_situacional": "",
+            "Definicion": "Susceptible to behaviors in which an individual demonstrates that they can be physically, emotionally, and/or sexually harmful to others.",
+            "Factores_de_Riesgo": [
+              "History of violence",
+              "Substance misuse"
+            ],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": [
+              "Psychiatric disorders"
+            ]
+          }
+        ]
+      },
+      {
+        "number": "4",
+        "name": "Environmental Hazards",
+        "description": "Sources of danger in the surroundings",
+        "diagnosticos": [
+          {
+            "codigo_de_diagnostico": "00181",
+            "ano_de_aprobacion": "2006",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Environmental Exposure (M0008135)",
+            "foco_conceptual": "Contamination",
+            "foco_en_contexto_sintomas": "",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Impaired",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Potential to deteriorate",
+            "limitacion_situacional": "",
+            "Definicion": "Susceptible to exposure to environmental contaminants.",
+            "Factores_de_Riesgo": [
+              "Exposure to contaminants"
+            ],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": []
+          },
+          {
+            "codigo_de_diagnostico": "00180",
+            "ano_de_aprobacion": "2006",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Poisoning (M0016953)",
+            "foco_conceptual": "Poisoning",
+            "foco_en_contexto_sintomas": "",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Impaired",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Potential to deteriorate",
+            "limitacion_situacional": "",
+            "Definicion": "Susceptible to toxic effects of substances.",
+            "Factores_de_Riesgo": [
+              "Exposure to toxins"
+            ],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": []
+          }
+        ]
+      },
+      {
+        "number": "5",
+        "name": "Defensive Processes",
+        "description": "Processes that protect from harm",
+        "diagnosticos": []
+      },
+      {
+        "number": "6",
+        "name": "Thermoregulation",
+        "description": "The physiological process of regulating heat and energy within the body for purposes of protecting the organism",
+        "diagnosticos": []
+      }
+    ]
+  }
+}

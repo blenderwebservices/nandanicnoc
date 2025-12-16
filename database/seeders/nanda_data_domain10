@@ -1,0 +1,280 @@
+{
+  "domain": {
+    "number": "10",
+    "name": "Life Principles",
+    "description": "Principles underlying behavior that give meaning to life; associated with morals, ethics, spirituality, and religious beliefs",
+    "classes": [
+      {
+        "number": "1",
+        "name": "Values",
+        "description": "Ideals or concepts that give meaning to life",
+        "diagnosticos": []
+      },
+      {
+        "number": "2",
+        "name": "Beliefs",
+        "description": "Opinions or convictions accepted as true",
+        "diagnosticos": [
+          {
+            "codigo_de_diagnostico": "00068",
+            "ano_de_aprobacion": "1992",
+            "nivel_de_evidencia": "2.1",
+            "MeSH": "Spiritual Distress (M0020857)",
+            "foco_conceptual": "Belief",
+            "foco_en_contexto_sintomas": "",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Enhanced",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Potential to improve",
+            "limitacion_situacional": "",
+            "Definicion": "A pattern of relying on beliefs and/or values to guide decisions and actions, which can be strengthened.",
+            "Factores_de_Riesgo": [],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": []
+          }
+        ]
+      },
+      {
+        "number": "3",
+        "name": "Value/Belief/Action Congruence",
+        "description": "Harmony between what one believes/values and what one does",
+        "diagnosticos": [
+          {
+            "codigo_de_diagnostico": "00373",
+            "ano_de_aprobacion": "2023",
+            "nivel_de_evidencia": "3.1",
+            "MeSH": "Moral Distress (M0013892)",
+            "foco_conceptual": "Congruence",
+            "foco_en_contexto_sintomas": "Value/belief/action",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Impaired",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Problem-focused",
+            "limitacion_situacional": "",
+            "Definicion": "Incongruence between personal values/beliefs and actions taken, leading to psychological distress.",
+            "Factores_de_Riesgo": [
+              "Conflict in values",
+              "End-of-life care decisions",
+              "Ethical dilemmas",
+              "Multiple commitments",
+              "Perceived constraints on action"
+            ],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": [
+              "Treatment regimen"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00374",
+            "ano_de_aprobacion": "2023",
+            "nivel_de_evidencia": "3.1",
+            "MeSH": "Moral Distress (M0013892)",
+            "foco_conceptual": "Congruence",
+            "foco_en_contexto_sintomas": "Value/belief/action",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Impaired",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Potential to deteriorate",
+            "limitacion_situacional": "",
+            "Definicion": "Susceptible to incongruence between personal values/beliefs and actions taken, leading to psychological distress.",
+            "Factores_de_Riesgo": [
+              "Conflict in values",
+              "End-of-life care decisions",
+              "Ethical dilemmas",
+              "Multiple commitments",
+              "Perceived constraints on action"
+            ],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": [
+              "Treatment regimen"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00066",
+            "ano_de_aprobacion": "1988",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Spiritual Distress (M0020857)",
+            "foco_conceptual": "Distress",
+            "foco_en_contexto_sintomas": "Spiritual",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Excessive",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Problem-focused",
+            "limitacion_situacional": "",
+            "Definicion": "Impaired ability to experience and integrate meaning and purpose in life through connectedness with self, others, art, music, literature, nature, and/or a power greater than oneself.",
+            "Factores_de_Riesgo": [
+              "Anxiety",
+              "Chronic illness",
+              "Death/dying of self or others",
+              "Depressive symptoms",
+              "Inadequate social support",
+              "Life change",
+              "Loss of body part",
+              "Pain",
+              "Self-alienation",
+              "Social isolation",
+              "Socioeconomic deprivation"
+            ],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": [
+              "Critical illness",
+              "Treatment regimen"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00067",
+            "ano_de_aprobacion": "1994",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Spiritual Distress (M0020857)",
+            "foco_conceptual": "Distress",
+            "foco_en_contexto_sintomas": "Spiritual",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Excessive",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Potential to deteriorate",
+            "limitacion_situacional": "",
+            "Definicion": "Susceptible to an impaired ability to experience and integrate meaning and purpose in life through connectedness with self, others, art, music, literature, nature, and/or a power greater than oneself.",
+            "Factores_de_Riesgo": [
+              "Anxiety",
+              "Chronic illness",
+              "Death/dying of self or others",
+              "Depressive symptoms",
+              "Inadequate social support",
+              "Life change",
+              "Loss of body part",
+              "Pain",
+              "Self-alienation",
+              "Social isolation",
+              "Socioeconomic deprivation"
+            ],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": [
+              "Critical illness",
+              "Treatment regimen"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00083",
+            "ano_de_aprobacion": "2002",
+            "nivel_de_evidencia": "2.1",
+            "MeSH": "Decision Making (M0005725), Spiritual Well-Being (M0020856)",
+            "foco_conceptual": "Decision-making",
+            "foco_en_contexto_sintomas": "Moral",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Impaired",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Problem-focused",
+            "limitacion_situacional": "",
+            "Definicion": "Inability to choose or difficulty in choosing between alternatives in an ethical dilemma.",
+            "Factores_de_Riesgo": [
+              "Conflicting attitudes toward ethical decision",
+              "Cultural incongruence",
+              "End-of-life care decisions",
+              "Multiple sources of information",
+              "Perceived threat to value system",
+              "Support system deficit"
+            ],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": [
+              "Treatment regimen"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00375",
+            "ano_de_aprobacion": "2023",
+            "nivel_de_evidencia": "2.1",
+            "MeSH": "Decision Making (M0005725), Spiritual Well-Being (M0020856)",
+            "foco_conceptual": "Decision-making",
+            "foco_en_contexto_sintomas": "Moral",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Impaired",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Potential to deteriorate",
+            "limitacion_situacional": "",
+            "Definicion": "Susceptible to inability to choose or difficulty in choosing between alternatives in an ethical dilemma.",
+            "Factores_de_Riesgo": [
+              "Conflicting attitudes toward ethical decision",
+              "Cultural incongruence",
+              "End-of-life care decisions",
+              "Multiple sources of information",
+              "Perceived threat to value system",
+              "Support system deficit"
+            ],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": [
+              "Treatment regimen"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00175",
+            "ano_de_aprobacion": "2006",
+            "nivel_de_evidencia": "3.1",
+            "MeSH": "Moral Distress (M0013892)",
+            "foco_conceptual": "Distress",
+            "foco_en_contexto_sintomas": "Moral",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Excessive",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Problem-focused",
+            "limitacion_situacional": "",
+            "Definicion": "Response to the inability to carry out chosen moral/ethical actions due to internal or external constraints.",
+            "Factores_de_Riesgo": [
+              "Conflict in values",
+              "End-of-life care decisions",
+              "Ethical dilemmas",
+              "Perceived constraints on action"
+            ],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": [
+              "Treatment regimen"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00242",
+            "ano_de_aprobacion": "2013",
+            "nivel_de_evidencia": "2.1",
+            "MeSH": "Spiritual Well-Being (M0020856)",
+            "foco_conceptual": "Well-being",
+            "foco_en_contexto_sintomas": "Spiritual",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Enhanced",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Potential to improve",
+            "limitacion_situacional": "",
+            "Definicion": "A pattern of experiencing and integrating meaning and purpose in life through connectedness with self, others, art, music, literature, nature, and/or a power greater than oneself, which can be strengthened.",
+            "Factores_de_Riesgo": [],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": []
+          }
+        ]
+      }
+    ]
+  }
+}

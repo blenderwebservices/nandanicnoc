@@ -1,0 +1,470 @@
+{
+  "domain": {
+    "number": "9",
+    "name": "Coping/Stress Tolerance",
+    "description": "Contending with life events/life processes",
+    "classes": [
+      {
+        "number": "1",
+        "name": "Post-Trauma Responses",
+        "description": "Reactions occurring after physical or psychological trauma",
+        "diagnosticos": [
+          {
+            "codigo_de_diagnostico": "00141",
+            "ano_de_aprobacion": "1998",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Stress Disorders, Post-Traumatic (M0020858)",
+            "foco_conceptual": "Response",
+            "foco_en_contexto_sintomas": "Post-trauma",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Impaired",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Problem-focused",
+            "limitacion_situacional": "",
+            "Definicion": "Sustained maladaptive response to a traumatic, overwhelming event.",
+            "Factores_de_Riesgo": [
+              "Displacement from home",
+              "Duration of traumatic event",
+              "Exposure to death",
+              "Exposure to disaster",
+              "Exposure to war",
+              "History of abuse",
+              "History of criminal victimization",
+              "History of psychiatric disorder",
+              "Inadequate social support",
+              "Intensity of traumatic event",
+              "Perception of traumatic event",
+              "Survivor guilt"
+            ],
+            "Poblacion_de_Riesgo": [
+              "Individuals experiencing violence",
+              "Individuals with history of serious illness"
+            ],
+            "Condiciones_asociadas": [
+              "Human-made traumatic event",
+              "Natural traumatic event"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00142",
+            "ano_de_aprobacion": "1998",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Rape-Trauma Syndrome (M0018286)",
+            "foco_conceptual": "Syndrome",
+            "foco_en_contexto_sintomas": "Rape trauma",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Problem-focused",
+            "limitacion_situacional": "",
+            "Definicion": "Sustained maladaptive response to a forced, violent sexual penetration against the victim's will and consent.",
+            "Factores_de_Riesgo": [
+              "History of abuse",
+              "Inadequate social support",
+              "Perception of traumatic event"
+            ],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": [
+              "Sexual assault"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00149",
+            "ano_de_aprobacion": "2000",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Stress Disorders, Post-Traumatic (M0020858)",
+            "foco_conceptual": "Response",
+            "foco_en_contexto_sintomas": "Post-trauma",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Impaired",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Potential to deteriorate",
+            "limitacion_situacional": "",
+            "Definicion": "Susceptible to sustained maladaptive response to a traumatic, overwhelming event.",
+            "Factores_de_Riesgo": [
+              "Displacement from home",
+              "Duration of traumatic event",
+              "Exposure to death",
+              "Exposure to disaster",
+              "Exposure to war",
+              "History of abuse",
+              "History of criminal victimization",
+              "History of psychiatric disorder",
+              "Inadequate social support",
+              "Intensity of traumatic event",
+              "Perception of traumatic event",
+              "Survivor guilt"
+            ],
+            "Poblacion_de_Riesgo": [
+              "Individuals experiencing violence",
+              "Individuals with history of serious illness"
+            ],
+            "Condiciones_asociadas": [
+              "Human-made traumatic event",
+              "Natural traumatic event"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00145",
+            "ano_de_aprobacion": "2000",
+            "nivel_de_evidencia": "3.1",
+            "MeSH": "Relocation Stress Syndrome (M0018287)",
+            "foco_conceptual": "Syndrome",
+            "foco_en_contexto_sintomas": "Relocation stress",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Problem-focused",
+            "limitacion_situacional": "",
+            "Definicion": "Physiological and/or psychosocial disturbance following transfer from one environment to another.",
+            "Factores_de_Riesgo": [
+              "History of losses",
+              "Inadequate social support",
+              "Language barrier",
+              "Powerlessness",
+              "Social isolation"
+            ],
+            "Poblacion_de_Riesgo": [
+              "Older adults"
+            ],
+            "Condiciones_asociadas": [
+              "Impaired psychosocial functioning",
+              "Move from one environment to another"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00150",
+            "ano_de_aprobacion": "2000",
+            "nivel_de_evidencia": "3.1",
+            "MeSH": "Relocation Stress Syndrome (M0018287)",
+            "foco_conceptual": "Syndrome",
+            "foco_en_contexto_sintomas": "Relocation stress",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Potential to deteriorate",
+            "limitacion_situacional": "",
+            "Definicion": "Susceptible to physiological and/or psychosocial disturbance following transfer from one environment to another.",
+            "Factores_de_Riesgo": [
+              "History of losses",
+              "Inadequate social support",
+              "Language barrier",
+              "Powerlessness",
+              "Social isolation"
+            ],
+            "Poblacion_de_Riesgo": [
+              "Older adults"
+            ],
+            "Condiciones_asociadas": [
+              "Impaired psychosocial functioning",
+              "Move from one environment to another"
+            ]
+          }
+        ]
+      },
+      {
+        "number": "2",
+        "name": "Coping Responses",
+        "description": "Process of managing environmental stress",
+        "diagnosticos": [
+          {
+            "codigo_de_diagnostico": "00069",
+            "ano_de_aprobacion": "1988",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Adaptation, Psychological (M0000460)",
+            "foco_conceptual": "Coping",
+            "foco_en_contexto_sintomas": "",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Ineffective",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Problem-focused",
+            "limitacion_situacional": "",
+            "Definicion": "Ineffective management of adaptive tasks by a primary person (family member, significant other, or close friend) involved with the individual's health challenge.",
+            "Factores_de_Riesgo": [
+              "Inadequate social support",
+              "Ineffective tension release strategies",
+              "Insufficient knowledge of resources",
+              "Temporary family disorganization"
+            ],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": [
+              "Chronic illness",
+              "Developmental transition",
+              "Situational crisis"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00071",
+            "ano_de_aprobacion": "1998",
+            "nivel_de_evidencia": "2.1",
+            "MeSH": "Adaptation, Psychological (M0000460)",
+            "foco_conceptual": "Coping",
+            "foco_en_contexto_sintomas": "",
+            "sujeto_del_cuidado": "Family",
+            "juicio": "Enhanced",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Potential to improve",
+            "limitacion_situacional": "",
+            "Definicion": "A pattern of management of adaptive tasks by primary person (family member, significant other, or close friend) involved with the individual's health challenge, which can be strengthened.",
+            "Factores_de_Riesgo": [],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": []
+          },
+          {
+            "codigo_de_diagnostico": "00077",
+            "ano_de_aprobacion": "1998",
+            "nivel_de_evidencia": "2.1",
+            "MeSH": "Adaptation, Psychological (M0000460)",
+            "foco_conceptual": "Coping",
+            "foco_en_contexto_sintomas": "Community",
+            "sujeto_del_cuidado": "Community",
+            "juicio": "Ineffective",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Problem-focused",
+            "limitacion_situacional": "",
+            "Definicion": "Pattern of community activities for adaptation to perceived or actual stressors that is insufficient for meeting the demands or needs of the community.",
+            "Factores_de_Riesgo": [
+              "Inadequate community resources",
+              "Inadequate social support",
+              "Insufficient disaster preparedness plan"
+            ],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": [
+              "Natural disaster"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00076",
+            "ano_de_aprobacion": "1998",
+            "nivel_de_evidencia": "2.1",
+            "MeSH": "Adaptation, Psychological (M0000460)",
+            "foco_conceptual": "Coping",
+            "foco_en_contexto_sintomas": "Community",
+            "sujeto_del_cuidado": "Community",
+            "juicio": "Enhanced",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Potential to improve",
+            "limitacion_situacional": "",
+            "Definicion": "A pattern of community activities for adaptation to perceived or actual stressors, which can be strengthened.",
+            "Factores_de_Riesgo": [],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": []
+          }
+        ]
+      },
+      {
+        "number": "3",
+        "name": "Neurobehavioral Stress",
+        "description": "Behavioral manifestations of stress that affect neurological function",
+        "diagnosticos": [
+          {
+            "codigo_de_diagnostico": "00115",
+            "ano_de_aprobacion": "1992",
+            "nivel_de_evidencia": "3.1",
+            "MeSH": "Risk for Disuse Syndrome (M0020859)",
+            "foco_conceptual": "Syndrome",
+            "foco_en_contexto_sintomas": "Disuse",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Potential to deteriorate",
+            "limitacion_situacional": "",
+            "Definicion": "Susceptible to deterioration of body systems as the result of prescribed or unavoidable musculoskeletal inactivity.",
+            "Factores_de_Riesgo": [
+              "Alteration in level of consciousness",
+              "Mechanical immobilization",
+              "Pain",
+              "Paralysis",
+              "Prescribed immobilization"
+            ],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": [
+              "Severe pain"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00172",
+            "ano_de_aprobacion": "2006",
+            "nivel_de_evidencia": "2.1",
+            "MeSH": "Anxiety (M0001498)",
+            "foco_conceptual": "Anxiety",
+            "foco_en_contexto_sintomas": "",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Excessive",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Problem-focused",
+            "limitacion_situacional": "",
+            "Definicion": "Vague uneasy feeling of discomfort or dread accompanied by an autonomic response (the source often nonspecific or unknown to the individual); a feeling of apprehension caused by anticipation of danger.",
+            "Factores_de_Riesgo": [
+              "Family history of anxiety",
+              "History of abuse",
+              "Substance misuse",
+              "Threat to economic status",
+              "Threat to self-concept"
+            ],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": [
+              "Critical illness",
+              "Major change",
+              "Stressors",
+              "Threat of death"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00146",
+            "ano_de_aprobacion": "2000",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Anxiety (M0001498)",
+            "foco_conceptual": "Anxiety",
+            "foco_en_contexto_sintomas": "",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Excessive",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Problem-focused",
+            "limitacion_situacional": "",
+            "Definicion": "Vague uneasy feeling of discomfort or dread accompanied by an autonomic response (the source often nonspecific or unknown to the individual); a feeling of apprehension caused by anticipation of danger.",
+            "Factores_de_Riesgo": [
+              "Family history of anxiety",
+              "History of abuse",
+              "Substance misuse",
+              "Threat to economic status",
+              "Threat to self-concept"
+            ],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": [
+              "Critical illness",
+              "Major change",
+              "Stressors",
+              "Threat of death"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00148",
+            "ano_de_aprobacion": "2000",
+            "nivel_de_evidencia": "3.2",
+            "MeSH": "Fear (M0008284)",
+            "foco_conceptual": "Fear",
+            "foco_en_contexto_sintomas": "",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Excessive",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Problem-focused",
+            "limitacion_situacional": "",
+            "Definicion": "Response to perceived threat that is consciously recognized as a danger.",
+            "Factores_de_Riesgo": [
+              "Innate origin of fear response",
+              "Language barrier",
+              "Learned response",
+              "Sensory impairment"
+            ],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": [
+              "Critical illness",
+              "Innate releasers",
+              "Phobic stimulus",
+              "Separation from support system",
+              "Treatment regimen"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00308",
+            "ano_de_aprobacion": "2020",
+            "nivel_de_evidencia": "2.1",
+            "MeSH": "Anxiety (M0001498)",
+            "foco_conceptual": "Anxiety",
+            "foco_en_contexto_sintomas": "Death",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Excessive",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Problem-focused",
+            "limitacion_situacional": "",
+            "Definicion": "Uneasy feeling of discomfort or dread related to anticipation of one's own death.",
+            "Factores_de_Riesgo": [
+              "Anticipation of pain",
+              "Anticipation of suffering",
+              "Discussions on the topic of death",
+              "Nonacceptance of own mortality",
+              "Observations related to death",
+              "Uncertainty about life after death"
+            ],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": [
+              "Life-threatening illness"
+            ]
+          },
+          {
+            "codigo_de_diagnostico": "00309",
+            "ano_de_aprobacion": "2020",
+            "nivel_de_evidencia": "2.1",
+            "MeSH": "Anxiety (M0001498)",
+            "foco_conceptual": "Anxiety",
+            "foco_en_contexto_sintomas": "Death",
+            "sujeto_del_cuidado": "Individual",
+            "juicio": "Excessive",
+            "localizacion_anatomica": "",
+            "limite_inferior_de_edad": "",
+            "limite_superior_de_edad": "",
+            "curso_clinico": "",
+            "estado_del_diagnostico": "Potential to deteriorate",
+            "limitacion_situacional": "",
+            "Definicion": "Susceptible to uneasy feeling of discomfort or dread related to anticipation of one's own death.",
+            "Factores_de_Riesgo": [
+              "Anticipation of pain",
+              "Anticipation of suffering",
+              "Discussions on the topic of death",
+              "Nonacceptance of own mortality",
+              "Observations related to death",
+              "Uncertainty about life after death"
+            ],
+            "Poblacion_de_Riesgo": [],
+            "Condiciones_asociadas": [
+              "Life-threatening illness"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
