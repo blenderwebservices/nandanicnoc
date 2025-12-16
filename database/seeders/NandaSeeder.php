@@ -34,8 +34,8 @@ class NandaSeeder extends Seeder
                 ['code' => (string) $domainData['number']],
                 [
                     'name' => $domainData['name'],
-                    // Simple spanish mapping attempt, ideally we would have a full map
-                    'name_es' => null, 
+                    // Lookup Domain Translation
+                    'name_es' => $translations[$domainData['name']] ?? null,
                 ]
             );
 
@@ -48,7 +48,8 @@ class NandaSeeder extends Seeder
                     ],
                     [
                         'name' => $classData['name'],
-                        'name_es' => null,
+                        // Lookup Class Translation
+                        'name_es' => $translations[$classData['name']] ?? null,
                         'definition' => $classData['description'] ?? '',
                         'definition_es' => null, 
                     ]
