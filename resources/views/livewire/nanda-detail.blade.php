@@ -6,7 +6,7 @@
                 stroke="currentColor" class="w-4 h-4 mr-1">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
             </svg>
-            Back to Search
+            {{ __('Back to Search') }}
         </a>
     </div>
 
@@ -16,7 +16,7 @@
                 <div class="flex items-center justify-between">
                     <h1 class="text-2xl font-bold text-white">{{ $nanda->label }}</h1>
                     <span class="bg-white/20 text-white px-3 py-1 rounded-full text-sm font-medium backdrop-blur-sm">
-                        Code: {{ $nanda->code }}
+                        {{ __('Code') }}: {{ $nanda->code }}
                     </span>
                 </div>
                 @if($nanda->nandaClass)
@@ -126,7 +126,7 @@
         </div>
         <div class="mt-8 pt-8 border-t border-gray-100 flex justify-between items-center">
             <div class="text-sm text-gray-400">
-                Last updated: {{ $nanda->updated_at->format('M d, Y') }}
+                {{ __('Last updated') }}: {{ $nanda->updated_at->format('M d, Y') }}
             </div>
             <!-- Placeholder for future actions like Edit -->
         </div>
