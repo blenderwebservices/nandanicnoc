@@ -20,21 +20,53 @@ class NandaSearch extends Component
 
     public function render()
     {
-        return view('livewire.nanda-search', [
-            'nandas' => \App\Models\Nanda::query()
-                ->when($this->search, function ($query) {
-                    // Sanitize search term for FTS5: escape quotes and wrap in quotes for phrase search
-                    $searchTerm = str_replace('"', '""', $this->search);
+        $nandasQuery = \App\Models\Nanda::query()
+            ->when($this->search, function ($query) {
+                $searchTerm = str_replace('"', '""', $this->search);
+                $query->whereIn('nandas.id', function ($subQuery) use ($searchTerm) {
+                    $subQuery->select('diagnosis_id')
+                        ->from('nanda_search_index')
+                        ->whereRaw('nanda_search_index MATCH ?', ['"' . $searchTerm . '"*']);
+                });
+            });
 
-                    // Use FTS if search term is present
-                    $query->whereIn('id', function ($subQuery) use ($searchTerm) {
-                        $subQuery->select('diagnosis_id')
-                            ->from('nanda_search_index')
-                            ->whereRaw('nanda_search_index MATCH ?', ['"' . $searchTerm . '"*']);
-                    });
-                })
-                ->with('nandaClass.domain') // Eager load relationships
-                ->paginate(12),
+        // Get visible domains based on the current search
+        $visibleDomainIds = \App\Models\Nanda::query()
+            ->when($this->search, function ($query) {
+                $searchTerm = str_replace('"', '""', $this->search);
+                $query->whereIn('nandas.id', function ($subQuery) use ($searchTerm) {
+                    $subQuery->select('diagnosis_id')
+                        ->from('nanda_search_index')
+                        ->whereRaw('nanda_search_index MATCH ?', ['"' . $searchTerm . '"*']);
+                });
+            })
+            ->join('nanda_classes', 'nandas.class_id', '=', 'nanda_classes.id')
+            ->distinct()
+            ->pluck('nanda_classes.domain_id');
+
+        $domains = \App\Models\Domain::whereIn('id', $visibleDomainIds)
+            ->orderBy('code')
+            ->get();
+
+        // Get suggestions for the dropdown
+        $suggestions = [];
+        if (strlen($this->search) >= 2) {
+            $column = app()->getLocale() === 'es' ? 'diagnosis_label_es' : 'diagnosis_label';
+            $searchTerm = str_replace('"', '""', $this->search);
+            
+            $suggestions = \DB::table('nanda_search_index')
+                ->whereRaw("nanda_search_index MATCH ?", ['"' . $searchTerm . '"*'])
+                ->select($column . ' as label')
+                ->distinct()
+                ->limit(5)
+                ->pluck('label')
+                ->toArray();
+        }
+
+        return view('livewire.nanda-search', [
+            'nandas' => $nandasQuery->with('nandaClass.domain')->paginate(12),
+            'domains' => $domains,
+            'suggestions' => $suggestions,
         ]);
     }
 }
