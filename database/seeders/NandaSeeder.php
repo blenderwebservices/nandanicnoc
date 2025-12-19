@@ -13,6 +13,15 @@ class NandaSeeder extends Seeder
     public function run(): void
     {
         $translations = require __DIR__ . '/NandaTranslations.php';
+        $propTranslations = require __DIR__ . '/NandaPropertyTranslations.php';
+        $defTranslations = require __DIR__ . '/NandaDefinitionTranslations.php';
+
+        $translateArray = function($items) use ($propTranslations) {
+            if (!is_array($items)) return [];
+            return array_map(function($item) use ($propTranslations) {
+                return $propTranslations[$item] ?? $item;
+            }, $items);
+        };
 
         // Get all nanda_data_domain* files
         $files = glob(__DIR__ . '/nanda_data_domain*');
@@ -89,7 +98,7 @@ class NandaSeeder extends Seeder
                         'label' => $generatedLabel ?: "Diagnosis $code", 
                         'label_es' => null, // We'll try to find it below or leave null
                         'description' => $diagData['Definicion'] ?? '',
-                        'description_es' => $diagData['Definicion'] ?? '', // Placeholder
+                        'description_es' => $defTranslations[$code] ?? $diagData['Definicion'] ?? '', 
                         
                         // New Fields
                         'approval_year' => $diagData['ano_de_aprobacion'] ?? null,
@@ -110,13 +119,14 @@ class NandaSeeder extends Seeder
                         'associated_conditions' => $diagData['Condiciones_asociadas'] ?? [],
                         
                         // Spanish Placeholders (Duplicating English data as per lack of source)
-                        'focus_es' => $diagData['foco_conceptual'] ?? null,
-                        'judgment_es' => $diagData['juicio'] ?? null,
-                        'diagnosis_status_es' => $diagData['estado_del_diagnostico'] ?? null,
-                        'risk_factors_es' => $diagData['Factores_de_Riesgo'] ?? [],
-                        'at_risk_population_es' => $diagData['Poblacion_de_Riesgo'] ?? [],
-                        'associated_conditions_es' => $diagData['Condiciones_asociadas'] ?? [],
+                        'focus_es' => $propTranslations[$diagData['foco_conceptual']] ?? $diagData['foco_conceptual'] ?? null,
+                        'judgment_es' => $propTranslations[$diagData['juicio']] ?? $diagData['juicio'] ?? null,
+                        'diagnosis_status_es' => $propTranslations[$diagData['estado_del_diagnostico']] ?? $diagData['estado_del_diagnostico'] ?? null,
+                        'risk_factors_es' => $translateArray($diagData['Factores_de_Riesgo'] ?? []),
+                        'at_risk_population_es' => $translateArray($diagData['Poblacion_de_Riesgo'] ?? []),
+                        'associated_conditions_es' => $translateArray($diagData['Condiciones_asociadas'] ?? []),
                     ];
+
 
                     // 3. Translation Lookup
                     // Priority 1: Lookup by Code
