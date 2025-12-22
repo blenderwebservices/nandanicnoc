@@ -25,6 +25,14 @@
             "estado_del_diagnostico": "problem-focused",
             "limitacion_situacional": "",
             "Definicion": "Insufficient participation in recreational activities.",
+            "Defining_characteristics": [
+              "Altered Mood",
+              "Boredoom",
+              "Discontent with Situation",
+              "Flat affect",
+              "Frequent naps",
+              "Physical Deconditioning"
+            ],
             "Factores_de_Riesgo": [
               "Environmental barrier",
               "Impaired interpersonal functioning",
