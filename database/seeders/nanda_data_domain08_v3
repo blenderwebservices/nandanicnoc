@@ -1,0 +1,290 @@
+{
+  "dominio": {
+    "numero": 8,
+    "nombre": "Sexuality",
+    "definicion": "Sexual identity, sexual function, and reproduction.",
+    "clases": [
+      {
+        "numero": 1,
+        "nombre": "Sexual Identity",
+        "definicion": "The recognition and acknowledgment of one's sex and gender.",
+        "diagnosticos": []
+      },
+      {
+        "numero": 2,
+        "nombre": "Sexual Function",
+        "definicion": "The capacity or ability to participate in sexual activities.",
+        "diagnosticos": [
+          {
+            "codigo": "00059",
+            "nombre": "Sexual dysfunction",
+            "aprobado": "1980",
+            "revisado": "1998, 2013, 2017, 2023",
+            "nivel_evidencia": "3.1",
+            "mesh": "Sexual Dysfunction, Physiological (M0019625)",
+            "concept_focus": "Sexual function",
+            "context_symptom_focus": "Sexual response",
+            "subject_of_care": "Individual",
+            "judgment": "Dysfunctional",
+            "anatomical_site": "Reproductive system",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Problem-focused",
+            "situational_constraint": "—",
+            "definicion": "A change in sexual function that is viewed as unsatisfying, unrewarding, or inadequate.",
+            "defining_characteristics": [
+              "Difficulty achieving sexual satisfaction",
+              "Difficulty with arousal",
+              "Difficulty with lubrication",
+              "Difficulty with orgasm",
+              "Inability to achieve desired satisfaction",
+              "Perceived sexual inadequacy",
+              "Reports alteration in sexual response",
+              "Reports change in sexual interest",
+              "Reports limitation in sexual function",
+              "Reports limitation in sexual response",
+              "Reports pain with sexual activity",
+              "Reports vaginal dryness"
+            ],
+            "related_factors": [
+              "Altered body function",
+              "Altered body image",
+              "Conflict with gender identity",
+              "Conflict with sexual orientation",
+              "Excessive stress",
+              "Inadequate knowledge of sexual response",
+              "Inadequate role model",
+              "Inadequate social support",
+              "Misinformation about sexual response",
+              "Value conflict"
+            ],
+            "at_risk_population": [
+              "Individuals experiencing life transitions",
+              "Individuals with history of sexual abuse"
+            ],
+            "associated_conditions": [
+              "Cardiovascular diseases",
+              "Diabetes mellitus",
+              "Neurological disorders",
+              "Pharmaceutical preparations",
+              "Psychiatric disorders",
+              "Treatment regimen"
+            ]
+          },
+          {
+            "codigo": "00065",
+            "nombre": "Ineffective sexuality pattern",
+            "aprobado": "1986",
+            "revisado": "1998, 2013, 2017, 2023",
+            "nivel_evidencia": "3.1",
+            "mesh": "Sexual Behavior (M0019622)",
+            "concept_focus": "Sexual function",
+            "context_symptom_focus": "Sexual response",
+            "subject_of_care": "Individual",
+            "judgment": "Ineffective",
+            "anatomical_site": "Reproductive system",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Problem-focused",
+            "situational_constraint": "—",
+            "definicion": "Expressions of concern regarding own sexuality.",
+            "defining_characteristics": [
+              "Alteration in sexual behavior",
+              "Alteration in sexual role",
+              "Conflict with gender identity",
+              "Conflict with sexual orientation",
+              "Difficulty with sexual activity",
+              "Difficulty with sexual behavior",
+              "Difficulty with sexual role",
+              "Reports alteration in sexual satisfaction",
+              "Reports change in sexual activity",
+              "Reports change in sexual behavior",
+              "Reports change in sexual role",
+              "Reports limitation in sexual activity",
+              "Reports limitation in sexual behavior",
+              "Reports limitation in sexual role",
+              "Reports value conflict regarding sexual activity",
+              "Reports value conflict regarding sexual behavior"
+            ],
+            "related_factors": [
+              "Conflict with gender identity",
+              "Conflict with sexual orientation",
+              "Excessive stress",
+              "Fear of acquiring sexually transmitted infection",
+              "Fear of pregnancy",
+              "Impaired relationship with partner",
+              "Inadequate knowledge of sexual response",
+              "Inadequate role model",
+              "Inadequate social support",
+              "Misinformation about sexual response",
+              "Value conflict"
+            ],
+            "at_risk_population": [
+              "Individuals experiencing life transitions",
+              "Individuals with history of sexual abuse"
+            ],
+            "associated_conditions": [
+              "Illness",
+              "Treatment regimen"
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "nombre": "Reproduction",
+        "definicion": "The processes by which human life is produced and passed to the next generation.",
+        "diagnosticos": [
+          {
+            "codigo": "00221",
+            "nombre": "Ineffective childbearing process",
+            "aprobado": "2010",
+            "revisado": "2013, 2017, 2023",
+            "nivel_evidencia": "3.2",
+            "mesh": "Reproduction (M0018952)",
+            "concept_focus": "Childbearing",
+            "context_symptom_focus": "Pregnancy",
+            "subject_of_care": "Family",
+            "judgment": "Ineffective",
+            "anatomical_site": "Reproductive system",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Problem-focused",
+            "situational_constraint": "—",
+            "definicion": "Disruption in the physical, psychosocial, and/or behavioral responses during pregnancy and/or childbirth that impairs optimal maternal-fetal outcomes.",
+            "defining_characteristics": [
+              "During pregnancy",
+              "Does not seek necessary knowledge about childbearing process",
+              "Failure to bond with fetus",
+              "Failure to prepare for childbirth",
+              "Failure to prepare protective environment for infant",
+              "Inadequate maternal nutrition",
+              "Inadequate prenatal care",
+              "Inadequate prenatal lifestyle preparation",
+              "Inadequate response to labor onset",
+              "Inadequate response to uterine contractions",
+              "Inappropriate response to labor onset",
+              "Inappropriate response to uterine contractions",
+              "During labor",
+              "Failure to progress through labor stages",
+              "Inadequate fetal descent",
+              "Inadequate maternal pushing efforts",
+              "Inadequate pain management",
+              "Inadequate response to labor onset",
+              "Inadequate response to uterine contractions",
+              "Inappropriate response to labor onset",
+              "Inappropriate response to uterine contractions",
+              "After birth",
+              "Failure to bond with infant",
+              "Inadequate infant care",
+              "Inadequate postpartum care"
+            ],
+            "related_factors": [
+              "Domestic violence",
+              "Inadequate maternal nutrition",
+              "Inadequate prenatal care",
+              "Inadequate support system",
+              "Inappropriate maternal nutrition",
+              "Substance misuse",
+              "Unplanned pregnancy",
+              "Unwanted pregnancy"
+            ],
+            "at_risk_population": [
+              "Adolescents",
+              "Individuals experiencing first pregnancy",
+              "Individuals with low educational level"
+            ],
+            "associated_conditions": [
+              "Maternal complications",
+              "Treatment regimen"
+            ]
+          },
+          {
+            "codigo": "00227",
+            "nombre": "Risk for ineffective childbearing process",
+            "aprobado": "2016",
+            "revisado": "2017, 2023",
+            "nivel_evidencia": "3.1",
+            "mesh": "Reproduction (M0018952)",
+            "concept_focus": "Childbearing",
+            "context_symptom_focus": "Pregnancy",
+            "subject_of_care": "Family",
+            "judgment": "Ineffective",
+            "anatomical_site": "Reproductive system",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Potential to deteriorate",
+            "situational_constraint": "—",
+            "definicion": "Susceptible to disruption in the physical, psychosocial, and/or behavioral responses during pregnancy and/or childbirth that impairs optimal maternal-fetal outcomes.",
+            "risk_factors": [
+              "Domestic violence",
+              "Inadequate maternal nutrition",
+              "Inadequate prenatal care",
+              "Inadequate support system",
+              "Inappropriate maternal nutrition",
+              "Substance misuse",
+              "Unplanned pregnancy",
+              "Unwanted pregnancy"
+            ],
+            "at_risk_population": [
+              "Adolescents",
+              "Individuals experiencing first pregnancy",
+              "Individuals with low educational level"
+            ],
+            "associated_conditions": [
+              "Maternal complications",
+              "Treatment regimen"
+            ]
+          },
+          {
+            "codigo": "00208",
+            "nombre": "Readiness for enhanced childbearing process",
+            "aprobado": "2010",
+            "revisado": "2013, 2017, 2023",
+            "nivel_evidencia": "2.1",
+            "mesh": "Reproduction (M0018952)",
+            "concept_focus": "Childbearing",
+            "context_symptom_focus": "Pregnancy",
+            "subject_of_care": "Family",
+            "judgment": "Prepared",
+            "anatomical_site": "Reproductive system",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Potential to improve",
+            "situational_constraint": "—",
+            "definicion": "A pattern of preparing for and maintaining a healthy pregnancy, birth process, and care of newborn, which can be strengthened.",
+            "defining_characteristics": [
+              "During pregnancy",
+              "Attends regular prenatal care",
+              "Demonstrates appropriate prenatal lifestyle",
+              "Demonstrates attachment behavior to fetus",
+              "Demonstrates respect for unborn baby",
+              "Desires to enhance knowledge of childbearing process",
+              "Maintains maternal nutrition",
+              "Prepares protective environment for infant",
+              "Reports appropriate physical preparation",
+              "Reports realistic birth plan",
+              "Seeks necessary knowledge about childbearing process",
+              "During labor",
+              "Demonstrates appropriate pain management",
+              "Demonstrates effective pushing efforts",
+              "Demonstrates fetal descent",
+              "Demonstrates progress through labor stages",
+              "Demonstrates response to labor onset",
+              "Demonstrates response to uterine contractions",
+              "After birth",
+              "Demonstrates appropriate infant care",
+              "Demonstrates attachment behavior to infant",
+              "Demonstrates postpartum care"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

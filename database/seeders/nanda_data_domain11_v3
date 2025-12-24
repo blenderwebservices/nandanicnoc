@@ -1,0 +1,1090 @@
+{
+  "dominio": {
+    "numero": 11,
+    "nombre": "Safety/Protection",
+    "definicion": "Freedom from danger, physical injury, or immune system damage; preservation from loss; and protection of safety and security.",
+    "clases": [
+      {
+        "numero": 1,
+        "nombre": "Infection",
+        "definicion": "Host responses following pathogenic invasion",
+        "diagnosticos": [
+          {
+            "codigo": "00004",
+            "nombre": "Risk for infection",
+            "aprobado": "1975",
+            "revisado": "1998, 2013, 2017, 2023",
+            "nivel_evidencia": "3.1",
+            "mesh": "Infection (M0011393)",
+            "concept_focus": "Infection",
+            "context_symptom_focus": "Immune response",
+            "subject_of_care": "Individual",
+            "judgment": "Impaired",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Potential to deteriorate",
+            "situational_constraint": "—",
+            "definicion": "Susceptible to invasion and multiplication of pathogenic organisms, which may compromise health.",
+            "risk_factors": [
+              "Inadequate vaccination",
+              "Insufficient knowledge to avoid exposure to pathogens",
+              "Malnutrition",
+              "Tobacco use"
+            ],
+            "at_risk_population": [
+              "Individuals experiencing chronic disease",
+              "Individuals experiencing invasive procedures",
+              "Individuals with inadequate primary defenses",
+              "Individuals with inadequate secondary defenses"
+            ],
+            "associated_conditions": [
+              "Pharmaceutical preparations",
+              "Treatment regimen"
+            ]
+          },
+          {
+            "codigo": "00280",
+            "nombre": "Risk for surgical site infection",
+            "aprobado": "2020",
+            "revisado": "2023",
+            "nivel_evidencia": "3.1",
+            "mesh": "Surgical Wound Infection (M0022046)",
+            "concept_focus": "Infection",
+            "context_symptom_focus": "Surgical site",
+            "subject_of_care": "Individual",
+            "judgment": "Impaired",
+            "anatomical_site": "Surgical site",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Potential to deteriorate",
+            "situational_constraint": "—",
+            "definicion": "Susceptible to infection at the surgical site.",
+            "risk_factors": [
+              "Inadequate perioperative glucose control",
+              "Inadequate perioperative normothermia",
+              "Inadequate perioperative oxygen saturation",
+              "Inadequate surgical hand scrub",
+              "Inadequate surgical skin preparation",
+              "Inadequate traffic control in surgical area",
+              "Perioperative hair removal with razor",
+              "Prolonged surgical procedure"
+            ],
+            "at_risk_population": [
+              "Individuals experiencing emergency surgical procedure",
+              "Individuals experiencing immunosuppression",
+              "Individuals experiencing invasive procedure",
+              "Individuals experiencing trauma",
+              "Individuals with high body mass index",
+              "Individuals with history of surgical site infection",
+              "Older adults"
+            ],
+            "associated_conditions": [
+              "Diabetes mellitus",
+              "Obesity",
+              "Perioperative blood transfusion",
+              "Surgical procedure"
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "nombre": "Physical Injury",
+        "definicion": "Bodily harm or hurt",
+        "diagnosticos": [
+          {
+            "codigo": "00035",
+            "nombre": "Risk for injury",
+            "aprobado": "1978",
+            "revisado": "1998, 2013, 2017, 2023",
+            "nivel_evidencia": "3.1",
+            "mesh": "Wounds and Injuries (M0023066)",
+            "concept_focus": "Injury",
+            "context_symptom_focus": "Physical injury",
+            "subject_of_care": "Individual",
+            "judgment": "Impaired",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Potential to deteriorate",
+            "situational_constraint": "—",
+            "definicion": "Susceptible to physical harm.",
+            "risk_factors": [
+              "Inadequate knowledge of safety precautions",
+              "Inadequate vision",
+              "Inadequate muscle strength",
+              "Inadequate muscle coordination",
+              "Impaired balance",
+              "Impaired physical mobility",
+              "Substance misuse"
+            ],
+            "at_risk_population": [
+              "Individuals at extremes of age",
+              "Individuals experiencing sensory impairment",
+              "Individuals with history of falls"
+            ],
+            "associated_conditions": [
+              "Alteration in cognitive functioning",
+              "Neurological disorders",
+              "Orthostatic hypotension",
+              "Pharmaceutical preparations"
+            ]
+          },
+          {
+            "codigo": "00039",
+            "nombre": "Risk for falls",
+            "aprobado": "1988",
+            "revisado": "2013, 2017, 2023",
+            "nivel_evidencia": "3.1",
+            "mesh": "Accidental Falls (M0000133)",
+            "concept_focus": "Fall",
+            "context_symptom_focus": "Physical injury",
+            "subject_of_care": "Individual",
+            "judgment": "Impaired",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Potential to deteriorate",
+            "situational_constraint": "—",
+            "definicion": "Susceptible to increased susceptibility to falling, which may cause physical harm and compromise health.",
+            "risk_factors": [
+              "Difficulty with gait",
+              "Difficulty with balance",
+              "Inadequate footwear",
+              "Inadequate lighting",
+              "Inadequate vision",
+              "Inadequate muscle strength",
+              "Inadequate muscle coordination",
+              "Orthostatic hypotension",
+              "Unaddressed environmental hazards"
+            ],
+            "at_risk_population": [
+              "Individuals at extremes of age",
+              "Individuals experiencing cognitive impairment",
+              "Individuals experiencing sensory impairment",
+              "Individuals with history of falls"
+            ],
+            "associated_conditions": [
+              "Acute illness",
+              "Anemia",
+              "Arthritis",
+              "Diabetes mellitus",
+              "Neurological disorders",
+              "Orthostatic hypotension",
+              "Pharmaceutical preparations",
+              "Postoperative recovery period",
+              "Vascular disease"
+            ]
+          },
+          {
+            "codigo": "00048",
+            "nombre": "Impaired dentition",
+            "aprobado": "1998",
+            "revisado": "2017, 2023",
+            "nivel_evidencia": "3.1",
+            "mesh": "Tooth Diseases (M0021566)",
+            "concept_focus": "Dentition",
+            "context_symptom_focus": "Oral health",
+            "subject_of_care": "Individual",
+            "judgment": "Impaired",
+            "anatomical_site": "Oral cavity",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Problem-focused",
+            "situational_constraint": "—",
+            "definicion": "Disruption in tooth development/eruption patterns or structural integrity of individual teeth.",
+            "defining_characteristics": [
+              "Dental caries",
+              "Enamel erosion",
+              "Excessive plaque",
+              "Halitosis",
+              "Loose teeth",
+              "Missing teeth",
+              "Tooth fracture",
+              "Toothache"
+            ],
+            "related_factors": [
+              "Ineffective oral hygiene",
+              "Inadequate fluoride intake",
+              "Inadequate nutritional intake",
+              "Tobacco use"
+            ],
+            "at_risk_population": [
+              "Economically disadvantaged individuals",
+              "Institutionalized individuals"
+            ],
+            "associated_conditions": [
+              "Bruxism",
+              "Chemotherapy",
+              "Gingival recession",
+              "Pharmaceutical preparations",
+              "Radiation therapy to head and neck"
+            ]
+          },
+          {
+            "codigo": "00046",
+            "nombre": "Impaired skin integrity",
+            "aprobado": "1973",
+            "revisado": "1998, 2013, 2017, 2023",
+            "nivel_evidencia": "3.2",
+            "mesh": "Skin Diseases (M0020015)",
+            "concept_focus": "Skin integrity",
+            "context_symptom_focus": "Physical injury",
+            "subject_of_care": "Individual",
+            "judgment": "Impaired",
+            "anatomical_site": "Integumentary system",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Problem-focused",
+            "situational_constraint": "—",
+            "definicion": "Altered epidermis and/or dermis.",
+            "defining_characteristics": [
+              "Destruction of skin layers",
+              "Disruption of skin surface",
+              "Invasion of body structures"
+            ],
+            "related_factors": [
+              "Excessive moisture",
+              "Inadequate nutrition",
+              "Mechanical factors",
+              "Radiation therapy"
+            ],
+            "associated_conditions": [
+              "Alteration in metabolic state",
+              "Impaired circulation",
+              "Impaired sensation",
+              "Pharmaceutical preparations"
+            ]
+          },
+          {
+            "codigo": "00047",
+            "nombre": "Risk for impaired skin integrity",
+            "aprobado": "1978",
+            "revisado": "1998, 2013, 2017, 2023",
+            "nivel_evidencia": "3.1",
+            "mesh": "Skin Diseases (M0020015)",
+            "concept_focus": "Skin integrity",
+            "context_symptom_focus": "Physical injury",
+            "subject_of_care": "Individual",
+            "judgment": "Impaired",
+            "anatomical_site": "Integumentary system",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Potential to deteriorate",
+            "situational_constraint": "—",
+            "definicion": "Susceptible to alteration in epidermis and/or dermis.",
+            "risk_factors": [
+              "Excessive moisture",
+              "Inadequate nutrition",
+              "Mechanical factors",
+              "Radiation therapy"
+            ],
+            "associated_conditions": [
+              "Alteration in metabolic state",
+              "Impaired circulation",
+              "Impaired sensation",
+              "Pharmaceutical preparations"
+            ]
+          },
+          {
+            "codigo": "00044",
+            "nombre": "Impaired tissue integrity",
+            "aprobado": "1986",
+            "revisado": "1998, 2013, 2017, 2023",
+            "nivel_evidencia": "3.2",
+            "mesh": "Tissue Integrity (M0593292)",
+            "concept_focus": "Tissue integrity",
+            "context_symptom_focus": "Physical injury",
+            "subject_of_care": "Individual",
+            "judgment": "Impaired",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Problem-focused",
+            "situational_constraint": "—",
+            "definicion": "Damage to mucous membrane, corneal, integumentary, or subcutaneous tissues.",
+            "defining_characteristics": [
+              "Damaged tissue",
+              "Destroyed tissue"
+            ],
+            "related_factors": [
+              "Excessive moisture",
+              "Inadequate nutrition",
+              "Mechanical factors",
+              "Radiation therapy"
+            ],
+            "associated_conditions": [
+              "Alteration in metabolic state",
+              "Impaired circulation",
+              "Impaired sensation",
+              "Pharmaceutical preparations"
+            ]
+          },
+          {
+            "codigo": "00045",
+            "nombre": "Risk for impaired tissue integrity",
+            "aprobado": "1998",
+            "revisado": "2013, 2017, 2023",
+            "nivel_evidencia": "3.1",
+            "mesh": "Tissue Integrity (M0593292)",
+            "concept_focus": "Tissue integrity",
+            "context_symptom_focus": "Physical injury",
+            "subject_of_care": "Individual",
+            "judgment": "Impaired",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Potential to deteriorate",
+            "situational_constraint": "—",
+            "definicion": "Susceptible to damage to mucous membrane, corneal, integumentary, or subcutaneous tissues.",
+            "risk_factors": [
+              "Excessive moisture",
+              "Inadequate nutrition",
+              "Mechanical factors",
+              "Radiation therapy"
+            ],
+            "associated_conditions": [
+              "Alteration in metabolic state",
+              "Impaired circulation",
+              "Impaired sensation",
+              "Pharmaceutical preparations"
+            ]
+          },
+          {
+            "codigo": "00219",
+            "nombre": "Risk for thermal injury",
+            "aprobado": "2013",
+            "revisado": "2017, 2023",
+            "nivel_evidencia": "2.1",
+            "mesh": "Burns (M0003179)",
+            "concept_focus": "Thermal injury",
+            "context_symptom_focus": "Physical injury",
+            "subject_of_care": "Individual",
+            "judgment": "Impaired",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Potential to deteriorate",
+            "situational_constraint": "—",
+            "definicion": "Susceptible to extreme temperature damage to skin and mucous membranes.",
+            "risk_factors": [
+              "Cognitive impairment",
+              "Inadequate caregiver supervision",
+              "Inadequate knowledge of safety precautions",
+              "Inadequate protective clothing",
+              "Smoking"
+            ],
+            "at_risk_population": [
+              "Individuals at extremes of age"
+            ]
+          },
+          {
+            "codigo": "00220",
+            "nombre": "Risk for corneal injury",
+            "aprobado": "2013",
+            "revisado": "2017, 2023",
+            "nivel_evidencia": "2.1",
+            "mesh": "Corneal Diseases (M0005174)",
+            "concept_focus": "Corneal injury",
+            "context_symptom_focus": "Physical injury",
+            "subject_of_care": "Individual",
+            "judgment": "Impaired",
+            "anatomical_site": "Eye",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Potential to deteriorate",
+            "situational_constraint": "—",
+            "definicion": "Susceptible to injury to the cornea.",
+            "risk_factors": [
+              "Inadequate knowledge of protective measures",
+              "Inadequate protective eyewear"
+            ],
+            "associated_conditions": [
+              "Mechanical ventilation"
+            ]
+          },
+          {
+            "codigo": "00250",
+            "nombre": "Risk for urinary tract injury",
+            "aprobado": "2016",
+            "revisado": "2017, 2023",
+            "nivel_evidencia": "2.1",
+            "mesh": "Urinary Tract (M0024541)",
+            "concept_focus": "Urinary tract injury",
+            "context_symptom_focus": "Physical injury",
+            "subject_of_care": "Individual",
+            "judgment": "Impaired",
+            "anatomical_site": "Urinary tract",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Potential to deteriorate",
+            "situational_constraint": "—",
+            "definicion": "Susceptible to injury to the urinary tract.",
+            "risk_factors": [
+              "Inadequate knowledge of catheter care",
+              "Inadequate primary defenses",
+              "Inadequate secondary defenses"
+            ],
+            "associated_conditions": [
+              "Urinary catheterization"
+            ]
+          },
+          {
+            "codigo": "00394",
+            "nombre": "Risk for pressure ulcer",
+            "aprobado": "2023",
+            "revisado": "",
+            "nivel_evidencia": "3.2",
+            "mesh": "Pressure Ulcer (M0017878)",
+            "concept_focus": "Pressure ulcer",
+            "context_symptom_focus": "Physical injury",
+            "subject_of_care": "Individual",
+            "judgment": "Impaired",
+            "anatomical_site": "Integumentary system",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Potential to deteriorate",
+            "situational_constraint": "—",
+            "definicion": "Susceptible to localized injury to the skin and/or underlying tissue usually over a bony prominence.",
+            "risk_factors": [
+              "Impaired physical mobility",
+              "Inadequate caregiver knowledge of pressure ulcer prevention",
+              "Inadequate skin hydration",
+              "Inadequate tissue perfusion",
+              "Inappropriate pressure redistribution device",
+              "Malnutrition",
+              "Moisture on skin",
+              "Pressure over bony prominence",
+              "Shearing forces"
+            ],
+            "at_risk_population": [
+              "Individuals with dark skin tone",
+              "Older adults"
+            ],
+            "associated_conditions": [
+              "Anemia",
+              "Critical illness",
+              "Dehydration",
+              "Edema",
+              "Fracture",
+              "Neurological disorders",
+              "Peripheral vascular disease",
+              "Spinal cord injury"
+            ]
+          },
+          {
+            "codigo": "00395",
+            "nombre": "Risk for perioperative positioning injury",
+            "aprobado": "2023",
+            "revisado": "",
+            "nivel_evidencia": "2.1",
+            "mesh": "Intraoperative Complications (M0011587)",
+            "concept_focus": "Perioperative positioning injury",
+            "context_symptom_focus": "Physical injury",
+            "subject_of_care": "Individual",
+            "judgment": "Impaired",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Potential to deteriorate",
+            "situational_constraint": "—",
+            "definicion": "Susceptible to inadvertent anatomical and physical changes as a result of posture or equipment used during an invasive/surgical procedure.",
+            "risk_factors": [
+              "Disorientation",
+              "Edema",
+              "Emaciation",
+              "Immobilization",
+              "Muscle weakness",
+              "Obesity",
+              "Sensory/perceptual disturbance"
+            ],
+            "associated_conditions": [
+              "Cooling of muscles",
+              "Mechanical pressure",
+              "Surgical position"
+            ]
+          },
+          {
+            "codigo": "00396",
+            "nombre": "Risk for vascular trauma",
+            "aprobado": "2023",
+            "revisado": "",
+            "nivel_evidencia": "2.1",
+            "mesh": "Vascular Trauma (M0029290)",
+            "concept_focus": "Vascular trauma",
+            "context_symptom_focus": "Physical injury",
+            "subject_of_care": "Individual",
+            "judgment": "Impaired",
+            "anatomical_site": "Vascular system",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Potential to deteriorate",
+            "situational_constraint": "—",
+            "definicion": "Susceptible to damage to a vein and its surrounding tissues related to the presence of a catheter.",
+            "risk_factors": [
+              "Inadequate catheter fixation",
+              "Inappropriate catheter tip position",
+              "Inappropriate catheter size",
+              "Inappropriate catheter material",
+              "Prolonged catheter placement",
+              "Rapid infusion rate"
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "nombre": "Violence",
+        "definicion": "Exertion of excessive force and power so as to cause injury or abuse",
+        "diagnosticos": [
+          {
+            "codigo": "00138",
+            "nombre": "Risk for self-directed violence",
+            "aprobado": "1992",
+            "revisado": "2013, 2017, 2023",
+            "nivel_evidencia": "3.1",
+            "mesh": "Violence (M0022901)",
+            "concept_focus": "Violence",
+            "context_symptom_focus": "Self-directed violence",
+            "subject_of_care": "Individual",
+            "judgment": "Impaired",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Potential to deteriorate",
+            "situational_constraint": "—",
+            "definicion": "Susceptible to behaviors in which an individual demonstrates that he/she can be physically, emotionally, and/or sexually harmful to self.",
+            "risk_factors": [
+              "Conflict in interpersonal relationships",
+              "Employment problems",
+              "History of self-harm",
+              "Substance misuse"
+            ],
+            "associated_conditions": [
+              "Mental disorders"
+            ]
+          },
+          {
+            "codigo": "00140",
+            "nombre": "Risk for other-directed violence",
+            "aprobado": "1980",
+            "revisado": "1996, 2013, 2017, 2023",
+            "nivel_evidencia": "3.1",
+            "mesh": "Violence (M0022901)",
+            "concept_focus": "Violence",
+            "context_symptom_focus": "Other-directed violence",
+            "subject_of_care": "Individual",
+            "judgment": "Impaired",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Potential to deteriorate",
+            "situational_constraint": "—",
+            "definicion": "Susceptible to behaviors in which an individual demonstrates that he/she can be physically, emotionally, and/or sexually harmful to others.",
+            "risk_factors": [
+              "Access to weapons",
+              "Conflict in interpersonal relationships",
+              "History of violence",
+              "Substance misuse"
+            ],
+            "associated_conditions": [
+              "Mental disorders"
+            ]
+          },
+          {
+            "codigo": "00150",
+            "nombre": "Risk for self-mutilation",
+            "aprobado": "1988",
+            "revisado": "1998, 2013, 2017, 2023",
+            "nivel_evidencia": "3.1",
+            "mesh": "Self-Injurious Behavior (M0029291)",
+            "concept_focus": "Self-mutilation",
+            "context_symptom_focus": "Self-directed violence",
+            "subject_of_care": "Individual",
+            "judgment": "Impaired",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Potential to deteriorate",
+            "situational_constraint": "—",
+            "definicion": "Susceptible to deliberate self-injurious behavior causing tissue damage with the intent of causing nonfatal injury to attain relief of tension.",
+            "risk_factors": [
+              "Disturbed body image",
+              "Emotional distress",
+              "History of self-harm",
+              "Impulsivity",
+              "Substance misuse"
+            ],
+            "associated_conditions": [
+              "Borderline personality disorder",
+              "Developmental delay",
+              "Neurocognitive disorders"
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "nombre": "Environmental Hazards",
+        "definicion": "Sources of danger in surroundings",
+        "diagnosticos": [
+          {
+            "codigo": "00181",
+            "nombre": "Contamination",
+            "aprobado": "2008",
+            "revisado": "2013, 2017, 2023",
+            "nivel_evidencia": "3.2",
+            "mesh": "Environmental Exposure (M0007525)",
+            "concept_focus": "Contamination",
+            "context_symptom_focus": "Environmental hazard",
+            "subject_of_care": "Individual",
+            "judgment": "Impaired",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Problem-focused",
+            "situational_constraint": "—",
+            "definicion": "Exposure to environmental contaminants in doses sufficient to cause adverse health effects.",
+            "defining_characteristics": [
+              "Chemical contamination",
+              "Biological contamination",
+              "Radiation contamination"
+            ],
+            "related_factors": [
+              "Exposure to chemical pollutants",
+              "Exposure to radiation",
+              "Inadequate household hygiene practices",
+              "Inadequate personal hygiene practices",
+              "Inappropriate use of pesticides",
+              "Unsafe food handling"
+            ]
+          },
+          {
+            "codigo": "00180",
+            "nombre": "Risk for contamination",
+            "aprobado": "2008",
+            "revisado": "2013, 2017, 2023",
+            "nivel_evidencia": "3.1",
+            "mesh": "Environmental Exposure (M0007525)",
+            "concept_focus": "Contamination",
+            "context_symptom_focus": "Environmental hazard",
+            "subject_of_care": "Individual",
+            "judgment": "Impaired",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Potential to deteriorate",
+            "situational_constraint": "—",
+            "definicion": "Susceptible to exposure to environmental contaminants in doses sufficient to cause adverse health effects.",
+            "risk_factors": [
+              "Exposure to chemical pollutants",
+              "Exposure to radiation",
+              "Inadequate household hygiene practices",
+              "Inadequate personal hygiene practices",
+              "Inappropriate use of pesticides",
+              "Unsafe food handling"
+            ]
+          },
+          {
+            "codigo": "00037",
+            "nombre": "Risk for poisoning",
+            "aprobado": "1980",
+            "revisado": "1996, 2013, 2017, 2023",
+            "nivel_evidencia": "3.1",
+            "mesh": "Poisoning (M0016911)",
+            "concept_focus": "Poisoning",
+            "context_symptom_focus": "Environmental hazard",
+            "subject_of_care": "Individual",
+            "judgment": "Impaired",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Potential to deteriorate",
+            "situational_constraint": "—",
+            "definicion": "Susceptible to accidental exposure to, or ingestion of, drugs or dangerous products in sufficient doses.",
+            "risk_factors": [
+              "Access to dangerous products",
+              "Inadequate precautions",
+              "Inadequate storage of dangerous products"
+            ],
+            "at_risk_population": [
+              "Children",
+              "Individuals with cognitive impairment"
+            ]
+          },
+          {
+            "codigo": "00155",
+            "nombre": "Risk for sudden infant death syndrome",
+            "aprobado": "2002",
+            "revisado": "2013, 2017, 2023",
+            "nivel_evidencia": "2.1",
+            "mesh": "Sudden Infant Death (M0020515)",
+            "concept_focus": "Sudden infant death syndrome",
+            "context_symptom_focus": "Environmental hazard",
+            "subject_of_care": "Individual",
+            "judgment": "Impaired",
+            "anatomical_site": "—",
+            "age_lower_limit": "1d",
+            "age_upper_limit": "365d",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Potential to deteriorate",
+            "situational_constraint": "—",
+            "definicion": "Susceptible to unpredicted death of an infant.",
+            "risk_factors": [
+              "Prone sleeping position",
+              "Soft sleeping surface",
+              "Tobacco exposure"
+            ],
+            "at_risk_population": [
+              "Infants of African descent",
+              "Infants of Native American descent",
+              "Male infants",
+              "Premature infants"
+            ]
+          },
+          {
+            "codigo": "00249",
+            "nombre": "Risk for adverse reaction to iodinated contrast media",
+            "aprobado": "2016",
+            "revisado": "2017, 2023",
+            "nivel_evidencia": "2.1",
+            "mesh": "Contrast Media (M0005223)",
+            "concept_focus": "Adverse reaction",
+            "context_symptom_focus": "Environmental hazard",
+            "subject_of_care": "Individual",
+            "judgment": "Impaired",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Potential to deteriorate",
+            "situational_constraint": "—",
+            "definicion": "Susceptible to a noxious or unintended reaction associated with the use of iodinated contrast media.",
+            "risk_factors": [
+              "Dehydration",
+              "History of allergic reaction to contrast media"
+            ],
+            "associated_conditions": [
+              "Chronic illness",
+              "Contrast media administration"
+            ]
+          },
+          {
+            "codigo": "00218",
+            "nombre": "Risk for latex allergy response",
+            "aprobado": "2013",
+            "revisado": "2017, 2023",
+            "nivel_evidencia": "3.1",
+            "mesh": "Latex Hypersensitivity (M0012157)",
+            "concept_focus": "Allergy response",
+            "context_symptom_focus": "Environmental hazard",
+            "subject_of_care": "Individual",
+            "judgment": "Impaired",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Potential to deteriorate",
+            "situational_constraint": "—",
+            "definicion": "Susceptible to hypersensitivity response to natural latex rubber products.",
+            "risk_factors": [
+              "History of latex allergy",
+              "Multiple surgical procedures"
+            ],
+            "associated_conditions": [
+              "Allergy to bananas, avocados, tropical fruits, kiwi, chestnuts"
+            ]
+          },
+          {
+            "codigo": "00217",
+            "nombre": "Risk for allergy response",
+            "aprobado": "2013",
+            "revisado": "2017, 2023",
+            "nivel_evidencia": "3.1",
+            "mesh": "Hypersensitivity (M0010517)",
+            "concept_focus": "Allergy response",
+            "context_symptom_focus": "Environmental hazard",
+            "subject_of_care": "Individual",
+            "judgment": "Impaired",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Potential to deteriorate",
+            "situational_constraint": "—",
+            "definicion": "Susceptible to an exaggerated immune response or reaction to substances.",
+            "risk_factors": [
+              "Exposure to allergens",
+              "Family history of allergies"
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 5,
+        "nombre": "Defensive Processes",
+        "definicion": "Mechanisms that mediate the body's response to injury or threat",
+        "diagnosticos": [
+          {
+            "codigo": "00202",
+            "nombre": "Risk for adverse reaction to anesthesia",
+            "aprobado": "2010",
+            "revisado": "2013, 2017, 2023",
+            "nivel_evidencia": "2.1",
+            "mesh": "Anesthesia (M0001129)",
+            "concept_focus": "Adverse reaction",
+            "context_symptom_focus": "Defensive process",
+            "subject_of_care": "Individual",
+            "judgment": "Impaired",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Potential to deteriorate",
+            "situational_constraint": "—",
+            "definicion": "Susceptible to a noxious or unintended reaction associated with the use of anesthesia.",
+            "risk_factors": [
+              "History of adverse reaction to anesthesia",
+              "Inadequate anesthesia monitoring"
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 6,
+        "nombre": "Thermoregulation",
+        "definicion": "Physiological process of regulating heat and energy within the body",
+        "diagnosticos": [
+          {
+            "codigo": "00005",
+            "nombre": "Risk for imbalanced body temperature",
+            "aprobado": "1986",
+            "revisado": "1998, 2013, 2017, 2023",
+            "nivel_evidencia": "3.1",
+            "mesh": "Body Temperature Regulation (M0002758)",
+            "concept_focus": "Thermoregulation",
+            "context_symptom_focus": "Body temperature",
+            "subject_of_care": "Individual",
+            "judgment": "Imbalanced",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Potential to deteriorate",
+            "situational_constraint": "—",
+            "definicion": "Susceptible to failure to maintain body temperature within normal range.",
+            "risk_factors": [
+              "Extremes of environmental temperature",
+              "Inactivity",
+              "Sedentary behaviors",
+              "Vigorous activity"
+            ],
+            "at_risk_population": [
+              "Individuals at extremes of age"
+            ],
+            "associated_conditions": [
+              "Alteration in metabolic rate",
+              "Dehydration",
+              "Pharmaceutical preparations",
+              "Trauma"
+            ]
+          },
+          {
+            "codigo": "00007",
+            "nombre": "Hyperthermia",
+            "aprobado": "1986",
+            "revisado": "1998, 2013, 2017, 2023",
+            "nivel_evidencia": "3.2",
+            "mesh": "Hyperthermia (M0010518)",
+            "concept_focus": "Thermoregulation",
+            "context_symptom_focus": "Body temperature",
+            "subject_of_care": "Individual",
+            "judgment": "Excessive",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Problem-focused",
+            "situational_constraint": "—",
+            "definicion": "Body temperature elevated above normal range.",
+            "defining_characteristics": [
+              "Body temperature above normal range",
+              "Convulsions",
+              "Flushed skin",
+              "Increased heart rate",
+              "Increased respiratory rate",
+              "Seizures",
+              "Warm to touch"
+            ],
+            "related_factors": [
+              "Decreased ability to perspire",
+              "Dehydration",
+              "Inappropriate clothing",
+              "Increased environmental temperature",
+              "Vigorous activity"
+            ],
+            "associated_conditions": [
+              "Pharmaceutical preparations",
+              "Sepsis",
+              "Trauma"
+            ]
+          },
+          {
+            "codigo": "00006",
+            "nombre": "Hypothermia",
+            "aprobado": "1986",
+            "revisado": "1998, 2013, 2017, 2023",
+            "nivel_evidencia": "3.2",
+            "mesh": "Hypothermia (M0010519)",
+            "concept_focus": "Thermoregulation",
+            "context_symptom_focus": "Body temperature",
+            "subject_of_care": "Individual",
+            "judgment": "Inadequate",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Problem-focused",
+            "situational_constraint": "—",
+            "definicion": "Body temperature below normal range.",
+            "defining_characteristics": [
+              "Body temperature below normal range",
+              "Cool skin",
+              "Cyanotic nail beds",
+              "Hypertension",
+              "Increased heart rate",
+              "Increased respiratory rate",
+              "Pallor",
+              "Piloerection",
+              "Shivering",
+              "Slow capillary refill"
+            ],
+            "related_factors": [
+              "Decreased metabolic rate",
+              "Inactivity",
+              "Inappropriate clothing",
+              "Increased environmental temperature"
+            ],
+            "associated_conditions": [
+              "Pharmaceutical preparations",
+              "Trauma"
+            ]
+          },
+          {
+            "codigo": "00253",
+            "nombre": "Risk for hypothermia",
+            "aprobado": "2016",
+            "revisado": "2017, 2023",
+            "nivel_evidencia": "3.1",
+            "mesh": "Hypothermia (M0010519)",
+            "concept_focus": "Thermoregulation",
+            "context_symptom_focus": "Body temperature",
+            "subject_of_care": "Individual",
+            "judgment": "Inadequate",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Potential to deteriorate",
+            "situational_constraint": "—",
+            "definicion": "Susceptible to body temperature below normal range.",
+            "risk_factors": [
+              "Decreased metabolic rate",
+              "Inactivity",
+              "Inappropriate clothing",
+              "Increased environmental temperature"
+            ],
+            "associated_conditions": [
+              "Pharmaceutical preparations",
+              "Trauma"
+            ]
+          },
+          {
+            "codigo": "00254",
+            "nombre": "Risk for perioperative hypothermia",
+            "aprobado": "2016",
+            "revisado": "2017, 2023",
+            "nivel_evidencia": "2.1",
+            "mesh": "Hypothermia (M0010519)",
+            "concept_focus": "Thermoregulation",
+            "context_symptom_focus": "Perioperative hypothermia",
+            "subject_of_care": "Individual",
+            "judgment": "Inadequate",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Potential to deteriorate",
+            "situational_constraint": "—",
+            "definicion": "Susceptible to inadvertent drop in core body temperature below 36°C occurring during perioperative period.",
+            "risk_factors": [
+              "Low environmental temperature",
+              "Inadequate warming measures"
+            ]
+          },
+          {
+            "codigo": "00008",
+            "nombre": "Ineffective thermoregulation",
+            "aprobado": "1986",
+            "revisado": "1998, 2013, 2017, 2023",
+            "nivel_evidencia": "3.2",
+            "mesh": "Body Temperature Regulation (M0002758)",
+            "concept_focus": "Thermoregulation",
+            "context_symptom_focus": "Body temperature",
+            "subject_of_care": "Individual",
+            "judgment": "Ineffective",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Problem-focused",
+            "situational_constraint": "—",
+            "definicion": "Temperature fluctuation between hypothermia and hyperthermia.",
+            "defining_characteristics": [
+              "Fluctuation in body temperature above or below normal range",
+              "Flushed skin",
+              "Hypertension",
+              "Increased heart rate",
+              "Increased respiratory rate",
+              "Mild shivering",
+              "Piloerection",
+              "Skin warm to touch"
+            ],
+            "related_factors": [
+              "Fluctuating environmental temperature",
+              "Trauma"
+            ],
+            "at_risk_population": [
+              "Newborns"
+            ],
+            "associated_conditions": [
+              "Sepsis"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

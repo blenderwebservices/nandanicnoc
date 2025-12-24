@@ -1,0 +1,1073 @@
+{
+  "dominio": {
+    "numero": 4,
+    "nombre": "Activity/Rest",
+    "definicion": "The production, conservation, expenditure, or balance of energy resources.",
+    "clases": [
+      {
+        "numero": 1,
+        "nombre": "Sleep/Rest",
+        "definicion": "Slumber and periods of inactivity to refresh and restore",
+        "diagnosticos": [
+          {
+            "codigo": "00095",
+            "nombre": "Insomnia",
+            "aprobado": "1975",
+            "revisado": "2006, 2017, 2023",
+            "nivel_evidencia": "3.2",
+            "mesh": "Sleep Initiation and Maintenance Disorders (M0020351)",
+            "concept_focus": "Sleep",
+            "context_symptom_focus": "Sleep pattern",
+            "subject_of_care": "Individual",
+            "judgment": "Impaired",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Problem-focused",
+            "situational_constraint": "—",
+            "definicion": "A disruption in amount and quality of sleep that impairs functioning.",
+            "defining_characteristics": [
+              "Decreased ability to function",
+              "Decreased quality of life",
+              "Difficulty concentrating",
+              "Difficulty falling asleep",
+              "Difficulty maintaining sleep state",
+              "Dissatisfaction with sleep",
+              "Early morning awakening",
+              "Fatigue",
+              "Increased absenteeism",
+              "Increased accidents",
+              "Nonrestorative sleep",
+              "Reports being awakened",
+              "Reports changes in mood",
+              "Reports decreased health status",
+              "Reports decreased quality of life",
+              "Reports feeling unrested",
+              "Reports sleep disturbances that produce next-day consequences"
+            ],
+            "related_factors": [
+              "Anxiety",
+              "Depressive symptoms",
+              "Excessive caffeine intake",
+              "Excessive daytime sleeping",
+              "Excessive environmental stimuli",
+              "Excessive nicotine intake",
+              "Excessive noise",
+              "Excessive physical discomfort",
+              "Excessive stress",
+              "Fear",
+              "Inadequate sleep hygiene",
+              "Interrupted sleep",
+              "Nightmares",
+              "Pain",
+              "Sleep apnea",
+              "Substance misuse"
+            ],
+            "at_risk_population": [
+              "Individuals experiencing life transitions",
+              "Individuals with family history of insomnia",
+              "Individuals with history of nightmares",
+              "Individuals with history of sleepwalking",
+              "Older adults",
+              "Pregnant individuals"
+            ],
+            "associated_conditions": [
+              "Delirium",
+              "Neurological disorders",
+              "Psychiatric disorders",
+              "Respiratory disorders"
+            ]
+          },
+          {
+            "codigo": "00096",
+            "nombre": "Sleep deprivation",
+            "aprobado": "1980",
+            "revisado": "1998, 2017, 2023",
+            "nivel_evidencia": "3.2",
+            "mesh": "Sleep Deprivation (M0020352)",
+            "concept_focus": "Sleep",
+            "context_symptom_focus": "Sleep pattern",
+            "subject_of_care": "Individual",
+            "judgment": "Deprived",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Problem-focused",
+            "situational_constraint": "—",
+            "definicion": "Prolonged periods of time without sustained natural periods of sleep that are sufficient to maintain well-being.",
+            "defining_characteristics": [
+              "Agitation",
+              "Altered attention",
+              "Altered concentration",
+              "Anxiety",
+              "Apathy",
+              "Combativeness",
+              "Confusion",
+              "Decreased functional ability",
+              "Decreased reaction time",
+              "Fatigue",
+              "Hallucinations",
+              "Heightened sensitivity to pain",
+              "Irritability",
+              "Lethargy",
+              "Listlessness",
+              "Perceptual disorders",
+              "Restlessness",
+              "Transient paranoia"
+            ],
+            "related_factors": [
+              "Average daily physical activity is less than recommended for age and gender",
+              "Excessive environmental stimuli",
+              "Interrupted sleep",
+              "Nightmares",
+              "Nontherapeutic environment",
+              "Prolonged physical discomfort",
+              "Sleep apnea",
+              "Sustained circadian asynchrony",
+              "Sustained inadequate sleep hygiene"
+            ],
+            "at_risk_population": [
+              "Caregivers",
+              "Parents of infants",
+              "Parents of young children",
+              "Shift workers"
+            ],
+            "associated_conditions": [
+              "Critical illness",
+              "Treatment regimen"
+            ]
+          },
+          {
+            "codigo": "00165",
+            "nombre": "Readiness for enhanced sleep",
+            "aprobado": "2002",
+            "revisado": "2013, 2017, 2023",
+            "nivel_evidencia": "2.1",
+            "mesh": "Sleep (M0020349)",
+            "concept_focus": "Sleep",
+            "context_symptom_focus": "Sleep pattern",
+            "subject_of_care": "Individual",
+            "judgment": "Prepared",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Potential to improve",
+            "situational_constraint": "—",
+            "definicion": "A pattern of natural periodic suspension of consciousness that provides adequate rest, which can be strengthened.",
+            "defining_characteristics": [
+              "Amount of sleep congruent with developmental needs",
+              "Desires to enhance sleep",
+              "Expresses feeling rejuvenated after sleep",
+              "Expresses willingness to enhance sleep",
+              "Follows appropriate sleep hygiene practices",
+              "Reports adequate sleep"
+            ]
+          },
+          {
+            "codigo": "00372",
+            "nombre": "Disturbed sleep pattern",
+            "aprobado": "2023",
+            "revisado": "",
+            "nivel_evidencia": "3.2",
+            "mesh": "Sleep Disorders (M0020350)",
+            "concept_focus": "Sleep",
+            "context_symptom_focus": "Sleep pattern",
+            "subject_of_care": "Individual",
+            "judgment": "Disturbed",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Problem-focused",
+            "situational_constraint": "—",
+            "definicion": "Time-limited interruptions of sleep amount and quality due to external factors.",
+            "defining_characteristics": [
+              "Change in normal sleep pattern",
+              "Difficulty falling asleep",
+              "Difficulty maintaining sleep state",
+              "Dissatisfaction with sleep",
+              "Early morning awakening",
+              "Fatigue",
+              "Nonrestorative sleep"
+            ],
+            "related_factors": [
+              "Care of family member",
+              "Environmental changes",
+              "Excessive environmental stimuli",
+              "Interrupted sleep",
+              "Lack of sleep privacy",
+              "Lack of sleep routine",
+              "Nontherapeutic environment",
+              "Sleep interruption for therapeutic monitoring",
+              "Sleep interruption for treatments"
+            ],
+            "at_risk_population": [
+              "Hospitalized individuals",
+              "Individuals experiencing life transitions",
+              "Individuals in aged care settings",
+              "Shift workers",
+              "Travelers"
+            ],
+            "associated_conditions": [
+              "Critical illness"
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "nombre": "Activity/Exercise",
+        "definicion": "Moving the body and using energy",
+        "diagnosticos": [
+          {
+            "codigo": "00040",
+            "nombre": "Risk for disuse syndrome",
+            "aprobado": "1988",
+            "revisado": "2000, 2017, 2023",
+            "nivel_evidencia": "2.1",
+            "mesh": "Immobilization (M0011247)",
+            "concept_focus": "Activity",
+            "context_symptom_focus": "Mobility",
+            "subject_of_care": "Individual",
+            "judgment": "Impaired",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Potential to deteriorate",
+            "situational_constraint": "—",
+            "definicion": "Susceptible to deterioration of body systems as the result of prescribed or unavoidable musculoskeletal inactivity.",
+            "risk_factors": [
+              "Impaired physical mobility",
+              "Prescribed immobility",
+              "Severe pain"
+            ],
+            "associated_conditions": [
+              "Altered level of consciousness",
+              "Mechanical immobilization",
+              "Paralysis"
+            ]
+          },
+          {
+            "codigo": "00085",
+            "nombre": "Impaired physical mobility",
+            "aprobado": "1973",
+            "revisado": "1998, 2017, 2023",
+            "nivel_evidencia": "3.2",
+            "mesh": "Mobility Limitation (M0029380)",
+            "concept_focus": "Mobility",
+            "context_symptom_focus": "Physical mobility",
+            "subject_of_care": "Individual",
+            "judgment": "Impaired",
+            "anatomical_site": "Musculoskeletal system",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Problem-focused",
+            "situational_constraint": "—",
+            "definicion": "Limitation in independent, purposeful movement of the body or of one or more extremities.",
+            "defining_characteristics": [
+              "Decreased fine motor skills",
+              "Decreased gross motor skills",
+              "Difficulty turning",
+              "Gait change",
+              "Jerky movements",
+              "Limited ability to perform fine motor skills",
+              "Limited ability to perform gross motor skills",
+              "Limited range of motion",
+              "Postural instability",
+              "Slowed movement",
+              "Spastic movement",
+              "Uncoordinated movement"
+            ],
+            "related_factors": [
+              "Activity intolerance",
+              "Anxiety",
+              "Decreased muscle endurance",
+              "Decreased muscle mass",
+              "Decreased muscle strength",
+              "Depressive symptoms",
+              "Excessive pain",
+              "Joint stiffness",
+              "Malnutrition",
+              "Obesity",
+              "Sedentary behaviors"
+            ],
+            "at_risk_population": [
+              "Individuals at extremes of age",
+              "Individuals with history of previous falls"
+            ],
+            "associated_conditions": [
+              "Alteration in cognitive functioning",
+              "Musculoskeletal impairment",
+              "Neuromuscular impairment",
+              "Pharmaceutical preparations"
+            ]
+          },
+          {
+            "codigo": "00091",
+            "nombre": "Impaired bed mobility",
+            "aprobado": "1998",
+            "revisado": "2010, 2017, 2023",
+            "nivel_evidencia": "2.1",
+            "mesh": "Bed Rest (M0002249)",
+            "concept_focus": "Mobility",
+            "context_symptom_focus": "Bed mobility",
+            "subject_of_care": "Individual",
+            "judgment": "Impaired",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Problem-focused",
+            "situational_constraint": "—",
+            "definicion": "Limitation of independent movement from one bed position to another.",
+            "defining_characteristics": [
+              "Impaired ability to move between lying and sitting positions in bed",
+              "Impaired ability to move between sitting and standing positions from bed",
+              "Impaired ability to move from lying position to sitting position at side of bed",
+              "Impaired ability to reposition self in bed",
+              "Impaired ability to turn from side to side in bed"
+            ],
+            "related_factors": [
+              "Decreased muscle endurance",
+              "Decreased muscle mass",
+              "Decreased muscle strength",
+              "Excessive pain",
+              "Obesity"
+            ],
+            "associated_conditions": [
+              "Musculoskeletal impairment",
+              "Neuromuscular impairment",
+              "Pharmaceutical preparations"
+            ]
+          },
+          {
+            "codigo": "00089",
+            "nombre": "Impaired wheelchair mobility",
+            "aprobado": "1988",
+            "revisado": "2010, 2017, 2023",
+            "nivel_evidencia": "2.1",
+            "mesh": "Wheelchairs (M0022966)",
+            "concept_focus": "Mobility",
+            "context_symptom_focus": "Wheelchair mobility",
+            "subject_of_care": "Individual",
+            "judgment": "Impaired",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Problem-focused",
+            "situational_constraint": "—",
+            "definicion": "Limitation of independent operation of wheelchair within environment.",
+            "defining_characteristics": [
+              "Impaired ability to operate manual wheelchair on curbs",
+              "Impaired ability to operate manual wheelchair on even surface",
+              "Impaired ability to operate manual wheelchair on uneven surface",
+              "Impaired ability to operate manual wheelchair on inclines",
+              "Impaired ability to operate power wheelchair on curbs",
+              "Impaired ability to operate power wheelchair on even surface",
+              "Impaired ability to operate power wheelchair on uneven surface",
+              "Impaired ability to operate power wheelchair on inclines"
+            ],
+            "related_factors": [
+              "Decreased muscle endurance",
+              "Decreased muscle strength",
+              "Excessive pain",
+              "Obesity"
+            ],
+            "associated_conditions": [
+              "Musculoskeletal impairment",
+              "Neuromuscular impairment"
+            ]
+          },
+          {
+            "codigo": "00090",
+            "nombre": "Impaired transfer ability",
+            "aprobado": "1988",
+            "revisado": "1998, 2017, 2023",
+            "nivel_evidencia": "2.1",
+            "mesh": "Mobility Limitation (M0029380)",
+            "concept_focus": "Mobility",
+            "context_symptom_focus": "Transfer ability",
+            "subject_of_care": "Individual",
+            "judgment": "Impaired",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Problem-focused",
+            "situational_constraint": "—",
+            "definicion": "Limitation of independent movement between two nearby surfaces.",
+            "defining_characteristics": [
+              "Impaired ability to transfer between bed and chair",
+              "Impaired ability to transfer between bed and standing position",
+              "Impaired ability to transfer between chair and floor",
+              "Impaired ability to transfer between chair and standing position",
+              "Impaired ability to transfer between uneven levels",
+              "Impaired ability to transfer in or out of bathtub",
+              "Impaired ability to transfer in or out of toilet"
+            ],
+            "related_factors": [
+              "Decreased muscle endurance",
+              "Decreased muscle strength",
+              "Excessive pain",
+              "Obesity"
+            ],
+            "associated_conditions": [
+              "Musculoskeletal impairment",
+              "Neuromuscular impairment",
+              "Pharmaceutical preparations"
+            ]
+          },
+          {
+            "codigo": "00088",
+            "nombre": "Impaired walking",
+            "aprobado": "1988",
+            "revisado": "2017, 2023",
+            "nivel_evidencia": "2.1",
+            "mesh": "Walking (M0022920)",
+            "concept_focus": "Mobility",
+            "context_symptom_focus": "Walking",
+            "subject_of_care": "Individual",
+            "judgment": "Impaired",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Problem-focused",
+            "situational_constraint": "—",
+            "definicion": "Limitation of independent movement within the environment on foot.",
+            "defining_characteristics": [
+              "Impaired ability to climb stairs",
+              "Impaired ability to navigate curbs",
+              "Impaired ability to walk on decline",
+              "Impaired ability to walk on incline",
+              "Impaired ability to walk on uneven surface",
+              "Impaired ability to walk required distances"
+            ],
+            "related_factors": [
+              "Decreased muscle endurance",
+              "Decreased muscle strength",
+              "Excessive pain",
+              "Obesity"
+            ],
+            "associated_conditions": [
+              "Musculoskeletal impairment",
+              "Neuromuscular impairment"
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "nombre": "Energy balance",
+        "definicion": "A dynamic state of harmony between intake and expenditure of resources",
+        "diagnosticos": [
+          {
+            "codigo": "00093",
+            "nombre": "Fatigue",
+            "aprobado": "1988",
+            "revisado": "1998, 2017, 2023",
+            "nivel_evidencia": "3.2",
+            "mesh": "Fatigue (M0008254)",
+            "concept_focus": "Energy",
+            "context_symptom_focus": "Energy balance",
+            "subject_of_care": "Individual",
+            "judgment": "Decreased",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Problem-focused",
+            "situational_constraint": "—",
+            "definicion": "An overwhelming sustained sense of exhaustion and decreased capacity for physical and mental work at the usual level.",
+            "defining_characteristics": [
+              "Decreased libido",
+              "Decreased performance",
+              "Disinterest in surroundings",
+              "Drowsiness",
+              "Fatigue",
+              "Guilt about inability to perform roles",
+              "Inability to maintain usual level of physical activity",
+              "Inability to maintain usual routines",
+              "Increased need for rest",
+              "Increased physical complaints",
+              "Lethargy",
+              "Reports lack of energy",
+              "Reports overwhelming lack of energy",
+              "Tiredness"
+            ],
+            "related_factors": [
+              "Anxiety",
+              "Depressive symptoms",
+              "Excessive role demands",
+              "Excessive stress",
+              "Inadequate nutritional intake",
+              "Malnutrition",
+              "Overwhelming psychological distress",
+              "Sedentary behaviors",
+              "Sleep deprivation"
+            ],
+            "at_risk_population": [
+              "Individuals experiencing life transitions",
+              "Individuals with caregiving responsibilities"
+            ],
+            "associated_conditions": [
+              "Anemia",
+              "Chronic diseases",
+              "Infections",
+              "Neoplasms",
+              "Pain",
+              "Treatment regimen"
+            ]
+          },
+          {
+            "codigo": "00199",
+            "nombre": "Ineffective activity planning",
+            "aprobado": "2008",
+            "revisado": "2010, 2017, 2023",
+            "nivel_evidencia": "2.1",
+            "mesh": "Planning Techniques (M0016647)",
+            "concept_focus": "Activity",
+            "context_symptom_focus": "Activity planning",
+            "subject_of_care": "Individual",
+            "judgment": "Ineffective",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Problem-focused",
+            "situational_constraint": "—",
+            "definicion": "Inability to prepare for a set of actions fixed in time and under certain conditions.",
+            "defining_characteristics": [
+              "Absence of plan",
+              "Excessive procrastination of necessary activities",
+              "Failure to meet self-care goals",
+              "Fear of failure",
+              "Inadequate plan",
+              "Pattern of procrastination",
+              "Reports worry about future",
+              "Unmet goals for chosen activity"
+            ],
+            "related_factors": [
+              "Hedonism",
+              "Lack of family support",
+              "Lack of friend support",
+              "Unrealistic perception of event",
+              "Unrealistic perception of personal competence"
+            ]
+          },
+          {
+            "codigo": "00200",
+            "nombre": "Risk for ineffective activity planning",
+            "aprobado": "2008",
+            "revisado": "2010, 2017, 2023",
+            "nivel_evidencia": "2.1",
+            "mesh": "Planning Techniques (M0016647)",
+            "concept_focus": "Activity",
+            "context_symptom_focus": "Activity planning",
+            "subject_of_care": "Individual",
+            "judgment": "Ineffective",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Potential to deteriorate",
+            "situational_constraint": "—",
+            "definicion": "Susceptible to inability to prepare for a set of actions fixed in time and under certain conditions.",
+            "risk_factors": [
+              "Hedonism",
+              "Lack of family support",
+              "Lack of friend support",
+              "Unrealistic perception of event",
+              "Unrealistic perception of personal competence"
+            ]
+          },
+          {
+            "codigo": "00201",
+            "nombre": "Readiness for enhanced activity planning",
+            "aprobado": "2023",
+            "revisado": "",
+            "nivel_evidencia": "2.1",
+            "mesh": "Planning Techniques (M0016647)",
+            "concept_focus": "Activity",
+            "context_symptom_focus": "Activity planning",
+            "subject_of_care": "Individual",
+            "judgment": "Prepared",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Potential to improve",
+            "situational_constraint": "—",
+            "definicion": "A pattern of preparing for a set of actions fixed in time and under certain conditions, which can be strengthened.",
+            "defining_characteristics": [
+              "Desires to enhance planning of activities"
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "nombre": "Cardiovascular/Pulmonary responses",
+        "definicion": "Cardiopulmonary mechanisms that support activity/rest",
+        "diagnosticos": [
+          {
+            "codigo": "00032",
+            "nombre": "Ineffective breathing pattern",
+            "aprobado": "1980",
+            "revisado": "1996, 1998, 2010, 2017, 2023",
+            "nivel_evidencia": "3.2",
+            "mesh": "Respiration Disorders (M0018405)",
+            "concept_focus": "Respiratory function",
+            "context_symptom_focus": "Breathing pattern",
+            "subject_of_care": "Individual",
+            "judgment": "Ineffective",
+            "anatomical_site": "Respiratory system",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Problem-focused",
+            "situational_constraint": "—",
+            "definicion": "Inspiration and/or expiration that does not provide adequate ventilation.",
+            "defining_characteristics": [
+              "Abnormal breathing pattern",
+              "Altered chest excursion",
+              "Bradypnea",
+              "Decreased expiratory pressure",
+              "Decreased inspiratory pressure",
+              "Decreased minute ventilation",
+              "Decreased vital capacity",
+              "Dyspnea",
+              "Increased anterior-posterior diameter",
+              "Nasal flaring",
+              "Orthopnea",
+              "Prolonged expiration phase",
+              "Pursed-lip breathing",
+              "Tachypnea",
+              "Use of accessory muscles to breathe"
+            ],
+            "related_factors": [
+              "Anxiety",
+              "Fatigue",
+              "Pain",
+              "Respiratory muscle fatigue"
+            ],
+            "associated_conditions": [
+              "Body position affecting respiratory function",
+              "Musculoskeletal impairment",
+              "Neurological impairment",
+              "Obesity",
+              "Respiratory diseases"
+            ]
+          },
+          {
+            "codigo": "00092",
+            "nombre": "Activity intolerance",
+            "aprobado": "1982",
+            "revisado": "1998, 2010, 2017, 2023",
+            "nivel_evidencia": "3.2",
+            "mesh": "Fatigue (M0008254)",
+            "concept_focus": "Energy",
+            "context_symptom_focus": "Activity tolerance",
+            "subject_of_care": "Individual",
+            "judgment": "Intolerant",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Problem-focused",
+            "situational_constraint": "—",
+            "definicion": "Insufficient physiological or psychological energy to endure or complete required or desired daily activities.",
+            "defining_characteristics": [
+              "Exertional discomfort",
+              "Exertional dyspnea",
+              "Reports fatigue",
+              "Reports weakness"
+            ],
+            "related_factors": [
+              "Imbalance between oxygen supply and demand",
+              "Sedentary behaviors"
+            ],
+            "associated_conditions": [
+              "Circulatory problems",
+              "Respiratory problems"
+            ]
+          },
+          {
+            "codigo": "00297",
+            "nombre": "Risk for activity intolerance",
+            "aprobado": "1998",
+            "revisado": "2010, 2017, 2023",
+            "nivel_evidencia": "2.1",
+            "mesh": "Fatigue (M0008254)",
+            "concept_focus": "Energy",
+            "context_symptom_focus": "Activity tolerance",
+            "subject_of_care": "Individual",
+            "judgment": "Intolerant",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Potential to deteriorate",
+            "situational_constraint": "—",
+            "definicion": "Susceptible to experiencing insufficient physiological or psychological energy to endure or complete required or desired daily activities.",
+            "risk_factors": [
+              "Imbalance between oxygen supply and demand",
+              "Sedentary behaviors"
+            ],
+            "associated_conditions": [
+              "Circulatory problems",
+              "Respiratory problems"
+            ]
+          },
+          {
+            "codigo": "00094",
+            "nombre": "Risk for bleeding",
+            "aprobado": "1998",
+            "revisado": "2013, 2017, 2023",
+            "nivel_evidencia": "3.1",
+            "mesh": "Hemorrhage (M0010034)",
+            "concept_focus": "Cardiovascular function",
+            "context_symptom_focus": "Bleeding",
+            "subject_of_care": "Individual",
+            "judgment": "Excessive",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Potential to deteriorate",
+            "situational_constraint": "—",
+            "definicion": "Susceptible to a decrease in blood volume that may compromise health.",
+            "risk_factors": [
+              "Aneurysm",
+              "Circumcision",
+              "Coagulopathy",
+              "Deficient knowledge of bleeding precautions",
+              "Gastrointestinal bleeding history",
+              "Impaired liver function",
+              "Inherent coagulopathy",
+              "Postpartum complications",
+              "Pregnancy complications",
+              "Trauma",
+              "Treatment regimen"
+            ]
+          },
+          {
+            "codigo": "00206",
+            "nombre": "Risk for ineffective cerebral tissue perfusion",
+            "aprobado": "2010",
+            "revisado": "2013, 2017, 2023",
+            "nivel_evidencia": "3.1",
+            "mesh": "Cerebrovascular Circulation (M0004079)",
+            "concept_focus": "Perfusion",
+            "context_symptom_focus": "Cerebral tissue perfusion",
+            "subject_of_care": "Individual",
+            "judgment": "Ineffective",
+            "anatomical_site": "Cerebral tissue",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Potential to deteriorate",
+            "situational_constraint": "—",
+            "definicion": "Susceptible to a decrease in cerebral tissue circulation, which may compromise health.",
+            "risk_factors": [
+              "Abnormal coagulation studies",
+              "Atrial fibrillation",
+              "Brain injury",
+              "Carotid stenosis",
+              "Cerebral aneurysm",
+              "Disseminated intravascular coagulation",
+              "Embolism",
+              "Hypercoagulability",
+              "Hypertension",
+              "Substance misuse"
+            ],
+            "associated_conditions": [
+              "Cardiovascular diseases",
+              "Diabetes mellitus",
+              "Renal diseases",
+              "Trauma"
+            ]
+          },
+          {
+            "codigo": "00204",
+            "nombre": "Ineffective peripheral tissue perfusion",
+            "aprobado": "2010",
+            "revisado": "2013, 2017, 2023",
+            "nivel_evidencia": "3.2",
+            "mesh": "Peripheral Vascular Diseases (M0016428)",
+            "concept_focus": "Perfusion",
+            "context_symptom_focus": "Peripheral tissue perfusion",
+            "subject_of_care": "Individual",
+            "judgment": "Ineffective",
+            "anatomical_site": "Peripheral tissue",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Problem-focused",
+            "situational_constraint": "—",
+            "definicion": "Decrease in blood circulation to the periphery that may compromise health.",
+            "defining_characteristics": [
+              "Absent peripheral pulses",
+              "Altered skin characteristics",
+              "Ankle-brachial index < 0.90",
+              "Capillary refill time > 3 seconds",
+              "Claudication",
+              "Color does not return to lowered limb after 1 minute leg elevation",
+              "Decreased peripheral pulses",
+              "Edema",
+              "Extremity pain",
+              "Femoral bruit",
+              "Skin color pale on elevation"
+            ],
+            "related_factors": [
+              "Diabetes mellitus",
+              "Hypertension",
+              "Sedentary behaviors",
+              "Tobacco use"
+            ],
+            "associated_conditions": [
+              "Endovascular procedures",
+              "Trauma"
+            ]
+          },
+          {
+            "codigo": "00201",
+            "nombre": "Risk for ineffective peripheral tissue perfusion",
+            "aprobado": "2008",
+            "revisado": "2010, 2013, 2017, 2023",
+            "nivel_evidencia": "3.1",
+            "mesh": "Peripheral Vascular Diseases (M0016428)",
+            "concept_focus": "Perfusion",
+            "context_symptom_focus": "Peripheral tissue perfusion",
+            "subject_of_care": "Individual",
+            "judgment": "Ineffective",
+            "anatomical_site": "Peripheral tissue",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Potential to deteriorate",
+            "situational_constraint": "—",
+            "definicion": "Susceptible to a decrease in blood circulation to the periphery, which may compromise health.",
+            "risk_factors": [
+              "Diabetes mellitus",
+              "Hypertension",
+              "Sedentary behaviors",
+              "Tobacco use"
+            ],
+            "associated_conditions": [
+              "Endovascular procedures",
+              "Trauma"
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 5,
+        "nombre": "Self-care",
+        "definicion": "Ability to perform activities to care for one's body and bodily functions",
+        "diagnosticos": [
+          {
+            "codigo": "00108",
+            "nombre": "Bathing self-care deficit",
+            "aprobado": "1980",
+            "revisado": "1998, 2017, 2023",
+            "nivel_evidencia": "3.1",
+            "mesh": "Self Care (M0019611)",
+            "concept_focus": "Self-care",
+            "context_symptom_focus": "Bathing",
+            "subject_of_care": "Individual",
+            "judgment": "Deficit",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Problem-focused",
+            "situational_constraint": "—",
+            "definicion": "Impaired ability to perform or complete bathing activities for self.",
+            "defining_characteristics": [
+              "Impaired ability to access bathroom",
+              "Impaired ability to dry body",
+              "Impaired ability to obtain water source",
+              "Impaired ability to regulate bath water",
+              "Impaired ability to wash body"
+            ],
+            "related_factors": [
+              "Decreased motivation",
+              "Environmental barriers",
+              "Impaired physical mobility",
+              "Inability to perceive body part",
+              "Inability to perceive spatial relations",
+              "Pain",
+              "Weakness"
+            ],
+            "associated_conditions": [
+              "Cognitive impairment",
+              "Musculoskeletal impairment",
+              "Neuromuscular impairment"
+            ]
+          },
+          {
+            "codigo": "00109",
+            "nombre": "Dressing self-care deficit",
+            "aprobado": "1980",
+            "revisado": "1998, 2017, 2023",
+            "nivel_evidencia": "3.1",
+            "mesh": "Self Care (M0019611)",
+            "concept_focus": "Self-care",
+            "context_symptom_focus": "Dressing",
+            "subject_of_care": "Individual",
+            "judgment": "Deficit",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Problem-focused",
+            "situational_constraint": "—",
+            "definicion": "Impaired ability to perform or complete dressing activities for self.",
+            "defining_characteristics": [
+              "Impaired ability to choose clothing",
+              "Impaired ability to fasten clothing",
+              "Impaired ability to maintain appearance",
+              "Impaired ability to obtain clothing",
+              "Impaired ability to put on clothing",
+              "Impaired ability to put on footwear",
+              "Impaired ability to remove clothing",
+              "Impaired ability to remove footwear",
+              "Impaired ability to use assistive devices",
+              "Impaired ability to use zippers"
+            ],
+            "related_factors": [
+              "Decreased motivation",
+              "Environmental barriers",
+              "Impaired physical mobility",
+              "Pain",
+              "Weakness"
+            ],
+            "associated_conditions": [
+              "Cognitive impairment",
+              "Musculoskeletal impairment",
+              "Neuromuscular impairment"
+            ]
+          },
+          {
+            "codigo": "00102",
+            "nombre": "Feeding self-care deficit",
+            "aprobado": "1980",
+            "revisado": "1998, 2017, 2023",
+            "nivel_evidencia": "3.1",
+            "mesh": "Self Care (M0019611)",
+            "concept_focus": "Self-care",
+            "context_symptom_focus": "Feeding",
+            "subject_of_care": "Individual",
+            "judgment": "Deficit",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Problem-focused",
+            "situational_constraint": "—",
+            "definicion": "Impaired ability to perform or complete feeding activities for self.",
+            "defining_characteristics": [
+              "Impaired ability to bring food to mouth",
+              "Impaired ability to chew food",
+              "Impaired ability to complete meal",
+              "Impaired ability to get food onto utensil",
+              "Impaired ability to handle cup",
+              "Impaired ability to handle utensils",
+              "Impaired ability to ingest food safely",
+              "Impaired ability to manipulate food in mouth",
+              "Impaired ability to open containers",
+              "Impaired ability to prepare food",
+              "Impaired ability to self-feed complete meal",
+              "Impaired ability to swallow food",
+              "Impaired ability to use assistive devices"
+            ],
+            "related_factors": [
+              "Decreased motivation",
+              "Environmental barriers",
+              "Impaired physical mobility",
+              "Pain",
+              "Weakness"
+            ],
+            "associated_conditions": [
+              "Cognitive impairment",
+              "Musculoskeletal impairment",
+              "Neuromuscular impairment"
+            ]
+          },
+          {
+            "codigo": "00110",
+            "nombre": "Toileting self-care deficit",
+            "aprobado": "1980",
+            "revisado": "1998, 2017, 2023",
+            "nivel_evidencia": "3.1",
+            "mesh": "Self Care (M0019611)",
+            "concept_focus": "Self-care",
+            "context_symptom_focus": "Toileting",
+            "subject_of_care": "Individual",
+            "judgment": "Deficit",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Problem-focused",
+            "situational_constraint": "—",
+            "definicion": "Impaired ability to perform or complete toileting activities for self.",
+            "defining_characteristics": [
+              "Impaired ability to complete toileting",
+              "Impaired ability to manipulate clothing for toileting",
+              "Impaired ability to reach toilet",
+              "Impaired ability to rise from toilet",
+              "Impaired ability to sit on toilet"
+            ],
+            "related_factors": [
+              "Decreased motivation",
+              "Environmental barriers",
+              "Impaired physical mobility",
+              "Pain",
+              "Weakness"
+            ],
+            "associated_conditions": [
+              "Cognitive impairment",
+              "Musculoskeletal impairment",
+              "Neuromuscular impairment"
+            ]
+          },
+          {
+            "codigo": "00182",
+            "nombre": "Readiness for enhanced self-care",
+            "aprobado": "2008",
+            "revisado": "2013, 2017, 2023",
+            "nivel_evidencia": "2.1",
+            "mesh": "Self Care (M0019611)",
+            "concept_focus": "Self-care",
+            "context_symptom_focus": "Self-care",
+            "subject_of_care": "Individual",
+            "judgment": "Prepared",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Potential to improve",
+            "situational_constraint": "—",
+            "definicion": "A pattern of performing activities for oneself that help to meet health-related goals, which can be strengthened.",
+            "defining_characteristics": [
+              "Desires to enhance independence in maintaining health",
+              "Desires to enhance independence in maintaining life",
+              "Desires to enhance independence in maintaining personal development",
+              "Desires to enhance independence in maintaining well-being",
+              "Desires to enhance knowledge of self-care strategies",
+              "Desires to enhance self-care"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "dominio": {
+    "numero": 13,
+    "nombre": "Growth/Development",
+    "definicion": "Age-appropriate increases in physical dimensions, maturation of organ systems, and/or progression through the developmental milestones.",
+    "clases": [
+      {
+        "numero": 1,
+        "nombre": "Growth",
+        "definicion": "Age-appropriate increases in physical dimensions and weight",
+        "diagnosticos": [
+          {
+            "codigo": "00111",
+            "nombre": "Delayed growth and development",
+            "aprobado": "1986",
+            "revisado": "1998, 2010, 2017, 2023",
+            "nivel_evidencia": "3.2",
+            "mesh": "Growth Disorders (M0009518)",
+            "concept_focus": "Growth",
+            "context_symptom_focus": "Development",
+            "subject_of_care": "Individual",
+            "judgment": "Delayed",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Problem-focused",
+            "situational_constraint": "—",
+            "definicion": "Deviations from age-group norms in physical, cognitive, emotional, and/or social development.",
+            "defining_characteristics": [
+              "Altered physical growth",
+              "Delay in cognitive development",
+              "Delay in emotional development",
+              "Delay in social development",
+              "Inability to perform self-care activities appropriate for age",
+              "Inability to perform self-control activities appropriate for age",
+              "Limited language development",
+              "Limited motor development"
+            ],
+            "related_factors": [
+              "Inadequate caregiver knowledge of growth and development",
+              "Inadequate nutrition",
+              "Insufficient stimulation",
+              "Substance misuse"
+            ],
+            "at_risk_population": [
+              "Economically disadvantaged individuals",
+              "Individuals experiencing chronic illness",
+              "Individuals experiencing frequent moves",
+              "Individuals experiencing homelessness",
+              "Individuals with history of neglect"
+            ],
+            "associated_conditions": [
+              "Endocrine disorders",
+              "Genetic disorders",
+              "Infections",
+              "Mental disorders",
+              "Neurological disorders"
+            ]
+          },
+          {
+            "codigo": "00113",
+            "nombre": "Risk for delayed development",
+            "aprobado": "1998",
+            "revisado": "2013, 2017, 2023",
+            "nivel_evidencia": "3.1",
+            "mesh": "Developmental Disabilities (M0005959)",
+            "concept_focus": "Development",
+            "context_symptom_focus": "Growth",
+            "subject_of_care": "Individual",
+            "judgment": "Delayed",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Potential to deteriorate",
+            "situational_constraint": "—",
+            "definicion": "Susceptible to delay of 25% or more in one or more domains (cognitive, speech/language, social/emotional, fine motor, gross motor) compared with age-group norms.",
+            "risk_factors": [
+              "Inadequate caregiver knowledge of growth and development",
+              "Inadequate nutrition",
+              "Insufficient stimulation",
+              "Substance misuse"
+            ],
+            "at_risk_population": [
+              "Economically disadvantaged individuals",
+              "Individuals experiencing chronic illness",
+              "Individuals experiencing frequent moves",
+              "Individuals experiencing homelessness",
+              "Individuals with history of neglect"
+            ],
+            "associated_conditions": [
+              "Endocrine disorders",
+              "Genetic disorders",
+              "Infections",
+              "Mental disorders",
+              "Neurological disorders"
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "nombre": "Development",
+        "definicion": "Age-appropriate progression through the developmental milestones",
+        "diagnosticos": [
+          {
+            "codigo": "00351",
+            "nombre": "Delayed infant motor development",
+            "aprobado": "2023",
+            "revisado": "",
+            "nivel_evidencia": "3.2",
+            "mesh": "Motor Skills Disorders (M0014168)",
+            "concept_focus": "Development",
+            "context_symptom_focus": "Motor development",
+            "subject_of_care": "Individual",
+            "judgment": "Delayed",
+            "anatomical_site": "Musculoskeletal system",
+            "age_lower_limit": "1d",
+            "age_upper_limit": "365d",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Problem-focused",
+            "situational_constraint": "—",
+            "definicion": "Deviation from age-group norms in acquisition of motor skills.",
+            "defining_characteristics": [
+              "Delayed achievement of gross motor milestones",
+              "Delayed achievement of fine motor milestones",
+              "Inability to perform gross motor skills appropriate for age",
+              "Inability to perform fine motor skills appropriate for age"
+            ],
+            "related_factors": [
+              "Inadequate caregiver knowledge of motor development",
+              "Inadequate stimulation",
+              "Insufficient opportunities for motor practice"
+            ],
+            "at_risk_population": [
+              "Premature infants"
+            ],
+            "associated_conditions": [
+              "Congenital disorders",
+              "Neurological disorders"
+            ]
+          },
+          {
+            "codigo": "00353",
+            "nombre": "Elder frailty syndrome",
+            "aprobado": "2023",
+            "revisado": "",
+            "nivel_evidencia": "3.2",
+            "mesh": "Frailty (M0008263)",
+            "concept_focus": "Frailty",
+            "context_symptom_focus": "Development",
+            "subject_of_care": "Individual",
+            "judgment": "Impaired",
+            "anatomical_site": "—",
+            "age_lower_limit": "65y",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Problem-focused",
+            "situational_constraint": "—",
+            "definicion": "Dynamic state of unstable equilibrium that affects the older individual experiencing deterioration in one or more domains of health (physical, functional, psychological, or social) and leads to increased susceptibility to adverse health effects.",
+            "defining_characteristics": [
+              "Decreased muscle strength",
+              "Exhaustion",
+              "Involuntary weight loss",
+              "Slowed walking speed",
+              "Low physical activity level"
+            ],
+            "related_factors": [
+              "Chronic illness",
+              "Inadequate nutritional intake",
+              "Malnutrition",
+              "Sedentary behaviors"
+            ],
+            "at_risk_population": [
+              "Individuals ≥ 65 years of age"
+            ],
+            "associated_conditions": [
+              "Polypharmacy"
+            ]
+          },
+          {
+            "codigo": "00354",
+            "nombre": "Risk for elder frailty syndrome",
+            "aprobado": "2023",
+            "revisado": "",
+            "nivel_evidencia": "3.1",
+            "mesh": "Frailty (M0008263)",
+            "concept_focus": "Frailty",
+            "context_symptom_focus": "Development",
+            "subject_of_care": "Individual",
+            "judgment": "Impaired",
+            "anatomical_site": "—",
+            "age_lower_limit": "65y",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Potential to deteriorate",
+            "situational_constraint": "—",
+            "definicion": "Susceptible to a dynamic state of unstable equilibrium that affects the older individual experiencing deterioration in one or more domains of health (physical, functional, psychological, or social) and leads to increased susceptibility to adverse health effects.",
+            "risk_factors": [
+              "Chronic illness",
+              "Inadequate nutritional intake",
+              "Malnutrition",
+              "Sedentary behaviors"
+            ],
+            "at_risk_population": [
+              "Individuals ≥ 65 years of age"
+            ],
+            "associated_conditions": [
+              "Polypharmacy"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

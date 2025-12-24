@@ -1,0 +1,397 @@
+{
+  "dominio": {
+    "numero": 6,
+    "nombre": "Self-Perception",
+    "definicion": "Awareness about the self including body image, self-esteem, and identity.",
+    "clases": [
+      {
+        "numero": 1,
+        "nombre": "Self-Concept",
+        "definicion": "The perception(s) one has about one's abilities and limitations.",
+        "diagnosticos": [
+          {
+            "codigo": "00167",
+            "nombre": "Readiness for enhanced self-concept",
+            "aprobado": "1988",
+            "revisado": "1998, 2010, 2017, 2023",
+            "nivel_evidencia": "2.1",
+            "mesh": "Self Concept (M0019612)",
+            "concept_focus": "Self-concept",
+            "context_symptom_focus": "Self-perception",
+            "subject_of_care": "Individual",
+            "judgment": "Prepared",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Potential to improve",
+            "situational_constraint": "—",
+            "definicion": "A pattern of perceptions or ideas about the self, which can be strengthened.",
+            "defining_characteristics": [
+              "Accepts limitations",
+              "Accepts strengths",
+              "Confidence in abilities",
+              "Desires to enhance self-concept",
+              "Expresses satisfaction with body image",
+              "Expresses satisfaction with personal identity",
+              "Expresses satisfaction with role performance",
+              "Expresses satisfaction with self-worth",
+              "Expresses satisfaction with sense of self",
+              "Expresses willingness to enhance self-concept"
+            ]
+          },
+          {
+            "codigo": "00124",
+            "nombre": "Hopelessness",
+            "aprobado": "1986",
+            "revisado": "2017, 2023",
+            "nivel_evidencia": "3.2",
+            "mesh": "Hopelessness (M0010516)",
+            "concept_focus": "Self-concept",
+            "context_symptom_focus": "Hope",
+            "subject_of_care": "Individual",
+            "judgment": "Impaired",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Problem-focused",
+            "situational_constraint": "—",
+            "definicion": "Subjective state in which an individual sees limited or no alternatives or personal choices available and is unable to mobilize energy on own behalf.",
+            "defining_characteristics": [
+              "Apathy",
+              "Decreased affective response",
+              "Decreased initiative",
+              "Decreased motivation",
+              "Decreased verbalization",
+              "Despair",
+              "Passivity",
+              "Reports lack of control",
+              "Reports lack of meaning in life",
+              "Reports lack of purpose in life",
+              "Reports loss of belief in self",
+              "Reports loss of belief in transcendent values",
+              "Sleep disturbance",
+              "Suicidal ideation"
+            ],
+            "related_factors": [
+              "Chronic illness",
+              "Excessive stress",
+              "Loss of belief in self",
+              "Loss of belief in transcendent values",
+              "Prolonged activity restriction",
+              "Social isolation"
+            ],
+            "at_risk_population": [
+              "Individuals experiencing abandonment",
+              "Individuals experiencing economic hardship",
+              "Individuals experiencing loss of significant others",
+              "Individuals experiencing loss of significant relationships"
+            ],
+            "associated_conditions": [
+              "Critical illness",
+              "Terminal illness"
+            ]
+          },
+          {
+            "codigo": "00174",
+            "nombre": "Risk for chronic low self-esteem",
+            "aprobado": "2000",
+            "revisado": "2017, 2023",
+            "nivel_evidencia": "3.1",
+            "mesh": "Self Esteem (M0019613)",
+            "concept_focus": "Self-esteem",
+            "context_symptom_focus": "Self-perception",
+            "subject_of_care": "Individual",
+            "judgment": "Low",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "Chronic",
+            "status_of_the_diagnosis": "Potential to deteriorate",
+            "situational_constraint": "—",
+            "definicion": "Susceptible to long-standing negative self-evaluating/feelings about self or self-capabilities.",
+            "risk_factors": [
+              "Disturbed body image",
+              "Excessive stress",
+              "Functional impairment",
+              "Ineffective coping",
+              "Social role change"
+            ],
+            "at_risk_population": [
+              "Individuals experiencing life transitions",
+              "Individuals exposed to abuse",
+              "Individuals with history of neglect",
+              "Individuals with psychiatric disorders"
+            ]
+          },
+          {
+            "codigo": "00224",
+            "nombre": "Disturbed personal identity",
+            "aprobado": "2010",
+            "revisado": "2013, 2017, 2023",
+            "nivel_evidencia": "2.1",
+            "mesh": "Personal Identity (M0029277)",
+            "concept_focus": "Identity",
+            "context_symptom_focus": "Personal identity",
+            "subject_of_care": "Individual",
+            "judgment": "Disturbed",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Problem-focused",
+            "situational_constraint": "—",
+            "definicion": "Inability to maintain an integrated and complete perception of self.",
+            "defining_characteristics": [
+              "Confusion about cultural values",
+              "Confusion about goals",
+              "Confusion about ideological values",
+              "Confusion about life purpose",
+              "Confusion about role",
+              "Confusion about self-image",
+              "Delusional description of self",
+              "Disturbed body image",
+              "Feeling empty",
+              "Feeling of strangeness toward self",
+              "Fluctuating feelings about self",
+              "Gender confusion",
+              "Ineffective coping",
+              "Ineffective role performance",
+              "Reports altered self-perception",
+              "Reports altered self-worth"
+            ],
+            "related_factors": [
+              "Cultural discontinuity",
+              "Discrimination",
+              "Excessive stress",
+              "Social isolation"
+            ],
+            "at_risk_population": [
+              "Individuals experiencing life transitions",
+              "Individuals exposed to abuse",
+              "Individuals with psychiatric disorders"
+            ],
+            "associated_conditions": [
+              "Developmental disabilities",
+              "Neurocognitive disorders",
+              "Psychiatric disorders"
+            ]
+          },
+          {
+            "codigo": "00225",
+            "nombre": "Risk for disturbed personal identity",
+            "aprobado": "2010",
+            "revisado": "2013, 2017, 2023",
+            "nivel_evidencia": "2.1",
+            "mesh": "Personal Identity (M0029277)",
+            "concept_focus": "Identity",
+            "context_symptom_focus": "Personal identity",
+            "subject_of_care": "Individual",
+            "judgment": "Disturbed",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Potential to deteriorate",
+            "situational_constraint": "—",
+            "definicion": "Susceptible to inability to maintain an integrated and complete perception of self.",
+            "risk_factors": [
+              "Cultural discontinuity",
+              "Discrimination",
+              "Excessive stress",
+              "Social isolation"
+            ],
+            "at_risk_population": [
+              "Individuals experiencing life transitions",
+              "Individuals exposed to abuse",
+              "Individuals with psychiatric disorders"
+            ],
+            "associated_conditions": [
+              "Developmental disabilities",
+              "Neurocognitive disorders",
+              "Psychiatric disorders"
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "nombre": "Self-Esteem",
+        "definicion": "Judgment of one's own worth.",
+        "diagnosticos": [
+          {
+            "codigo": "00120",
+            "nombre": "Situational low self-esteem",
+            "aprobado": "1988",
+            "revisado": "1996, 2017, 2023",
+            "nivel_evidencia": "3.2",
+            "mesh": "Self Esteem (M0019613)",
+            "concept_focus": "Self-esteem",
+            "context_symptom_focus": "Self-perception",
+            "subject_of_care": "Individual",
+            "judgment": "Low",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "Situational",
+            "status_of_the_diagnosis": "Problem-focused",
+            "situational_constraint": "—",
+            "definicion": "Development of a negative perception of self-worth in response to a current situation.",
+            "defining_characteristics": [
+              "Evaluates self as unable to deal with events",
+              "Evaluates self as unable to handle situations",
+              "Expression of helplessness",
+              "Expression of uselessness",
+              "Indecisive behavior",
+              "Nonassertive behavior",
+              "Reports feelings of shame",
+              "Reports feelings of guilt",
+              "Reports self-negating verbalizations"
+            ],
+            "related_factors": [
+              "Behavior inconsistent with values",
+              "Decreased control over environment",
+              "Excessive stress",
+              "Functional impairment",
+              "Social role change"
+            ],
+            "at_risk_population": [
+              "Individuals experiencing life transitions",
+              "Individuals exposed to abuse"
+            ]
+          },
+          {
+            "codigo": "00119",
+            "nombre": "Chronic low self-esteem",
+            "aprobado": "1988",
+            "revisado": "1996, 2017, 2023",
+            "nivel_evidencia": "3.2",
+            "mesh": "Self Esteem (M0019613)",
+            "concept_focus": "Self-esteem",
+            "context_symptom_focus": "Self-perception",
+            "subject_of_care": "Individual",
+            "judgment": "Low",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "Chronic",
+            "status_of_the_diagnosis": "Problem-focused",
+            "situational_constraint": "—",
+            "definicion": "Long-standing negative self-evaluating/feelings about self or self-capabilities.",
+            "defining_characteristics": [
+              "Exaggerates negative feedback about self",
+              "Expression of shame",
+              "Expression of guilt",
+              "Frequent lack of success in life events",
+              "Frequent lack of success in work",
+              "Indecisive behavior",
+              "Nonassertive behavior",
+              "Rationalizes away positive feedback about self",
+              "Repeatedly rejects positive feedback about self",
+              "Reports self-negating verbalizations"
+            ],
+            "related_factors": [
+              "Ineffective coping",
+              "Social role change"
+            ],
+            "at_risk_population": [
+              "Individuals exposed to abuse",
+              "Individuals with history of neglect",
+              "Individuals with psychiatric disorders"
+            ]
+          },
+          {
+            "codigo": "00175",
+            "nombre": "Risk for situational low self-esteem",
+            "aprobado": "2000",
+            "revisado": "2017, 2023",
+            "nivel_evidencia": "3.1",
+            "mesh": "Self Esteem (M0019613)",
+            "concept_focus": "Self-esteem",
+            "context_symptom_focus": "Self-perception",
+            "subject_of_care": "Individual",
+            "judgment": "Low",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "Situational",
+            "status_of_the_diagnosis": "Potential to deteriorate",
+            "situational_constraint": "—",
+            "definicion": "Susceptible to developing a negative perception of self-worth in response to a current situation.",
+            "risk_factors": [
+              "Behavior inconsistent with values",
+              "Decreased control over environment",
+              "Excessive stress",
+              "Functional impairment",
+              "Social role change"
+            ],
+            "at_risk_population": [
+              "Individuals experiencing life transitions",
+              "Individuals exposed to abuse"
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "nombre": "Body Image",
+        "definicion": "Mental representation of one's own body.",
+        "diagnosticos": [
+          {
+            "codigo": "00118",
+            "nombre": "Disturbed body image",
+            "aprobado": "1973",
+            "revisado": "1998, 2017, 2023",
+            "nivel_evidencia": "3.2",
+            "mesh": "Body Image (M0002755)",
+            "concept_focus": "Body image",
+            "context_symptom_focus": "Self-perception",
+            "subject_of_care": "Individual",
+            "judgment": "Disturbed",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Problem-focused",
+            "situational_constraint": "—",
+            "definicion": "Confusion in mental picture of one's physical self.",
+            "defining_characteristics": [
+              "Absence of body part",
+              "Avoids looking at body",
+              "Avoids touching body",
+              "Change in social involvement",
+              "Depersonalization of body part",
+              "Depersonalization of loss",
+              "Expression of negative feelings about body",
+              "Fear of reaction by others",
+              "Focus on past appearance",
+              "Focus on past function",
+              "Focus on past strength",
+              "Hides body part",
+              "Negative feelings about body",
+              "Overexposure of body part",
+              "Preoccupation with changed body part",
+              "Preoccupation with loss",
+              "Refusal to acknowledge change",
+              "Reports change in body",
+              "Trauma to non-functioning body part"
+            ],
+            "related_factors": [
+              "Cultural incongruence",
+              "Excessive stress",
+              "Illness",
+              "Injury",
+              "Social stigma",
+              "Surgery",
+              "Trauma"
+            ],
+            "associated_conditions": [
+              "Treatment regimen"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

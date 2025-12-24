@@ -1,0 +1,519 @@
+{
+  "dominio": {
+    "numero": 10,
+    "nombre": "Life Principles",
+    "definicion": "Principles underlying conduct, thought, and behavior about acts, customs, or institutions viewed as true or having intrinsic worth.",
+    "clases": [
+      {
+        "numero": 1,
+        "nombre": "Values",
+        "definicion": "Ideals or concepts that give meaning to life",
+        "diagnosticos": [
+          {
+            "codigo": "00287",
+            "nombre": "Readiness for enhanced moral resilience",
+            "aprobado": "2023",
+            "revisado": "",
+            "nivel_evidencia": "2.1",
+            "mesh": "Resilience, Psychological (M0029278)",
+            "concept_focus": "Resilience",
+            "context_symptom_focus": "Moral resilience",
+            "subject_of_care": "Individual",
+            "judgment": "Prepared",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Potential to improve",
+            "situational_constraint": "—",
+            "definicion": "Pattern of maintaining moral integrity and responding to moral distress, which can be strengthened.",
+            "defining_characteristics": [
+              "Desires to enhance moral resilience"
+            ]
+          },
+          {
+            "codigo": "00286",
+            "nombre": "Impaired moral resilience",
+            "aprobado": "2023",
+            "revisado": "",
+            "nivel_evidencia": "2.1",
+            "mesh": "Resilience, Psychological (M0029278)",
+            "concept_focus": "Resilience",
+            "context_symptom_focus": "Moral resilience",
+            "subject_of_care": "Individual",
+            "judgment": "Impaired",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Problem-focused",
+            "situational_constraint": "—",
+            "definicion": "Decreased ability to maintain moral integrity and respond to moral distress.",
+            "defining_characteristics": [
+              "Burnout",
+              "Compassion fatigue",
+              "Depression",
+              "Moral distress",
+              "Reports feeling overwhelmed",
+              "Reports inability to cope with moral challenges",
+              "Reports moral injury"
+            ],
+            "related_factors": [
+              "Ethical dilemma",
+              "Moral distress",
+              "Workplace violence"
+            ],
+            "at_risk_population": [
+              "Health care professionals"
+            ]
+          },
+          {
+            "codigo": "00288",
+            "nombre": "Risk for impaired moral resilience",
+            "aprobado": "2023",
+            "revisado": "",
+            "nivel_evidencia": "2.1",
+            "mesh": "Resilience, Psychological (M0029278)",
+            "concept_focus": "Resilience",
+            "context_symptom_focus": "Moral resilience",
+            "subject_of_care": "Individual",
+            "judgment": "Impaired",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Potential to deteriorate",
+            "situational_constraint": "—",
+            "definicion": "Susceptible to decreased ability to maintain moral integrity and respond to moral distress.",
+            "risk_factors": [
+              "Ethical dilemma",
+              "Moral distress",
+              "Workplace violence"
+            ],
+            "at_risk_population": [
+              "Health care professionals"
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "nombre": "Beliefs",
+        "definicion": "Opinions or convictions accepted as true",
+        "diagnosticos": [
+          {
+            "codigo": "00083",
+            "nombre": "Readiness for enhanced decision-making",
+            "aprobado": "1998",
+            "revisado": "2010, 2017, 2023",
+            "nivel_evidencia": "2.1",
+            "mesh": "Decision Making (M0005751)",
+            "concept_focus": "Decision-making",
+            "context_symptom_focus": "Decision-making",
+            "subject_of_care": "Individual",
+            "judgment": "Prepared",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Potential to improve",
+            "situational_constraint": "—",
+            "definicion": "A pattern of choosing a course of action for goal attainment, which can be strengthened.",
+            "defining_characteristics": [
+              "Desires to enhance decision-making"
+            ]
+          },
+          {
+            "codigo": "00184",
+            "nombre": "Readiness for enhanced hope",
+            "aprobado": "2008",
+            "revisado": "2013, 2017, 2023",
+            "nivel_evidencia": "2.1",
+            "mesh": "Hope (M0010515)",
+            "concept_focus": "Hope",
+            "context_symptom_focus": "Hope",
+            "subject_of_care": "Individual",
+            "judgment": "Prepared",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Potential to improve",
+            "situational_constraint": "—",
+            "definicion": "A pattern of expectations and desires for mobilizing energy on one's own behalf, which can be strengthened.",
+            "defining_characteristics": [
+              "Desires to enhance hope"
+            ]
+          },
+          {
+            "codigo": "00185",
+            "nombre": "Readiness for enhanced power",
+            "aprobado": "2008",
+            "revisado": "2013, 2017, 2023",
+            "nivel_evidencia": "2.1",
+            "mesh": "Personal Power (M0029276)",
+            "concept_focus": "Power",
+            "context_symptom_focus": "Power",
+            "subject_of_care": "Individual",
+            "judgment": "Prepared",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Potential to improve",
+            "situational_constraint": "—",
+            "definicion": "A pattern of participating knowingly in change, which can be strengthened.",
+            "defining_characteristics": [
+              "Desires to enhance power"
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "nombre": "Value/Belief/Action Congruence",
+        "definicion": "Alignment between beliefs, values, and actions",
+        "diagnosticos": [
+          {
+            "codigo": "00169",
+            "nombre": "Impaired religiosity",
+            "aprobado": "2004",
+            "revisado": "2013, 2017, 2023",
+            "nivel_evidencia": "3.2",
+            "mesh": "Religion and Medicine (M0018953)",
+            "concept_focus": "Religiosity",
+            "context_symptom_focus": "Spiritual state",
+            "subject_of_care": "Individual",
+            "judgment": "Impaired",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Problem-focused",
+            "situational_constraint": "—",
+            "definicion": "Impaired ability to exercise reliance on religious beliefs and/or participate in rituals of a particular faith tradition.",
+            "defining_characteristics": [
+              "Difficulty adhering to religious practices",
+              "Distress about separation from faith community",
+              "Expresses emotional pain",
+              "Expresses suffering",
+              "Questions religious belief system",
+              "Questions religious practices"
+            ],
+            "related_factors": [
+              "Excessive stress",
+              "Illness",
+              "Ineffective coping",
+              "Lack of transportation",
+              "Pain"
+            ],
+            "associated_conditions": [
+              "Hospitalization",
+              "Life transitions",
+              "Terminal illness"
+            ]
+          },
+          {
+            "codigo": "00171",
+            "nombre": "Risk for impaired religiosity",
+            "aprobado": "2004",
+            "revisado": "2013, 2017, 2023",
+            "nivel_evidencia": "3.1",
+            "mesh": "Religion and Medicine (M0018953)",
+            "concept_focus": "Religiosity",
+            "context_symptom_focus": "Spiritual state",
+            "subject_of_care": "Individual",
+            "judgment": "Impaired",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Potential to deteriorate",
+            "situational_constraint": "—",
+            "definicion": "Susceptible to an impaired ability to exercise reliance on religious beliefs and/or participate in rituals of a particular faith tradition.",
+            "risk_factors": [
+              "Excessive stress",
+              "Illness",
+              "Ineffective coping",
+              "Lack of transportation",
+              "Pain"
+            ],
+            "associated_conditions": [
+              "Hospitalization",
+              "Life transitions",
+              "Terminal illness"
+            ]
+          },
+          {
+            "codigo": "00170",
+            "nombre": "Readiness for enhanced religiosity",
+            "aprobado": "2004",
+            "revisado": "2013, 2017, 2023",
+            "nivel_evidencia": "2.1",
+            "mesh": "Religion and Medicine (M0018953)",
+            "concept_focus": "Religiosity",
+            "context_symptom_focus": "Spiritual state",
+            "subject_of_care": "Individual",
+            "judgment": "Prepared",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Potential to improve",
+            "situational_constraint": "—",
+            "definicion": "A pattern of reliance on religious beliefs and/or participation in rituals of a particular faith tradition, which can be strengthened.",
+            "defining_characteristics": [
+              "Desires to enhance religiosity"
+            ]
+          },
+          {
+            "codigo": "00068",
+            "nombre": "Readiness for enhanced resilience",
+            "aprobado": "2013",
+            "revisado": "2017, 2023",
+            "nivel_evidencia": "2.1",
+            "mesh": "Resilience, Psychological (M0029278)",
+            "concept_focus": "Resilience",
+            "context_symptom_focus": "Coping response",
+            "subject_of_care": "Individual",
+            "judgment": "Prepared",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Potential to improve",
+            "situational_constraint": "—",
+            "definicion": "A pattern of positive responses to adverse situations, which can be strengthened.",
+            "defining_characteristics": [
+              "Desires to enhance resilience"
+            ]
+          },
+          {
+            "codigo": "00210",
+            "nombre": "Impaired resilience",
+            "aprobado": "2010",
+            "revisado": "2013, 2017, 2023",
+            "nivel_evidencia": "3.2",
+            "mesh": "Resilience, Psychological (M0029278)",
+            "concept_focus": "Resilience",
+            "context_symptom_focus": "Coping response",
+            "subject_of_care": "Individual",
+            "judgment": "Impaired",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Problem-focused",
+            "situational_constraint": "—",
+            "definicion": "Decreased ability to sustain a pattern of positive responses to an adverse situation or crisis.",
+            "defining_characteristics": [
+              "Decreased interest in activities",
+              "Depression",
+              "Guilt",
+              "Isolation",
+              "Low self-esteem",
+              "Reports shame",
+              "Substance misuse",
+              "Using ineffective coping strategies"
+            ],
+            "related_factors": [
+              "Chronicity of existing crisis",
+              "Multiple coexisting crises",
+              "Perceived vulnerability"
+            ],
+            "at_risk_population": [
+              "Individuals experiencing chronic illness",
+              "Individuals experiencing prolonged stress"
+            ]
+          },
+          {
+            "codigo": "00212",
+            "nombre": "Risk for impaired resilience",
+            "aprobado": "2010",
+            "revisado": "2013, 2017, 2023",
+            "nivel_evidencia": "3.1",
+            "mesh": "Resilience, Psychological (M0029278)",
+            "concept_focus": "Resilience",
+            "context_symptom_focus": "Coping response",
+            "subject_of_care": "Individual",
+            "judgment": "Impaired",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Potential to deteriorate",
+            "situational_constraint": "—",
+            "definicion": "Susceptible to decreased ability to sustain a pattern of positive responses to an adverse situation or crisis.",
+            "risk_factors": [
+              "Chronicity of existing crisis",
+              "Multiple coexisting crises",
+              "Perceived vulnerability"
+            ],
+            "at_risk_population": [
+              "Individuals experiencing chronic illness",
+              "Individuals experiencing prolonged stress"
+            ]
+          },
+          {
+            "codigo": "00125",
+            "nombre": "Powerlessness",
+            "aprobado": "1982",
+            "revisado": "1998, 2017, 2023",
+            "nivel_evidencia": "3.2",
+            "mesh": "Power, Psychological (M0029275)",
+            "concept_focus": "Power",
+            "context_symptom_focus": "Control",
+            "subject_of_care": "Individual",
+            "judgment": "Impaired",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Problem-focused",
+            "situational_constraint": "—",
+            "definicion": "Perception that one's own action will not significantly affect an outcome; a perceived lack of control over a current situation or immediate happening.",
+            "defining_characteristics": [
+              "Alienation",
+              "Depression",
+              "Frustration",
+              "Reports lack of control",
+              "Reports rage",
+              "Reports shame",
+              "Reports violence"
+            ],
+            "related_factors": [
+              "Health care environment",
+              "Illness",
+              "Ineffective coping",
+              "Institutional environment"
+            ]
+          },
+          {
+            "codigo": "00152",
+            "nombre": "Risk for powerlessness",
+            "aprobado": "1998",
+            "revisado": "2013, 2017, 2023",
+            "nivel_evidencia": "3.1",
+            "mesh": "Power, Psychological (M0029275)",
+            "concept_focus": "Power",
+            "context_symptom_focus": "Control",
+            "subject_of_care": "Individual",
+            "judgment": "Impaired",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Potential to deteriorate",
+            "situational_constraint": "—",
+            "definicion": "Susceptible to perceived lack of control over a situation.",
+            "risk_factors": [
+              "Health care environment",
+              "Illness",
+              "Ineffective coping",
+              "Institutional environment"
+            ]
+          },
+          {
+            "codigo": "00079",
+            "nombre": "Noncompliance",
+            "aprobado": "1973",
+            "revisado": "1996, 1998, 2017, 2023",
+            "nivel_evidencia": "3.1",
+            "mesh": "Patient Compliance (M0015930)",
+            "concept_focus": "Compliance",
+            "context_symptom_focus": "Health management",
+            "subject_of_care": "Individual",
+            "judgment": "Noncompliant",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Problem-focused",
+            "situational_constraint": "—",
+            "definicion": "Behavior of person and/or caregiver that fails to coincide with a health-promoting or therapeutic plan agreed on by the person (and/or family and/or community) and health care professional.",
+            "defining_characteristics": [
+              "Behavior indicative of failure to adhere",
+              "Evidence of development of complications",
+              "Evidence of exacerbation of symptoms",
+              "Failure to keep appointments",
+              "Failure to progress",
+              "Objective tests showing nonadherence"
+            ],
+            "related_factors": [
+              "Complexity of therapeutic regimen",
+              "Cost of treatment",
+              "Difficulty accessing health care",
+              "Inadequate knowledge about treatment regimen",
+              "Inadequate social support",
+              "Ineffective communication",
+              "Low self-efficacy",
+              "Mistrust of health care personnel",
+              "Mistrust of regimen",
+              "Perceived barrier to treatment regimen",
+              "Perceived lack of benefit of treatment regimen",
+              "Side effects of treatment regimen"
+            ],
+            "associated_conditions": [
+              "Health care plan"
+            ]
+          },
+          {
+            "codigo": "00226",
+            "nombre": "Moral distress",
+            "aprobado": "2013",
+            "revisado": "2017, 2023",
+            "nivel_evidencia": "3.2",
+            "mesh": "Moral Distress (M0029282)",
+            "concept_focus": "Moral distress",
+            "context_symptom_focus": "Emotional response",
+            "subject_of_care": "Individual",
+            "judgment": "Distressed",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Problem-focused",
+            "situational_constraint": "—",
+            "definicion": "Response to the inability to carry out one's chosen ethical/moral decision/action.",
+            "defining_characteristics": [
+              "Anguish",
+              "Anxiety",
+              "Guilt",
+              "Powerlessness"
+            ],
+            "related_factors": [
+              "Conflict among decision makers",
+              "Conflicting information guiding ethical decision-making",
+              "Conflicting information guiding moral decision-making",
+              "End-of-life care decisions",
+              "Loss of autonomy",
+              "Treatment decisions"
+            ]
+          },
+          {
+            "codigo": "00187",
+            "nombre": "Readiness for enhanced moral resilience",
+            "aprobado": "2023",
+            "revisado": "",
+            "nivel_evidencia": "2.1",
+            "mesh": "Resilience, Psychological (M0029278)",
+            "concept_focus": "Resilience",
+            "context_symptom_focus": "Moral resilience",
+            "subject_of_care": "Individual",
+            "judgment": "Prepared",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Potential to improve",
+            "situational_constraint": "—",
+            "definicion": "Pattern of maintaining moral integrity and responding to moral distress, which can be strengthened.",
+            "defining_characteristics": [
+              "Desires to enhance moral resilience"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

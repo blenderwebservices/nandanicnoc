@@ -1,0 +1,472 @@
+{
+  "dominio": {
+    "numero": 5,
+    "nombre": "Perception/Cognition",
+    "definicion": "The human information processing system including attention, orientation, sensation, perception, cognition, and communication.",
+    "clases": [
+      {
+        "numero": 1,
+        "nombre": "Attention",
+        "definicion": "Ability to focus on a specific stimulus",
+        "diagnosticos": [
+          {
+            "codigo": "00123",
+            "nombre": "Unilateral neglect",
+            "aprobado": "1986",
+            "revisado": "1998, 2017, 2023",
+            "nivel_evidencia": "3.1",
+            "mesh": "Perceptual Disorders (M0016073)",
+            "concept_focus": "Attention",
+            "context_symptom_focus": "Spatial awareness",
+            "subject_of_care": "Individual",
+            "judgment": "Impaired",
+            "anatomical_site": "Neurological system",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Problem-focused",
+            "situational_constraint": "—",
+            "definicion": "Impairment in sensory and motor response, mental representation, and spatial attention of the body and the corresponding environment characterized by inattention to one side of the body and/or environment.",
+            "defining_characteristics": [
+              "Consistent inattention to stimuli on affected side",
+              "Failure to dress affected side",
+              "Failure to eat food on affected side of tray",
+              "Failure to groom affected side",
+              "Failure to move eyes toward affected side",
+              "Failure to move head toward affected side",
+              "Failure to move limbs toward affected side",
+              "Failure to move trunk toward affected side",
+              "Failure to notice people approaching from affected side",
+              "Inadequate self-care on affected side",
+              "Marked deviation of eyes toward unaffected side",
+              "Marked deviation of head toward unaffected side",
+              "Marked deviation of trunk toward unaffected side",
+              "Transfer of objects from unaffected to affected side without changing gaze direction"
+            ],
+            "related_factors": [
+              "Left hemisphere brain damage",
+              "Right hemisphere brain damage"
+            ],
+            "associated_conditions": [
+              "Cerebrovascular accident",
+              "Neurological illness",
+              "Traumatic brain injury"
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "nombre": "Orientation",
+        "definicion": "Awareness of time, place, and person",
+        "diagnosticos": []
+      },
+      {
+        "numero": 3,
+        "nombre": "Sensation/Perception",
+        "definicion": "Reception and translation of sensory stimuli into meaningful information",
+        "diagnosticos": [
+          {
+            "codigo": "00122",
+            "nombre": "Acute confusion",
+            "aprobado": "1994",
+            "revisado": "2006, 2017, 2023",
+            "nivel_evidencia": "3.2",
+            "mesh": "Delirium (M0005958)",
+            "concept_focus": "Cognition",
+            "context_symptom_focus": "Confusion",
+            "subject_of_care": "Individual",
+            "judgment": "Acute",
+            "anatomical_site": "Neurological system",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "Acute",
+            "status_of_the_diagnosis": "Problem-focused",
+            "situational_constraint": "—",
+            "definicion": "Abrupt onset of a cluster of global, transient changes and disturbances in attention, cognition, psychomotor activity, level of consciousness, and/or sleep/wake cycle.",
+            "defining_characteristics": [
+              "Agitation",
+              "Altered level of consciousness",
+              "Altered psychomotor activity",
+              "Cognitive fluctuation",
+              "Hallucinations",
+              "Increased agitation with sundowning",
+              "Misperception",
+              "Restlessness",
+              "Sleep-wake cycle reversal"
+            ],
+            "related_factors": [
+              "Alcohol misuse",
+              "Excessive environmental stimuli",
+              "Fluctuation in sleep-wake cycle",
+              "Pain",
+              "Substance misuse"
+            ],
+            "at_risk_population": [
+              "Individuals at extremes of age",
+              "Individuals experiencing sensory deprivation",
+              "Individuals with history of cerebrovascular accident",
+              "Male individuals"
+            ],
+            "associated_conditions": [
+              "Dehydration",
+              "Infection",
+              "Medication interaction",
+              "Metabolic imbalance",
+              "Pharmaceutical preparations",
+              "Polypharmacy",
+              "Psychiatric disorders",
+              "Urinary retention"
+            ]
+          },
+          {
+            "codigo": "00128",
+            "nombre": "Risk for acute confusion",
+            "aprobado": "1994",
+            "revisado": "2013, 2017, 2023",
+            "nivel_evidencia": "3.1",
+            "mesh": "Delirium (M0005958)",
+            "concept_focus": "Cognition",
+            "context_symptom_focus": "Confusion",
+            "subject_of_care": "Individual",
+            "judgment": "Acute",
+            "anatomical_site": "Neurological system",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "Acute",
+            "status_of_the_diagnosis": "Potential to deteriorate",
+            "situational_constraint": "—",
+            "definicion": "Susceptible to abrupt onset of a cluster of global, transient changes and disturbances in attention, cognition, psychomotor activity, level of consciousness, and/or sleep/wake cycle.",
+            "risk_factors": [
+              "Alcohol misuse",
+              "Excessive environmental stimuli",
+              "Fluctuation in sleep-wake cycle",
+              "Pain",
+              "Substance misuse"
+            ],
+            "at_risk_population": [
+              "Individuals at extremes of age",
+              "Individuals experiencing sensory deprivation",
+              "Individuals with history of cerebrovascular accident",
+              "Male individuals"
+            ],
+            "associated_conditions": [
+              "Dehydration",
+              "Infection",
+              "Medication interaction",
+              "Metabolic imbalance",
+              "Pharmaceutical preparations",
+              "Polypharmacy",
+              "Psychiatric disorders",
+              "Urinary retention"
+            ]
+          },
+          {
+            "codigo": "00245",
+            "nombre": "Chronic confusion",
+            "aprobado": "2013",
+            "revisado": "2017, 2023",
+            "nivel_evidencia": "3.2",
+            "mesh": "Confusion (M0005069)",
+            "concept_focus": "Cognition",
+            "context_symptom_focus": "Confusion",
+            "subject_of_care": "Individual",
+            "judgment": "Chronic",
+            "anatomical_site": "Neurological system",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "Chronic",
+            "status_of_the_diagnosis": "Problem-focused",
+            "situational_constraint": "—",
+            "definicion": "Irreversible, long-standing, and/or progressive deterioration of intellect and personality characterized by decreased ability to interpret environmental stimuli and decreased capacity for intellectual thought processes, manifested by disturbances of memory, orientation, and behavior.",
+            "defining_characteristics": [
+              "Altered interpretation",
+              "Altered personality",
+              "Chronic cognitive impairment",
+              "Clinical evidence of organic impairment",
+              "Impaired memory",
+              "Impaired social functioning",
+              "No change in level of consciousness",
+              "Progressive long-standing cognitive impairment"
+            ],
+            "related_factors": [
+              "Excessive stress"
+            ],
+            "associated_conditions": [
+              "Alzheimer's disease",
+              "Korsakoff's syndrome",
+              "Multi-infarct dementia",
+              "Neurocognitive disorders"
+            ]
+          },
+          {
+            "codigo": "00244",
+            "nombre": "Impaired memory",
+            "aprobado": "1994",
+            "revisado": "2010, 2017, 2023",
+            "nivel_evidencia": "3.2",
+            "mesh": "Memory Disorders (M0013802)",
+            "concept_focus": "Cognition",
+            "context_symptom_focus": "Memory",
+            "subject_of_care": "Individual",
+            "judgment": "Impaired",
+            "anatomical_site": "Neurological system",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Problem-focused",
+            "situational_constraint": "—",
+            "definicion": "Inability to remember or recall bits of information or behavioral skills.",
+            "defining_characteristics": [
+              "Forgets to perform behavior at scheduled time",
+              "Inability to learn new information",
+              "Inability to learn new skills",
+              "Inability to perform previously learned skills",
+              "Inability to recall factual information",
+              "Inability to recall familiar events",
+              "Inability to recall familiar faces",
+              "Inability to recall familiar names",
+              "Inability to recall familiar places",
+              "Inability to retain new information",
+              "Reports experiences of forgotten familiar material"
+            ],
+            "related_factors": [
+              "Excessive environmental disturbances",
+              "Excessive stress"
+            ],
+            "associated_conditions": [
+              "Anemia",
+              "Decreased cardiac output",
+              "Electrolyte imbalance",
+              "Fluid imbalance",
+              "Hypoxia",
+              "Neurological disturbances"
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "nombre": "Cognition",
+        "definicion": "Use of memory, learning, thinking, problem-solving, abstraction, judgment, insight, intellectual capacity, calculation, and language",
+        "diagnosticos": [
+          {
+            "codigo": "00129",
+            "nombre": "Labile emotional control",
+            "aprobado": "2008",
+            "revisado": "2013, 2017, 2023",
+            "nivel_evidencia": "2.1",
+            "mesh": "Affect (M0000752)",
+            "concept_focus": "Emotional control",
+            "context_symptom_focus": "Emotional regulation",
+            "subject_of_care": "Individual",
+            "judgment": "Labile",
+            "anatomical_site": "Neurological system",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Problem-focused",
+            "situational_constraint": "—",
+            "definicion": "Uncontrolled, rapid, and intense changes in emotional expression disproportionate to the situation.",
+            "defining_characteristics": [
+              "Absence of eye contact",
+              "Difficulty controlling anger",
+              "Difficulty controlling crying",
+              "Difficulty controlling laughter",
+              "Excessively incongruent affect",
+              "Excessively labile affect",
+              "Expression of emotions incongruent with triggering event",
+              "Expression of emotions incongruent with verbalized feelings",
+              "Inappropriately blunted affect",
+              "Inappropriately exaggerated affect",
+              "Uncontrolled emotional outbursts"
+            ],
+            "related_factors": [
+              "Excessive stress",
+              "Fatigue",
+              "Mood disorder",
+              "Pain"
+            ],
+            "associated_conditions": [
+              "Altered level of consciousness",
+              "Neurocognitive disorders",
+              "Neurological disorders",
+              "Psychiatric disorders"
+            ]
+          },
+          {
+            "codigo": "00131",
+            "nombre": "Impaired emancipation decision-making",
+            "aprobado": "2008",
+            "revisado": "2013, 2017, 2023",
+            "nivel_evidencia": "2.1",
+            "mesh": "Decision Making (M0005751)",
+            "concept_focus": "Decision-making",
+            "context_symptom_focus": "Emancipation",
+            "subject_of_care": "Individual",
+            "judgment": "Impaired",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Problem-focused",
+            "situational_constraint": "—",
+            "definicion": "Inability to independently make decisions regarding transition to living independently.",
+            "defining_characteristics": [
+              "Difficulty choosing living situation",
+              "Difficulty expressing desire to live independently",
+              "Difficulty identifying consequences of decisions regarding emancipation",
+              "Difficulty identifying legal implications of decisions regarding emancipation",
+              "Difficulty identifying personal values regarding emancipation",
+              "Difficulty identifying resources needed for emancipation",
+              "Difficulty identifying rights regarding emancipation",
+              "Difficulty identifying risks of decisions regarding emancipation",
+              "Difficulty identifying support systems needed for emancipation",
+              "Difficulty verbalizing desire to live independently"
+            ],
+            "related_factors": [
+              "Inadequate family support",
+              "Inadequate social support"
+            ],
+            "associated_conditions": [
+              "Cognitive impairment",
+              "Developmental delay"
+            ]
+          },
+          {
+            "codigo": "00277",
+            "nombre": "Ineffective impulse control",
+            "aprobado": "2020",
+            "revisado": "2023",
+            "nivel_evidencia": "2.1",
+            "mesh": "Impulsive Behavior (M0011306)",
+            "concept_focus": "Self-control",
+            "context_symptom_focus": "Impulse control",
+            "subject_of_care": "Individual",
+            "judgment": "Ineffective",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Problem-focused",
+            "situational_constraint": "—",
+            "definicion": "Pattern of performing rapid, unplanned reactions to internal or external stimuli without regard for the negative consequences of these reactions to self or others.",
+            "defining_characteristics": [
+              "Acting without considering consequences",
+              "Difficulty delaying gratification",
+              "Inappropriate sharing of information",
+              "Irritability",
+              "Physical violence toward objects",
+              "Physical violence toward others",
+              "Physical violence toward self",
+              "Risk-taking behaviors",
+              "Sensation seeking",
+              "Sexual promiscuity",
+              "Temper outbursts",
+              "Verbal aggression toward others",
+              "Verbal aggression toward self"
+            ],
+            "related_factors": [
+              "Excessive stress",
+              "Fatigue",
+              "Hopelessness",
+              "Mood disorder",
+              "Substance misuse"
+            ],
+            "associated_conditions": [
+              "Altered level of consciousness",
+              "Neurocognitive disorders",
+              "Neurological disorders",
+              "Psychiatric disorders"
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 5,
+        "nombre": "Communication",
+        "definicion": "Sending and receiving verbal and nonverbal information",
+        "diagnosticos": [
+          {
+            "codigo": "00051",
+            "nombre": "Impaired verbal communication",
+            "aprobado": "1983",
+            "revisado": "1996, 1998, 2010, 2017, 2023",
+            "nivel_evidencia": "3.1",
+            "mesh": "Communication Disorders (M0004787)",
+            "concept_focus": "Communication",
+            "context_symptom_focus": "Verbal communication",
+            "subject_of_care": "Individual",
+            "judgment": "Impaired",
+            "anatomical_site": "Neurological system",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Problem-focused",
+            "situational_constraint": "—",
+            "definicion": "Decreased, delayed, or absent ability to receive, process, transmit, and/or use a system of symbols.",
+            "defining_characteristics": [
+              "Difficulty comprehending communication",
+              "Difficulty expressing communication",
+              "Difficulty maintaining communication",
+              "Difficulty using body language",
+              "Difficulty using facial expressions",
+              "Difficulty using spoken language",
+              "Difficulty using written language",
+              "Difficulty verbalizing",
+              "Disorientation in space",
+              "Disorientation in time",
+              "Disorientation to person",
+              "Dyspnea",
+              "Inability to speak",
+              "Inappropriate verbalization",
+              "Lack of eye contact",
+              "Slurred speech",
+              "Stuttering"
+            ],
+            "related_factors": [
+              "Alteration in self-concept",
+              "Cultural incongruence",
+              "Emotional instability",
+              "Environmental barrier",
+              "Lack of privacy",
+              "Low self-esteem",
+              "Psychosocial barrier"
+            ],
+            "associated_conditions": [
+              "Alteration in brain development",
+              "Alteration in central nervous system",
+              "Alteration in perception",
+              "Anatomic deficit",
+              "Oropharyngeal defect",
+              "Pharmaceutical preparations"
+            ]
+          },
+          {
+            "codigo": "00157",
+            "nombre": "Readiness for enhanced communication",
+            "aprobado": "2002",
+            "revisado": "2013, 2017, 2023",
+            "nivel_evidencia": "2.1",
+            "mesh": "Communication (M0004785)",
+            "concept_focus": "Communication",
+            "context_symptom_focus": "Communication",
+            "subject_of_care": "Individual",
+            "judgment": "Prepared",
+            "anatomical_site": "—",
+            "age_lower_limit": "—",
+            "age_upper_limit": "—",
+            "clinical_course": "—",
+            "status_of_the_diagnosis": "Potential to improve",
+            "situational_constraint": "—",
+            "definicion": "A pattern of exchanging information and ideas with others, which can be strengthened.",
+            "defining_characteristics": [
+              "Desires to enhance communication",
+              "Expresses willingness to enhance communication"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
