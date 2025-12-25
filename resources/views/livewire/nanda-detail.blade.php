@@ -21,7 +21,8 @@
                 </div>
                 @if($nanda->nandaClass)
                     <div class="text-indigo-100 text-sm flex gap-4">
-                        <span><strong>{{ __('Domain') }}:</strong> {{ $nanda->nandaClass->domain->code }}. {{ $nanda->nandaClass->domain->name ?? 'N/A' }}</span>
+                        <span><strong>{{ __('Domain') }}:</strong> {{ $nanda->nandaClass->domain->code }}.
+                            {{ $nanda->nandaClass->domain->name ?? 'N/A' }}</span>
                         <span>&bull;</span>
                         <span><strong>{{ __('Class') }}:</strong> {{ $nanda->nandaClass->code }}.
                             {{ $nanda->nandaClass->name }}</span>
@@ -80,6 +81,46 @@
                     </ul>
                 </div>
             </div>
+
+            @if(!empty($nanda->defining_characteristics))
+                <div class="mb-6">
+                    <h3 class="text-lg font-semibold text-gray-900 mb-3 flex items-center">
+                        <svg class="w-5 h-5 mr-2 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z">
+                            </path>
+                        </svg>
+                        {{ __('Defining Characteristics') }}
+                    </h3>
+                    <ul class="grid grid-cols-1 md:grid-cols-2 gap-2">
+                        @foreach($nanda->defining_characteristics as $char)
+                            <li class="flex items-start text-sm text-gray-700">
+                                <span class="mr-2 text-indigo-400">&bull;</span> {{ $char }}
+                            </li>
+                        @endforeach
+                    </ul>
+                </div>
+            @endif
+
+            @if(!empty($nanda->related_factors))
+                <div class="mb-6">
+                    <h3 class="text-lg font-semibold text-gray-900 mb-3 flex items-center">
+                        <svg class="w-5 h-5 mr-2 text-purple-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1">
+                            </path>
+                        </svg>
+                        {{ __('Related Factors') }}
+                    </h3>
+                    <ul class="grid grid-cols-1 md:grid-cols-2 gap-2">
+                        @foreach($nanda->related_factors as $factor)
+                            <li class="flex items-start text-sm text-gray-700">
+                                <span class="mr-2 text-indigo-400">&bull;</span> {{ $factor }}
+                            </li>
+                        @endforeach
+                    </ul>
+                </div>
+            @endif
 
             @if(!empty($nanda->risk_factors))
                 <div class="mb-6">

@@ -10,10 +10,11 @@ class Nanda extends Model
         'code',
         'label',
         'label_es',
-        'description', // This will store the Definition
+        'description',
         'description_es',
         'class_id',
         'approval_year',
+        'year_revised',
         'evidence_level',
         'mesh_term',
         'focus',
@@ -29,21 +30,29 @@ class Nanda extends Model
         'risk_factors',
         'at_risk_population',
         'associated_conditions',
+        'defining_characteristics',
+        'related_factors',
         'focus_es',
         'judgment_es',
         'diagnosis_status_es',
         'risk_factors_es',
         'at_risk_population_es',
         'associated_conditions_es',
+        'defining_characteristics_es',
+        'related_factors_es',
     ];
 
     protected $casts = [
         'risk_factors' => 'array',
         'at_risk_population' => 'array',
         'associated_conditions' => 'array',
+        'defining_characteristics' => 'array',
+        'related_factors' => 'array',
         'risk_factors_es' => 'array',
         'at_risk_population_es' => 'array',
         'associated_conditions_es' => 'array',
+        'defining_characteristics_es' => 'array',
+        'related_factors_es' => 'array',
     ];
 
     public function getLabelAttribute($value)
@@ -90,11 +99,11 @@ class Nanda extends Model
     // Actually we can, because Laravel uses the accessor if defined.
     // However, risk_factors is a direct column. 
     // We want to override the access.
-    
+
     public function getRiskFactorsAttribute($value)
     {
         if (app()->getLocale() === 'es' && !empty($this->risk_factors_es)) {
-             return $this->risk_factors_es;
+            return $this->risk_factors_es;
         }
         return isset($value) ? json_decode($value, true) : [];
     }
@@ -102,7 +111,7 @@ class Nanda extends Model
     public function getAtRiskPopulationAttribute($value)
     {
         if (app()->getLocale() === 'es' && !empty($this->at_risk_population_es)) {
-             return $this->at_risk_population_es;
+            return $this->at_risk_population_es;
         }
         return isset($value) ? json_decode($value, true) : [];
     }
@@ -110,7 +119,7 @@ class Nanda extends Model
     public function getAssociatedConditionsAttribute($value)
     {
         if (app()->getLocale() === 'es' && !empty($this->associated_conditions_es)) {
-             return $this->associated_conditions_es;
+            return $this->associated_conditions_es;
         }
         return isset($value) ? json_decode($value, true) : [];
     }
@@ -118,6 +127,22 @@ class Nanda extends Model
     public function nandaClass()
     {
         return $this->belongsTo(NandaClass::class, 'class_id');
+    }
+
+    public function getDefiningCharacteristicsAttribute($value)
+    {
+        if (app()->getLocale() === 'es' && !empty($this->defining_characteristics_es)) {
+            return $this->defining_characteristics_es;
+        }
+        return isset($value) ? json_decode($value, true) : [];
+    }
+
+    public function getRelatedFactorsAttribute($value)
+    {
+        if (app()->getLocale() === 'es' && !empty($this->related_factors_es)) {
+            return $this->related_factors_es;
+        }
+        return isset($value) ? json_decode($value, true) : [];
     }
 
     protected static function booted()
