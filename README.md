@@ -1,59 +1,89 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+Claro que sí. Aquí tienes la versión actualizada del README.md incorporando FilamentPHP y la hoja de ruta para la base de datos (SQLite → MySQL → PostgreSQL).
+También he ajustado la sección de instalación para que coincida con un entorno estándar de PHP/Laravel.
+# Nanda Search Bar ⚕️
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+**Nanda Search Bar** es una herramienta digital diseñada para optimizar el flujo de trabajo de los profesionales de enfermería y estudiantes del área de la salud. Esta aplicación facilita la búsqueda y consulta de diagnósticos **NANDA**, intervenciones **NIC** y objetivos **NOC**, relacionándolos de manera inteligente, rápida y eficaz.
 
-## About Laravel
+El objetivo principal es reducir el tiempo dedicado a la planificación de cuidados, ofreciendo sugerencias precisas y basadas en evidencia al instante.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## 🚀 Demo en vivo
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Puedes ver un despliegue preliminar del proyecto funcionando aquí:
+👉 **[https://nanda.axiacorehub.com](https://nanda.axiacorehub.com)**
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## ✨ Características Principales
 
-## Learning Laravel
+* **Buscador Inteligente:** Localiza diagnósticos por código, palabras clave o categorías.
+* **Relación NANDA-NIC-NOC:** Algoritmo que sugiere intervenciones (NIC) y resultados (NOC) coherentes basados en el diagnóstico seleccionado.
+* **Interfaz Intuitiva:** Diseño limpio y fácil de usar, potenciado por FilamentPHP.
+* **Multidioma:** Soporte preliminar para consulta en español e inglés.
+* **Acceso Rápido:** Información detallada sobre definiciones, factores de riesgo y características definitorias.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+## 🛠️ Tecnologías Utilizadas
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Este proyecto está construido sobre un stack robusto y moderno:
 
-## Laravel Sponsors
+* **Framework:** [Laravel](https://laravel.com/) (PHP)
+* **Panel de Administración & UI:** [FilamentPHP](https://filamentphp.com/) - Para una interfaz administrativa y de usuario ágil y reactiva.
+* **Base de Datos:**
+    * **Actual:** **SQLite** (para desarrollo ágil y despliegue inicial).
+    * **Próximamente:** Migración a **MySQL**.
+    * **Objetivo Final:** Implementación en **PostgreSQL** para entornos de producción de alto rendimiento.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+## 📦 Instalación y Despliegue Local
 
-### Premium Partners
+Sigue estos pasos para configurar el proyecto en tu entorno local:
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+1.  **Clonar el repositorio:**
+    ```bash
+    git clone [https://github.com/blenderwebservices/nandanicnoc.git](https://github.com/blenderwebservices/nandanicnoc.git)
+    cd nandanicnoc
+    ```
 
-## Contributing
+2.  **Instalar dependencias de PHP:**
+    ```bash
+    composer install
+    ```
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+3.  **Configurar variables de entorno:**
+    ```bash
+    cp .env.example .env
+    php artisan key:generate
+    ```
+    *Por defecto, el proyecto está configurado para usar SQLite, así que no necesitas configurar credenciales de base de datos adicionales por ahora.*
 
-## Code of Conduct
+4.  **Crear la base de datos y correr migraciones:**
+    ```bash
+    touch database/database.sqlite
+    php artisan migrate
+    ```
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+5.  **Crear un usuario administrador (para Filament):**
+    ```bash
+    php artisan make:filament-user
+    ```
 
-## Security Vulnerabilities
+6.  **Ejecutar el servidor de desarrollo:**
+    ```bash
+    php artisan serve
+    ```
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+7.  Abre tu navegador en `http://localhost:8000`.
 
-## License
+## 🤝 Contribución
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+¡Las contribuciones son bienvenidas! Si tienes ideas para mejorar la relación de los diagnósticos o nuevas funcionalidades:
+
+1.  Haz un Fork del proyecto.
+2.  Crea una rama para tu funcionalidad (`git checkout -b feature/NuevaFuncionalidad`).
+3.  Haz Commit de tus cambios (`git commit -m 'Agrega nueva funcionalidad'`).
+4.  Haz Push a la rama (`git push origin feature/NuevaFuncionalidad`).
+5.  Abre un Pull Request.
+
+## 📄 Licencia
+
+Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
+
+---
+Desarrollado con ❤️ por [blenderwebservices](https://github.com/blenderwebservices) para la comunidad de enfermería.
+
