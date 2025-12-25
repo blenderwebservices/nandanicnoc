@@ -1,5 +1,4 @@
-Claro que sí. Aquí tienes la versión actualizada del README.md incorporando FilamentPHP y la hoja de ruta para la base de datos (SQLite → MySQL → PostgreSQL).
-También he ajustado la sección de instalación para que coincida con un entorno estándar de PHP/Laravel.
+
 # Nanda Search Bar ⚕️
 
 **Nanda Search Bar** es una herramienta digital diseñada para optimizar el flujo de trabajo de los profesionales de enfermería y estudiantes del área de la salud. Esta aplicación facilita la búsqueda y consulta de diagnósticos **NANDA**, intervenciones **NIC** y objetivos **NOC**, relacionándolos de manera inteligente, rápida y eficaz.
