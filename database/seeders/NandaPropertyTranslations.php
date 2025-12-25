@@ -1,6 +1,6 @@
 <?php
 
-return array (
+return array(
   'Abandoned infants' => 'Lactantes abandonados',
   'Abdominal pain' => 'Dolor abdominal',
   'Abnormal blood profile' => 'Perfil sanguíneo anormal',
@@ -717,4 +717,10 @@ return array (
   'protection' => 'protección',
   'self-management' => 'autogestión',
   'syndrome' => 'síndrome',
+  'Current setting does not allow engagement in activities' => 'El entorno actual no permite participar en actividades',
+  'Inadequate available activities' => 'Actividades disponibles inadecuadas',
+  'Inadequate motivation' => 'Motivación inadecuada',
+  'Inadequate physical endurance' => 'Resistencia física inadecuada',
+  'Prolonged inactivity' => 'Inactividad prolongada',
+  'Psychological distress' => 'Malestar psicológico',
 );

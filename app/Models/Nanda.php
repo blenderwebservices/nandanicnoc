@@ -145,6 +145,53 @@ class Nanda extends Model
         return isset($value) ? json_decode($value, true) : [];
     }
 
+    private static function compileProperties($model, $isEs)
+    {
+        $props = [];
+
+        // Helper to flatten array or string
+        $add = function ($val) use (&$props) {
+            if (is_array($val)) {
+                foreach ($val as $v) {
+                    if (is_string($v))
+                        $props[] = $v;
+                }
+            } elseif (is_string($val)) {
+                $props[] = $val;
+            }
+        };
+
+        $fields = [
+            'defining_characteristics',
+            'related_factors',
+            'risk_factors',
+            'at_risk_population',
+            'associated_conditions'
+        ];
+
+        foreach ($fields as $field) {
+            if ($isEs) {
+                // Spanish columns have no accessors, so standard access works (casts to array)
+                // Use ?? [] just in case it's null
+                $add($model->{$field . '_es'} ?? []);
+            } else {
+                // English columns have accessors that might return Spanish based on locale.
+                // We must bypass the accessor to get the original English data.
+                // getAttributes() returns the raw array of attributes (usually JSON string for these fields).
+                $raw = $model->getAttributes()[$field] ?? null;
+                if (is_string($raw)) {
+                    $val = json_decode($raw, true);
+                    $add($val);
+                } elseif (is_array($raw)) {
+                    // In case it was already casted or set as array
+                    $add($raw);
+                }
+            }
+        }
+
+        return implode(' ', $props);
+    }
+
     protected static function booted()
     {
         static::saved(function ($model) {
@@ -166,6 +213,8 @@ class Nanda extends Model
                     'diagnosis_label_es' => $model->label_es ?? '',
                     'diagnosis_definition' => $model->description,
                     'diagnosis_definition_es' => $model->description_es ?? '',
+                    'properties' => self::compileProperties($model, false),
+                    'properties_es' => self::compileProperties($model, true),
                 ]);
             }
         });
