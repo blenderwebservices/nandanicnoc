@@ -29,14 +29,23 @@ class NandaSeeder extends Seeder
         $labelTranslations = require __DIR__ . '/NandaTranslations.php';
         $propertyTranslations = require __DIR__ . '/NandaPropertyTranslations.php';
         $definitionTranslations = require __DIR__ . '/NandaDefinitionTranslations.php';
+        $additionalTranslations = require __DIR__ . '/NandaAdditionalTranslations.php';
+
+        // Merge additional translations into relevant buckets
+        $propertyTranslations = array_merge($propertyTranslations, $additionalTranslations);
+        $definitionTranslations = array_merge($definitionTranslations, $additionalTranslations);
+        $labelTranslations = array_merge($labelTranslations, $additionalTranslations);
+
 
         // Helper to translate array items
         $translateArray = function ($items) use ($propertyTranslations) {
             if (!is_array($items))
                 return [];
-            return array_map(function ($item) use ($propertyTranslations) {
-                // Try to find translation, otherwise keep original
-                return $propertyTranslations[$item] ?? $item;
+            $lowerProps = array_change_key_case($propertyTranslations, CASE_LOWER);
+            return array_map(function ($item) use ($propertyTranslations, $lowerProps) {
+                if (isset($propertyTranslations[$item]))
+                    return $propertyTranslations[$item];
+                return $lowerProps[strtolower($item)] ?? $item;
             }, $items);
         };
 
@@ -44,8 +53,12 @@ class NandaSeeder extends Seeder
         $translateString = function ($item) use ($propertyTranslations) {
             if (!$item)
                 return null;
-            return $propertyTranslations[$item] ?? null;
+            if (isset($propertyTranslations[$item]))
+                return $propertyTranslations[$item];
+            $lowerProps = array_change_key_case($propertyTranslations, CASE_LOWER);
+            return $lowerProps[strtolower($item)] ?? null;
         };
+
 
         // 3. Process Files
         // Get all nanda_data_domain*_v3 files 
@@ -71,12 +84,36 @@ class NandaSeeder extends Seeder
             // Spanish keys in JSON structure: dominio, clases, diagnosticos
             $domainData = $decoded['dominio'];
 
+            // Helper for case-insensitive lookup
+            $translateLabel = function ($label) use ($labelTranslations) {
+                if (!$label)
+                    return null;
+                // Try exact match first
+                if (isset($labelTranslations[$label]))
+                    return $labelTranslations[$label];
+                // Try lowercase match
+                $lower = array_change_key_case($labelTranslations, CASE_LOWER);
+                return $lower[strtolower($label)] ?? null;
+            };
+
+            // Helper for case-insensitive definition lookup
+            $translateDefinition = function ($codeOrText) use ($definitionTranslations) {
+                if (!$codeOrText)
+                    return null;
+                // Try code match or exact text match first
+                if (isset($definitionTranslations[$codeOrText]))
+                    return $definitionTranslations[$codeOrText];
+                // Try lowercase match
+                $lower = array_change_key_case($definitionTranslations, CASE_LOWER);
+                return $lower[strtolower($codeOrText)] ?? null;
+            };
+
             // Domain
             $domain = Domain::firstOrCreate(
                 ['code' => (string) $domainData['numero']],
                 [
                     'name' => $domainData['nombre'], // English Name
-                    'name_es' => $labelTranslations[$domainData['nombre']] ?? null,
+                    'name_es' => $translateLabel($domainData['nombre']),
                 ]
             );
 
@@ -89,7 +126,7 @@ class NandaSeeder extends Seeder
                     ],
                     [
                         'name' => $classData['nombre'], // English Name
-                        'name_es' => $labelTranslations[$classData['nombre']] ?? null,
+                        'name_es' => $translateLabel($classData['nombre']),
                         'definition' => $classData['definicion'] ?? '',
                         'definition_es' => null, // No source for class def translation currently
                     ]
@@ -103,8 +140,8 @@ class NandaSeeder extends Seeder
                         continue;
 
                     // Translations
-                    $labelEs = $labelTranslations[$code] ?? $labelTranslations[$diagData['nombre']] ?? null;
-                    $defEs = $definitionTranslations[$code] ?? null;
+                    $labelEs = $translateLabel($code) ?? $translateLabel($diagData['nombre']);
+                    $defEs = $translateDefinition($code) ?? $translateDefinition($diagData['definicion']);
 
                     // Lists
                     $riskFactors = $diagData['risk_factors'] ?? [];
@@ -113,10 +150,12 @@ class NandaSeeder extends Seeder
                     $defChars = $diagData['defining_characteristics'] ?? [];
                     $relFactors = $diagData['related_factors'] ?? [];
 
-                    Nanda::updateOrCreate(
-                        ['code' => $code],
+                    Nanda::firstOrCreate(
                         [
+                            'code' => $code,
                             'class_id' => $class->id,
+                        ],
+                        [
                             'label' => $diagData['nombre'] ?? "Diagnosis $code",
                             'label_es' => $labelEs,
                             'description' => $diagData['definicion'] ?? '',

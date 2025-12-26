@@ -23,28 +23,82 @@ class NandaResource extends Resource
     {
         return $form
             ->schema([
-                Forms\Components\Select::make('class_id')
-                    ->relationship('nandaClass', 'name')
-                    ->createOptionForm([
-                        Forms\Components\Select::make('domain_id')
-                            ->relationship('domain', 'name')
-                            ->createOptionForm([
-                                Forms\Components\TextInput::make('code')->unique()->required(),
-                                Forms\Components\TextInput::make('name')->required(),
-                            ])
-                            ->required(),
-                        Forms\Components\TextInput::make('code')->required(),
-                        Forms\Components\TextInput::make('name')->required(),
-                        Forms\Components\Textarea::make('definition')->required(),
+                Forms\Components\Section::make('Classification & Metadata')
+                    ->schema([
+                        Forms\Components\Grid::make(3)
+                            ->schema([
+                                Forms\Components\Select::make('class_id')
+                                    ->relationship('nandaClass', 'name')
+                                    ->searchable()
+                                    ->required()
+                                    ->label('Class'),
+                                Forms\Components\TextInput::make('code')
+                                    ->required()
+                                    ->unique(ignoreRecord: true),
+                                Forms\Components\TextInput::make('approval_year')
+                                    ->numeric(),
+                            ]),
+                        Forms\Components\Grid::make(3)
+                            ->schema([
+                                Forms\Components\TextInput::make('evidence_level'),
+                                Forms\Components\TextInput::make('year_revised'),
+                                Forms\Components\TextInput::make('mesh_term'),
+                            ]),
+                    ]),
+
+                Forms\Components\Tabs::make('Translations')
+                    ->tabs([
+                        Forms\Components\Tabs\Tab::make('Spanish (ES)')
+                            ->schema([
+                                Forms\Components\TextInput::make('label_es')
+                                    ->required()
+                                    ->label('Name (ES)'),
+                                Forms\Components\Textarea::make('description_es')
+                                    ->label('Definition (ES)')
+                                    ->rows(3),
+                                Forms\Components\Grid::make(2)
+                                    ->schema([
+                                        Forms\Components\TextInput::make('focus_es')->label('Focus (ES)'),
+                                        Forms\Components\TextInput::make('judgment_es')->label('Judgment (ES)'),
+                                        Forms\Components\TextInput::make('diagnosis_status_es')->label('Status (ES)'),
+                                    ]),
+                                Forms\Components\TagsInput::make('defining_characteristics_es')
+                                    ->label('Defining Characteristics (ES)'),
+                                Forms\Components\TagsInput::make('related_factors_es')
+                                    ->label('Related Factors (ES)'),
+                                Forms\Components\TagsInput::make('risk_factors_es')
+                                    ->label('Risk Factors (ES)'),
+                                Forms\Components\TagsInput::make('at_risk_population_es')
+                                    ->label('At Risk Population (ES)'),
+                                Forms\Components\TagsInput::make('associated_conditions_es')
+                                    ->label('Associated Conditions (ES)'),
+                            ]),
+                        Forms\Components\Tabs\Tab::make('English (EN)')
+                            ->schema([
+                                Forms\Components\TextInput::make('label')
+                                    ->required()
+                                    ->label('Name (EN)'),
+                                Forms\Components\Textarea::make('description')
+                                    ->label('Definition (EN)')
+                                    ->rows(3),
+                                Forms\Components\Grid::make(2)
+                                    ->schema([
+                                        Forms\Components\TextInput::make('focus')->label('Focus (EN)'),
+                                        Forms\Components\TextInput::make('judgment')->label('Judgment (EN)'),
+                                        Forms\Components\TextInput::make('diagnosis_status')->label('Status (EN)'),
+                                    ]),
+                                Forms\Components\TagsInput::make('defining_characteristics')
+                                    ->label('Defining Characteristics (EN)'),
+                                Forms\Components\TagsInput::make('related_factors')
+                                    ->label('Related Factors (EN)'),
+                                Forms\Components\TagsInput::make('risk_factors')
+                                    ->label('Risk Factors (EN)'),
+                                Forms\Components\TagsInput::make('at_risk_population')
+                                    ->label('At Risk Population (EN)'),
+                                Forms\Components\TagsInput::make('associated_conditions')
+                                    ->label('Associated Conditions (EN)'),
+                            ]),
                     ])
-                    ->searchable()
-                    ->required(),
-                Forms\Components\TextInput::make('code')
-                    ->required()
-                    ->unique(ignoreRecord: true),
-                Forms\Components\TextInput::make('label')
-                    ->required(),
-                Forms\Components\Textarea::make('description')
                     ->columnSpanFull(),
             ]);
     }
