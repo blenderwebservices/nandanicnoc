@@ -129,6 +129,20 @@ class Nanda extends Model
         return $this->belongsTo(NandaClass::class, 'class_id');
     }
 
+    public function nics()
+    {
+        return $this->belongsToMany(Nic::class, 'nanda_nic', 'nanda_id', 'nic_id')
+            ->withPivot('type')
+            ->withTimestamps();
+    }
+
+    public function nocs()
+    {
+        return $this->belongsToMany(Noc::class, 'nanda_noc', 'nanda_id', 'noc_id')
+            ->withPivot('type')
+            ->withTimestamps();
+    }
+
     public function getDefiningCharacteristicsAttribute($value)
     {
         if (app()->getLocale() === 'es' && !empty($this->defining_characteristics_es)) {
